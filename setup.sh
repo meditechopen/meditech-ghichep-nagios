@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt-get update -y
-sudo apt-get install -y autoconf gcc libc6 build-essential bc gawk dc gettext libmcrypt-dev libssl-dev make unzip apache2 apache2-utils php libgd2-xpm-dev wget
+sudo apt-get install -y autoconf gcc libc6 build-essential bc gawk dc gettext libmcrypt-dev libssl-dev make unzip apache2 apache2-utils php libgd2-xpm-dev  libapache2-mod-php7.0 php7.0-mysql php7.0-curl php7.0-json
 
 ## Create new user nagios
 
