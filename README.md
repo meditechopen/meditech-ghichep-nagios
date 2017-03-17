@@ -23,7 +23,7 @@
 
 ```
 sudo apt-get install autoconf gcc libc6 build-essential bc gawk dc gettext \
-libmcrypt-dev libssl-dev make unzip apache2 apache2-utils php5.6 libgd2-xpm-dev
+libmcrypt-dev libssl-dev make unzip apache2 apache2-utils php libgd2-xpm-dev
 ```
 
 <a name="1.2"></a>
@@ -82,22 +82,7 @@ Cho phép nagios khởi động cùng với hệ thống:
 update-rc.d nagios defaults
 ```
 
-Tiếp theo, chúng ta biên dịch các plugin.
-
-```sh
-tar xzf nagios-plugins-2.2.0.tar.gz
-cd nagios-plugins-2.2.0
-
-./tools/setup
-./configure
-gmake
-gmake install
-```
-
-<a name="2.2"></a>
-#### 2.2 Cấu hình Web UI
-
-Chúng ta bật các tính năng để Nagios Web UI có thể chạy.
+húng ta bật các tính năng để Nagios Web UI có thể chạy.
 
 ```sh
 make install-webconf
@@ -111,15 +96,22 @@ Cài đặt password cho `nagiosadmin`, khi đăng nhập Web:
 htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
 ```
 
-<a name="2.3"></a>
-#### 2.3 Cấu hình tường lửa UFW cho Web UI
-
 Nếu bạn sử dụng tường lửa UFW, hãy thêm rule để mở port cho Web UI.
 
 ```sh
 ufw allow Apache
 ufw reload
 ```
+
+```sh
+systemctl restart apache2
+systemctl start nagios
+```
+
+<a name="2.2"></a>
+#### 2.2 Cấu hình tường lửa UFW cho Web UI
+
+
 
 <a name="3"></a>
 ### 3. Tham khảo
