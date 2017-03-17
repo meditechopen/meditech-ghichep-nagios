@@ -49,13 +49,14 @@ usermod -a -G nagcmd www-data
 ```
 
 <a name="2"></a>
-### 2. Cài đặt Nagios ](#2)
+### 2. Cài đặt Nagios
 
 Chúng ta tải Nagios Core và Plugin của nó về server. Để tải bản mới nhất, vui lòng bấm vào [đây](https://www.nagios.org/download/).
 
 ```sh
+mkdir ~/downloads
 wget http://prdownloads.sourceforge.net/sourceforge/nagios/nagios-4.2.4.tar.gz
-wget https://nagios-plugins.org/download/nagios-plugins-2.2.0.tar.gz
+wget https://nagios-plugins.org/download/nagios-plugins-2.1.4.tar.gz
 ```
 
 <a name="2.1"></a>
@@ -64,6 +65,7 @@ wget https://nagios-plugins.org/download/nagios-plugins-2.2.0.tar.gz
 Sau khi tải xong, chúng ta cùng giải nén và bắt đầu phần biên dịch Nagios Core và Plugin.
 
 ```
+cd ~/download
 tar xzf nagios-4.2.4.tar.gz
 cd nagios-4.2.4
 
@@ -104,15 +106,95 @@ ufw allow Apache
 ufw reload
 ```
 
+Biên dịch các plugin
+
+```sh
+cd ~/downloads
+tar xzf nagios-plugins-2.1.4.tar.gz
+cd nagios-plugins-2.1.4
+
+./configure
+make
+make install
+```
+
+Khởi động lại Apache và chạy `nagios`:
+
 ```sh
 systemctl restart apache2
 systemctl start nagios
 ```
 
+Để kiểm tra, hãy truy cập vào giao diện Web và đăng nhập bằng `nagiosadmin` và Password vừa tạo ở địa chỉ:
+
+```
+http://địa-chỉ-ip/nagios
+```
+
+<img src="images/nagios1.png" />
+
 <a name="2.2"></a>
-#### 2.2 Cấu hình tường lửa UFW cho Web UI
+#### 2.2 Cấu hình giám sát 1 host Linux
 
+Chúng ta đặt tất cả các file cấu hình host giám sát vào một thư mục, sửa file cấu hình chính của `nagios`:
 
+```sh
+vi /usr/local/nagios/etc/nagios.cfg
+```
+
+Tìm và bỏ "#" ở dòng:
+
+```
+...
+cfg_dir=/usr/local/nagios/etc/servers
+...
+```
+
+Tạo thư mục và file cấu hình host cần giám sát:
+
+```
+mkdir /usr/local/nagios/etc/servers
+vi /usr/local/nagios/etc/servers/Web-1.cfg
+```
+
+Ở đây, tôi sẽ giám sát 2 dịch vụ SSH và HTTP
+
+```
+define host {
+use                             linux-server
+host_name                       web-01		
+alias                           web-01	
+address                         192.168.100.135
+max_check_attempts              5
+check_period                    24x7
+notification_interval           30
+notification_period             24x7
+}
+define service {
+    use                 generic-service
+    host_name           web-01
+    service_description Check HTTP service
+    check_command       check_http
+    normal_check_interval           5 
+    retry_check_interval            2
+}
+define service {
+    use                 generic-service     ; Inherit default values from a template
+    host_name           web-01
+    service_description Check SSH service
+    check_command       check_ssh
+}
+```
+
+Sau khi chỉnh sửa xong, chúng ta lưu lại file và khởi động lại nagios.
+
+```
+systemctl restart nagios
+```
+
+Vào giao diện Web để kiểm tra
+
+<img src="images/nagios2.png" />
 
 <a name="3"></a>
 ### 3. Tham khảo
