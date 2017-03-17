@@ -1,4 +1,4 @@
-## Hướng dẫn cài đặt Nagios Core
+## Hướng dẫn cài đặt Nagios Core trên Ubuntu 16.04
 
 ### Table of contents
 
