@@ -84,7 +84,7 @@ Cho phép nagios khởi động cùng với hệ thống:
 update-rc.d nagios defaults
 ```
 
-húng ta bật các tính năng để Nagios Web UI có thể chạy.
+Chúng ta bật các tính năng để Nagios Web UI có thể chạy.
 
 ```sh
 make install-webconf
