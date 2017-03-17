@@ -7,7 +7,7 @@
     -   [1.2 Tạo user cho Nagios](#1.2)
 - [ 2. Cài đặt Nagios ](#2)
     - [2.1 Cài đặt Nagios Core và Plugin](#2.1)
-    - [2.2 Cấu hình giám sát host Linux] (#2.2)
+    - [2.2 Cấu hình giám sát host Linux](#2.2)
 - [3. Tham khảo](#3)
 
 <a name="1"></a>
