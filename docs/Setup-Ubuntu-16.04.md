@@ -63,7 +63,7 @@ wget https://nagios-plugins.org/download/nagios-plugins-2.1.4.tar.gz
 Sau khi tải xong, chúng ta cùng giải nén và bắt đầu phần biên dịch Nagios Core và Plugin.
 
 ```
-cd ~/download
+cd ~/downloads
 tar xzf nagios-4.2.4.tar.gz
 cd nagios-4.2.4
 
@@ -129,7 +129,7 @@ systemctl start nagios
 http://địa-chỉ-ip/nagios
 ```
 
-<img src="images/nagios1.png" />
+<img src="../images/nagios1.png" />
 
 <a name="2.2"></a>
 #### 2.2 Cấu hình giám sát 1 host Linux
@@ -171,7 +171,7 @@ notification_period             24x7
 define service {
     use                 generic-service
     host_name           web-01
-    service_description Check HTTP service
+    service_description HTTP
     check_command       check_http
     normal_check_interval           5 
     retry_check_interval            2
@@ -179,7 +179,7 @@ define service {
 define service {
     use                 generic-service     ; Inherit default values from a template
     host_name           web-01
-    service_description Check SSH service
+    service_description SSH
     check_command       check_ssh
 }
 ```
@@ -192,7 +192,7 @@ systemctl restart nagios
 
 Vào giao diện Web để kiểm tra
 
-<img src="images/nagios2.png" />
+<img src="../images/nagios2.png" />
 
 <a name="3"></a>
 ### 3. Tham khảo
