@@ -1,5 +1,6 @@
 #!/bin/bash
-
+setup()
+{
 apt-get update -y
 sudo apt-get install -y autoconf gcc libc6 build-essential bc gawk dc gettext libmcrypt-dev libssl-dev make unzip apache2 apache2-utils php libgd2-xpm-dev  libapache2-mod-php7.0 php7.0-mysql php7.0-curl php7.0-json
 
@@ -15,7 +16,7 @@ usermod -a -G nagcmd www-data
 mkdir ~/downloads
 cd ~/downloads
 wget http://prdownloads.sourceforge.net/sourceforge/nagios/nagios-4.2.4.tar.gz
-wget https://nagios-plugins.org/download/nagios-plugins-2.2.0.tar.gz
+wget https://nagios-plugins.org/download/nagios-plugins-2.1.4.tar.gz
 
 ## Compile and install
 
@@ -40,8 +41,8 @@ htpasswd -b -c /usr/local/nagios/etc/htpasswd.users nagiosadmin nagios
 ## Compile the plugins
 
 cd ~/downloads
-tar xzf nagios-plugins-2.2.0.tar.gz
-cd nagios-plugins-2.2.0
+tar xzf nagios-plugins-2.1.4.tar.gz
+cd nagios-plugins-2.1.4
 
 ./tools/setup
 ./configure
@@ -56,6 +57,20 @@ then
     ufw allow Apache
     ufw reload  
     echo "Firewall has been configured."
-fi 
+fi
+sed -e '/#cfg_dir=\/usr\/local\/nagios\/etc\/servers/ s/^#*//' -i /usr/local/nagios/etc/nagios.cfg
+mkdir /usr/local/nagios/etc/servers
 /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
 systemctl start nagios.service
+
+
+        ip_addr=` ip addr | grep 'state UP' -A2 | tail -n1 | awk -F'[/ ]+' '{print $3}'`
+        echo -e "Access to Web UI: http://$ip_addr
+                 Username: nagiosadmin
+                 Password: nagios"
+}
+create_host()
+{
+    read -p "Enter hostname: " HOST
+    read -p "Enter IP: " IP
+}

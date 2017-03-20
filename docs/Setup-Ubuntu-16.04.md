@@ -33,7 +33,6 @@ Tạo user `nagios` và thiết lập password cho nó
 
 ```sh
 useradd -m -s /bin/bash nagios
-password nagios
 ```
 
 - `-m`: Tạo thư mục home cho user
