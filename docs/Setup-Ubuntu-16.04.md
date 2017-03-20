@@ -7,7 +7,9 @@
     -   [1.2 Tạo user cho Nagios](#1.2)
 - [ 2. Cài đặt Nagios ](#2)
     - [2.1 Cài đặt Nagios Core và Plugin](#2.1)
-    - [2.2 Cấu hình giám sát host Linux](#2.2)
+    - [2.2 Cài đặt NRPE](#2.2)
+    - [2.3 Khởi động Nagios Server](#2.3)
+    - [2.4 Cấu hình giám sát host Linux](#2.4)
 - [3. Tham khảo](#3)
 
 <a name="1"></a>
@@ -49,12 +51,13 @@ usermod -a -G nagcmd www-data
 <a name="2"></a>
 ### 2. Cài đặt Nagios
 
-Chúng ta tải Nagios Core và Plugin của nó về server. Để tải bản mới nhất, vui lòng bấm vào [đây](https://www.nagios.org/download/).
+Chúng ta tải Nagios Core và Plugin của nó về server. Tại thời điểm viết bài, phiên bản mới nhất là Nagios Core 4.3.1. Để cập nhật mới nhất, vui lòng bấm vào [đây](https://www.nagios.org/download/).
 
 ```sh
-mkdir ~/downloads
-wget http://prdownloads.sourceforge.net/sourceforge/nagios/nagios-4.2.4.tar.gz
-wget https://nagios-plugins.org/download/nagios-plugins-2.1.4.tar.gz
+mkdir ~/nagios
+wget http://prdownloads.sourceforge.net/sourceforge/nagios/nagios-4.3.1.tar.gz
+wget https://nagios-plugins.org/download/nagios-plugins-2.2.0.tar.gz
+curl -L -O http://downloads.sourceforge.net/project/nagios/nrpe-2.x/nrpe-2.15/nrpe-2.15.tar.gz
 ```
 
 <a name="2.1"></a>
@@ -63,9 +66,9 @@ wget https://nagios-plugins.org/download/nagios-plugins-2.1.4.tar.gz
 Sau khi tải xong, chúng ta cùng giải nén và bắt đầu phần biên dịch Nagios Core và Plugin.
 
 ```
-cd ~/downloads
-tar xzf nagios-4.2.4.tar.gz
-cd nagios-4.2.4
+mkdir ~/nagios
+tar xzf nagios-4.3.1.tar.gz
+cd nagios-4.3.1
 
 ./configure --with-command-group=nagcmd --with-httpd-conf=/etc/apache2/sites-enabled
 
@@ -107,14 +110,51 @@ ufw reload
 Biên dịch các plugin
 
 ```sh
-cd ~/downloads
-tar xzf nagios-plugins-2.1.4.tar.gz
-cd nagios-plugins-2.1.4
+mkdir ~/nagios
+tar xzf nagios-plugins-2.2.0.tar.gz
+cd nagios-plugins-2.2.0
 
 ./configure
 make
 make install
 ```
+
+<a name="2.2"></a>
+#### 2.2 Cài đặt NRPE
+
+`NRPE` - (*Nagios Remote Plugin Executor*) là một công cụ đi kèm để theo dõi tài nguyên hệ thống, nó còn được biết như một Agent để theo dõi các host từ xa (Remote hosts).
+
+```
+cd ~/nagios
+tar xf nrpe-*.tar.gz
+cd ~/nagios/rpe-*
+
+./configure --enable-command-args --with-nagios-user=nagios \
+--with-nagios-group=nagios --with-ssl=/usr/bin/openssl \
+--with-ssl-lib=/usr/lib/x86_64-linux-gnu
+
+make all
+sudo make install
+sudo make install-xinetd
+sudo make install-daemon-config
+```
+
+Cấu hình NRPE bằng cách thêm địa chỉ IP của Nagios Server vào trường `only_from`:
+
+```
+vi /etc/xinetd.d/nrpe
+```
+
+```
+...
+only_from = 127.0.0.1 192.168.100.138
+...
+```
+
+**Chú ý**: `192.168.100.138` là địa chỉ Nagios Server của bạn
+
+<a name="2.3"></a>
+#### 2.3 Khởi động Nagios Server
 
 Khởi động lại Apache và chạy `nagios`:
 
@@ -131,8 +171,8 @@ http://địa-chỉ-ip/nagios
 
 <img src="../images/nagios1.png" />
 
-<a name="2.2"></a>
-#### 2.2 Cấu hình giám sát 1 host Linux
+<a name="2.4"></a>
+#### 2.4 Cấu hình giám sát 1 host Linux
 
 Chúng ta đặt tất cả các file cấu hình host giám sát vào một thư mục, sửa file cấu hình chính của `nagios`:
 

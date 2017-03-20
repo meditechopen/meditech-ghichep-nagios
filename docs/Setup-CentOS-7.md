@@ -1,13 +1,16 @@
-## Hướng dẫn cài đặt Nagios Core trên CentOS 7
+## Hướng dẫn cài đặt Nagios Core 4.3.1 trên CentOS 7
 
 ### Table of contents
+
 
 - [ 1. Chuẩn bị ](#1)
     -   [1.1 Chuẩn bị môi trường cài đặt](#1.1)
     -   [1.2 Tạo user cho Nagios](#1.2)
 - [ 2. Cài đặt Nagios ](#2)
     - [2.1 Cài đặt Nagios Core và Plugin](#2.1)
-    - [2.2 Cấu hình giám sát host Linux](#2.2)
+    - [2.2 Cài đặt NRPE](#2.2)
+    - [2.3 Khởi động Nagios Server](#2.3)
+    - [2.4 Cấu hình giám sát host Linux](#2.4)
 - [3. Tham khảo](#3)
 
 
@@ -23,7 +26,7 @@ yum install gcc glibc glibc-common gd gd-devel make net-snmp openssl-devel xinet
 <a name="1.2"></a>
 #### 1.2 Tạo user cho Nagios
 
-Tạo user `nagios` và thiết lập password cho nó
+Tạo user `nagios`
 
 ```sh
 useradd -m -s /bin/bash nagios
@@ -32,7 +35,7 @@ useradd -m -s /bin/bash nagios
 - `-m`: Tạo thư mục home cho user
 - `-s`: User sử dụng Bash Shell mặc định
 
-Tạo group `nagcmd` cho phép sử dụng thư mục Web UI, thêm nagios và www-data (user của apache):
+Tạo group `nagcmd` cho phép sử dụng thư mục Web UI, thêm nagios và apache:
 
 ```sh
 groupadd nagcmd
@@ -43,12 +46,12 @@ usermod -a -G nagcmd apache
 <a name="2"></a>
 ### 2. Cài đặt Nagios
 
-Chúng ta tải Nagios Core và Plugin của nó về server. Để tải bản mới nhất, vui lòng bấm vào [đây](https://www.nagios.org/download/).
+Chúng ta tải Nagios Core và Plugin của nó về server. Tại thời điểm viết bài, phiên bản mới nhất là Nagios Core 4.3.1. Để cập nhật mới nhất, vui lòng bấm vào [đây](https://www.nagios.org/download/).
 
 ```sh
 mkdir ~/nagios
-wget http://prdownloads.sourceforge.net/sourceforge/nagios/nagios-4.2.4.tar.gz
-wget https://nagios-plugins.org/download/nagios-plugins-2.1.4.tar.gz
+wget http://prdownloads.sourceforge.net/sourceforge/nagios/nagios-4.3.1.tar.gz
+wget https://nagios-plugins.org/download/nagios-plugins-2.2.0.tar.gz
 curl -L -O http://downloads.sourceforge.net/project/nagios/nrpe-2.x/nrpe-2.15/nrpe-2.15.tar.gz
 ```
 
@@ -59,7 +62,9 @@ curl -L -O http://downloads.sourceforge.net/project/nagios/nrpe-2.x/nrpe-2.15/nr
 Sau khi tải xong, chúng ta cùng giải nén và bắt đầu phần biên dịch Nagios Core và Plugin.
 
 ```
-cd ~/nagios/nagios-4.2.4
+cd ~/nagios
+tar xf nagios-4.3.1.tar.gz
+cd ~/nagios/nagios-4.3.1
 
 ./configure --with-command-group=nagcmd 
 make all
@@ -86,20 +91,56 @@ Biên dịch các plugin
 
 ```sh
 cd ~/nagios
-tar xzf nagios-plugins-2.1.4.tar.gz
-cd ~/nagios/nagios-plugins-2.1.4
+tar xzf nagios-plugins-2.2.0.tar.gz
+cd ~/nagios/nagios-plugins-2.2.0
 
-cd ~/nagios/nagios-plugins-2.1.4
+cd ~/nagios/nagios-plugins-2.2.0
 ./configure --with-nagios-user=nagios --with-nagios-group=nagios --with-openssl
 make
 make install
 ```
 
+#### 2.2 Cài đặt NRPE
+
+`NRPE` - (*Nagios Remote Plugin Executor*) là một công cụ đi kèm để theo dõi tài nguyên hệ thống, nó còn được biết như một Agent để theo dõi các host từ xa (Remote hosts).
+
+```
+cd ~/nagios
+tar xf nrpe-*.tar.gz
+cd ~/nagios/rpe-*
+
+./configure --enable-command-args --with-nagios-user=nagios \
+--with-nagios-group=nagios --with-ssl=/usr/bin/openssl \
+--with-ssl-lib=/usr/lib/x86_64-linux-gnu
+
+make all
+sudo make install
+sudo make install-xinetd
+sudo make install-daemon-config
+```
+
+Cấu hình NRPE bằng cách thêm địa chỉ IP của Nagios Server vào trường `only_from`:
+
+```
+vi /etc/xinetd.d/nrpe
+```
+
+```
+...
+only_from = 127.0.0.1 192.168.100.138
+...
+```
+
+**Chú ý**: `192.168.100.138` là địa chỉ Nagios Server của bạn
+
+<a name="2.3"></a>
+#### 2.3 Khởi động Nagios Server
+
 Khởi động lại Apache và chạy `nagios`:
 
 ```sh
 systemctl restart apache2
-service nagios start
+service nagios restart
 ```
 
 Để kiểm tra, hãy truy cập vào giao diện Web và đăng nhập bằng `nagiosadmin` và Password vừa tạo ở địa chỉ:
@@ -109,3 +150,71 @@ http://địa-chỉ-ip/nagios
 ```
 
 <img src="../images/nagios1.png" />
+
+<a name="2.4"></a>
+#### 2.4 Cấu hình giám sát 1 host Linux
+
+Chúng ta đặt tất cả các file cấu hình host giám sát vào một thư mục, sửa file cấu hình chính của `nagios`:
+
+```sh
+vi /usr/local/nagios/etc/nagios.cfg
+```
+
+Tìm và bỏ "#" ở dòng:
+
+```
+...
+cfg_dir=/usr/local/nagios/etc/servers
+...
+```
+
+Tạo thư mục và file cấu hình host cần giám sát:
+
+```
+mkdir /usr/local/nagios/etc/servers
+vi /usr/local/nagios/etc/servers/Web-1.cfg
+```
+
+Ở đây, tôi sẽ giám sát 2 dịch vụ SSH và HTTP
+
+```
+define host {
+use                             linux-server
+host_name                       web-01		
+alias                           web-01	
+address                         192.168.100.135
+max_check_attempts              5
+check_period                    24x7
+notification_interval           30
+notification_period             24x7
+}
+define service {
+    use                 generic-service
+    host_name           web-01
+    service_description HTTP
+    check_command       check_http
+    normal_check_interval           5 
+    retry_check_interval            2
+}
+define service {
+    use                 generic-service     ; Inherit default values from a template
+    host_name           web-01
+    service_description SSH
+    check_command       check_ssh
+}
+```
+
+Sau khi chỉnh sửa xong, chúng ta lưu lại file và khởi động lại nagios.
+
+```
+systemctl restart nagios
+```
+
+Vào giao diện Web để kiểm tra
+
+<img src="../images/nagios2.png" />
+
+<a name="3"></a>
+### 3. Tham khảo
+
+- https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/4/en/quickstart-fedora.html
