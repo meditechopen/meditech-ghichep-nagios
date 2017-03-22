@@ -1,11 +1,12 @@
 ## Monitor MySQL trong nagios
 
-[ 1. Thông tin host ]
-[ 2. Chuẩn bị và cài đặt Plugin ]
-    - [ 2.1. Chuẩn bị ]
-    - [ 2.2. Cài đặt Plugin]
-    - [ 2.3. Thêm thông tin host và giám sát ]
-
+### Nội dung
+[ 1. Thông tin host ] (#1)
+[ 2. Chuẩn bị và cài đặt Plugin ](#2)
+    - [ 2.1. Chuẩn bị ](#2.1)
+    - [ 2.2. Cài đặt Plugin](#2.2)
+    - [ 2.3. Thêm thông tin host và giám sát ](#2.3)
+<a name="1"></a>
 ### 1. Thông tin host MySQL
 
 ```
@@ -13,9 +14,9 @@ OS: CentOS 7
 IP: 192.168.100.197
 Service: MySQL or MariaDB
 ```
-
+<a name="2"></a>
 ### 2. Chuẩn bị và cài đặt Plugin
-
+<a name="2.1"></a>
 #### 2.1. Chuẩn bị
 **Cho phép Bind đến DB**
 
@@ -53,7 +54,7 @@ GRANT usage ON *.* TO 'checker'@'192.168.100.196' IDENTIFIED BY '123';
 - `192.168.100.196` : Địa chỉ IP của Nagios Server
 
 Như vậy là ta đã hoàn thành công việc ở host DB.
-
+<a name="2.2"></a>
 #### 2.2. Cài đặt Plugin
 
 Trên Nagios server, chúng ta sẽ thực hiện cài đặt Plugin. Trước hết, cài đặt những gói đi kèm.
@@ -103,7 +104,7 @@ cd /usr/local/nagios/libexec/
 Kết quả trả về có dạng, cho biết plugin hoạt động ổn định:
 
 <img src="../images/test-plugin-mysql.png"
-
+<a name="2.3"></a>
 #### 2.3 Thêm thông tin host và giám sát
 
 Đầu tiên, chúng ta thêm một `command` mới với nội dung:
