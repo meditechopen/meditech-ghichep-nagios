@@ -1,8 +1,9 @@
 ## Monitor MySQL trong nagios
 
 ### Nội dung
-[ 1. Thông tin host ] (#1)
-[ 2. Chuẩn bị và cài đặt Plugin ](#2)
+
+- [ 1. Thông tin host ](#1)
+- [ 2. Chuẩn bị và cài đặt Plugin ](#2)
     - [ 2.1. Chuẩn bị ](#2.1)
     - [ 2.2. Cài đặt Plugin](#2.2)
     - [ 2.3. Thêm thông tin host và giám sát ](#2.3)
