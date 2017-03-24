@@ -8,7 +8,7 @@
     - [ 2.2. Cài đặt Plugin](#2.2)
     - [ 2.3. Thêm thông tin host và giám sát ](#2.3)
 <a name="1"></a>
-### 1. Thông tin host MySQL
+### 1. Thông tin host RabbitMQ
 
 ```
 OS: Ubuntu 16.04
