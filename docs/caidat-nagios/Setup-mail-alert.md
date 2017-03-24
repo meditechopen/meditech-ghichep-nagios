@@ -169,6 +169,26 @@ define service{
 
 <img src="http://i.imgur.com/E4TDgP1.png">
 
+### Thử nghiệm giám sát cảnh báo dịch vụ:
+
+- Trên máy client, stop dịch vụ ssh
+
+```sh
+service ssh stop
+```
+
+- Thông tin trên dashboard
+
+<img src="http://i.imgur.com/PiZI9vC.png">
+
+- Email cảnh báo
+
+<img src="http://i.imgur.com/fOF5odG.png">
+
+- Khi khởi động lại dịch vụ ssh. Bản tin recovery báo trạng thái OK
+
+<img src="http://i.imgur.com/lulFsEU.png">
+
 <a name="4"></a>
 ## 4. Tài liệu tham khảo
 
