@@ -128,20 +128,21 @@ define contact{
         host_notification_commands              notify-host-by-email
         }
 ```
-	- service_notification_options: trạng thái sẽ gửi cảnh báo của service
-	<ul>
-	<li>w: warning</li>
-	<li>u: unknown service</li>
-	<li>c: critical</li>
-	<li>r: recovery service (trạng thái OK)</li>
-	<li>f: cảnh báo khi service khởi động và tắt FLAPPING</li>
-	<li>s: gửi cảnh báo khi dịch vụ downtime trong lịch trình</li>
-	</ul>
+
+- service_notification_options: trạng thái sẽ gửi cảnh báo của service
+<ul>
+<li>w: warning</li>
+<li>u: unknown service</li>
+<li>c: critical</li>
+<li>r: recovery service (trạng thái OK)</li>
+<li>f: cảnh báo khi service khởi động và tắt FLAPPING</li>
+<li>s: gửi cảnh báo khi dịch vụ downtime trong lịch trình</li>
+</ul>
 	
-	- host_notification_options: trạng thái sẽ gửi cảnh báo của host 
-	<ul>
-	<li>d: DOWN, cảnh báo khi host rơi vào trạng thái down</li>
-	</ul>
+- host_notification_options: trạng thái sẽ gửi cảnh báo của host 
+<ul>
+<li>d: DOWN, cảnh báo khi host rơi vào trạng thái down</li>
+</ul>
 	
 - Thêm thông tin để gửi mail cảnh báo
 ```sh
