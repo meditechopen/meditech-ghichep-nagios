@@ -147,7 +147,149 @@ Nếu OUTPUT không phải như trên cần khai báo dịch vụ
 <a name="5"></a>
 ## 5. Cấu hình giám sát các thông số host
 
-- Để giám sát các thông số như RAM, Disk, CPU...sẽ sử dụng một số scripts có sẵn
+- Để giám sát các thông số như RAM, Disk, CPU...sẽ sử dụng một số scripts theo link sau:
+[https://github.com/trimq/meditech-ghichep-nagios/tree/master/docs/plugin-nagios](scripts plugin)
+
+- Tải các file scripts về
+```sh
+cd /usr/lib/nagios/plugin
+wget https://github.com/trimq/meditech-ghichep-nagios/blob/master/docs/plugin-nagios/check_disk_space.sh
+wget https://github.com/trimq/meditech-ghichep-nagios/blob/master/docs/plugin-nagios/check_mem.sh
+wget https://github.com/trimq/meditech-ghichep-nagios/blob/master/docs/plugin-nagios/check_cpu.sh
+```
+
+- Phân quyền cho các file
+```sh
+chmod +x check_cpu.sh
+chmod +x check_disk_space.sh
+chmod +x check_mem.sh
+```
+
+- Kiểm tra các file scripts 
+```sh
+./check_cpu.sh
+./check_disk_space.sh -w 70 -c 80 -p /
+././check_mem.sh -w 70 -c 80
+```
+
+Trong các câu lệnh trên
+<ul>
+<li>-w: ngưỡng cảnh báo warning</li>
+<li>-c: ngưỡng cảnh báo critical</li>
+<li>-p: phân vùng được kiểm tra</li>
+</ul>
+
+- Khai báo trong file cấu hình `/etc/nagios/nrpe.cfg`. Thêm vào những dòng sau
+```sh
+# The following examples use hardcoded command arguments.
+command[check_disk_space]=/usr/lib/nagios/plugins/check_disk_space.sh -w 70 -c 80 -p /
+command[check_cpu]=/usr/lib/nagios/plugins/check_cpu.sh
+command[check_uptime]=/usr/lib/nagios/plugins/check_uptime
+command[check_mem]=/usr/lib/nagios/plugins/check_mem.sh -w 75 -c 85
+command[check_ping]=/usr/lib/nagios/plugins/check_icmp
+```
+
+<img src="http://i.imgur.com/4tRzF3k.png">
+
+<ul>
+<li>1: command của các thông số check</li>
+<li>2: các thông số trong dấu ngoặc sẽ được gán và các file plugin để khi đứng từ srv Nagios có thể gọi đến các plugin trên client</li>
+<li>3: Các đường dẫn file plugin và các ngưỡng cảnh báo được đặt ra</li>
+</ul>
+
+- Khởi động lại nrpe
+```sh
+service nagios-nrpe-server restart
+```
+
+- Kiểm chứng trên server. Trên server Nagios kiểm chứng như sau
+```sh
+cd /usr/local/nagios/libexec/
+./check_nrpe -H 192.168.100.150 -c check_uptime
+```
+
+- Khai báo trên file cấu hình của server Nagios
+```sh
+vi /usr/local/nagios/etc/object/command.cfg
+
+define command{
+command_name check_nrpe
+command_line $USER1$/check_nrpe -H $HOSTADDRESS$ -c $ARG1$
+}
+```
+
+- Khai báo file cấu hình của host để giám sát
+```sh
+vi /usr/local/nagios/etc/servers/host1.cfg
+
+
+define host {
+use                             linux-server
+host_name                       host-01
+alias                           host-01
+address                         192.168.100.150
+max_check_attempts              5
+check_period                    24x7
+notification_interval           30
+notification_period             24x7
+}
+define service {
+    use                 generic-service
+    host_name           host-01
+    service_description Check HTTP service
+    check_command       check_http
+    normal_check_interval           5
+    retry_check_interval            2
+}
+define service {
+    use                 generic-service     ; Inherit default values from a template
+    host_name           host-01
+    service_description Check SSH service
+    check_command       check_ssh
+}
+define service {
+    use                 generic-service     ; Inherit default values from a template
+    host_name           host-01
+    service_description check memory
+    check_command       check_nrpe!check_mem
+}
+define service {
+    use                 generic-service     ; Inherit default values from a template
+    host_name           host-01
+    service_description check uptime
+    check_command       check_nrpe!check_uptime
+}
+define service {
+    use                 generic-service     ; Inherit default values from a template
+    host_name           host-01
+    service_description check cpu
+    check_command       check_nrpe!check_cpu
+}
+define service {
+    use                 generic-service     ; Inherit default values from a template
+    host_name           host-01
+    service_description check disk
+    check_command       check_nrpe!check_disk_space
+}
+```
+
+- Khởi động lại nrpe trên server
+```sh
+systemctl restart nagios
+```
+
+- Kiểm tra trên dashboard:
+
+<img src="http://i.imgur.com/Hv43Nc7.png">
+
+
+<a name="6"></a>
+## 6. Tài liệu tham khảo
+
+- (1):http://www.tecmint.com/how-to-add-linux-host-to-nagios-monitoring-server/
+- (2):https://assets.nagios.com/downloads/nagioscore/docs/nrpe/NRPE.pdf
+
+
 
 
 
