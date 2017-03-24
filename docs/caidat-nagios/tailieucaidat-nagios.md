@@ -148,7 +148,7 @@ Nếu OUTPUT không phải như trên cần khai báo dịch vụ
 ## 5. Cấu hình giám sát các thông số host
 
 - Để giám sát các thông số như RAM, Disk, CPU...sẽ sử dụng một số scripts theo link sau:
-[https://github.com/trimq/meditech-ghichep-nagios/tree/master/docs/plugin-nagios](scripts plugin)
+[https://github.com/trimq/meditech-ghichep-nagios/tree/master/docs/plugin-nagios]
 
 - Tải các file scripts về
 ```sh
