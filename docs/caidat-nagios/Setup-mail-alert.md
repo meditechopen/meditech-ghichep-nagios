@@ -1,0 +1,207 @@
+# Cấu hình cảnh báo Nagios qua mail
+
+# Mục lục:
+- [1. Cấu hình cảnh báo qua Gmail](#1)
+- [2. Cấu hình cảnh báo qua mail domain](#2)
+- [3. Gửi cảnh báo theo ngưỡng đã đặt ra](#3)
+- [4. Tài liệu tham khảo](#4)
+
+----------------------------------------------
+
+Lưu ý: Chọn 1 trong 2 cách (gmail & mail domain)để cấu hình gửi mail cảnh báo
+
+<a name="1"></a>
+## 1. Cấu hình cánh báo qua Gmail
+
+- Cài đặt gói mail Postfix
+```sh
+yum -y install postfix cyrus-sasl-plain mailx
+```
+
+- Khởi động lại dịch vụ
+```sh
+systemctl restart postfix
+systemctl enable postfix
+```
+
+- Chỉnh sửa file cấu hình `/etc/postfix/main.cf`
+```sh
+relayhost = [smtp.gmail.com]:587
+smtp_use_tls = yes
+smtp_sasl_auth_enable = yes
+smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
+smtp_tls_CAfile = /etc/ssl/certs/ca-bundle.crt
+smtp_sasl_security_options = noanonymous
+smtp_sasl_tls_security_options = noanonymous
+```
+
+- Tạo 1 file `/etc/postfix/sasl_passwd` để khai báo các thông số tài khoản mail xác thực
+```sh
+vi /etc/postfix/sasl_passwd
+
+[smtp.gmail.com]:587 username:password
+```
+
+- Gửi mail test 
+```sh
+echo "This is a test." | mail -s "test message" trimq212@gmail.com
+```
+
+<img src="http://i.imgur.com/tponCE8.png">
+
+
+<a name="2"></a>
+## 2. Cấu hình cảnh báo qua mail domain
+
+- Tải gói mail postfix
+```sh
+yum -y install postfix cyrus-sasl-plain mailx
+```
+
+- Chỉnh sửa file cấu hình. Thêm vào những dòng sau
+```sh
+vi /etc/postfix/main.cf 
+
+
+relayhost =
+sender_dependent_relayhost_maps = hash:/etc/postfix/relayhost_maps
+smtp_sasl_auth_enable = yes
+smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
+smtp_sender_dependent_authentication = yes
+smtp_sasl_security_options = noanonymous
+#smtp_sasl_mechanism_filter = AUTH LOGIN
+sender_canonical_maps = hash:/etc/postfix/sender_canonical
+smtp_sasl_tls_security_options =
+```
+
+- Chỉnh sửa file cấu hình. Thêm thông tin về email và domain
+```sh
+vi /etc/postfix/relayhost_maps
+
+email  [domain]
+```
+
+- Tạo 1 file và thêm thông số
+```sh
+vi /etc/postfix/sasl_passwd 
+
+
+domain  username:password
+```
+
+- Cấu hình và phân quyền cho thư mục
+```sh
+postmap /etc/postfix/sasl_passwd
+chown root:postfix /etc/postfix/sasl_passwd*
+chmod 640 /etc/postfix/sasl_passwd*
+systemctl reload postfix
+```
+
+- Gửi mai để test
+```sh
+echo "This is a test." | mail -s "test message" tri.maiquoc@meditech.vn
+```
+
+<img src="http://i.imgur.com/en1FOgO.png">
+
+
+<a name="3"></a>
+## 3. Gửi cảnh báo theo ngưỡng đã đặt ra
+
+- Thêm các thông tin để liên lạc trong file `/usr/local/nagios/etc/objects/contacts.cfg`
+```sh
+vi /usr/local/nagios/etc/objects/contacts.cfg
+
+
+define contact{
+        contact_name                    nagiosadmin             ; Short name of user
+        use                             generic-contact         ; Inherit default values from generic-contact template (defined above)
+        alias                           Nagios Admin            ; Full name of user
+
+        email                           trimq212@gmail.com        ; <<***** CHANGE THIS TO YOUR EMAIL ADDRESS ******
+
+        service_notification_period             24x7
+        service_notification_options            w,u,c,r,f,s
+        service_notification_commands           notify-service-by-email
+        host_notification_period                24x7
+        host_notification_options               d,u,r,f,s
+        host_notification_commands              notify-host-by-email
+        }
+```
+
+- service_notification_options: trạng thái sẽ gửi cảnh báo của service
+<ul>
+<li>w: warning</li>
+<li>u: unknown service</li>
+<li>c: critical</li>
+<li>r: recovery service (trạng thái OK)</li>
+<li>f: cảnh báo khi service khởi động và tắt FLAPPING</li>
+<li>s: gửi cảnh báo khi dịch vụ downtime trong lịch trình</li>
+</ul>
+	
+- host_notification_options: trạng thái sẽ gửi cảnh báo của host 
+<ul>
+<li>d: DOWN, cảnh báo khi host rơi vào trạng thái down</li>
+</ul>
+	
+- Thêm thông tin để gửi mail cảnh báo
+```sh
+vi /usr/local/nagios/etc/objects/localhost.cfg
+
+
+# Define a service to check HTTP on the local machine.
+# Disable notifications for this service by default, as not all users may have HTTP enabled.
+
+define service{
+        use                             local-service         ; Name of service template to use
+        host_name                       localhost
+        service_description             HTTP
+        check_command                   check_http
+        notifications_enabled           0
+        contacts                        nagiosadmin
+        }
+```
+
+- Khởi động lại dịch vụ
+```sh
+/etc/init.d/nagios restart
+```
+
+<img src="http://i.imgur.com/E4TDgP1.png">
+
+### Thử nghiệm giám sát cảnh báo dịch vụ:
+
+- Trên máy client, stop dịch vụ ssh
+
+```sh
+service ssh stop
+```
+
+- Thông tin trên dashboard
+
+<img src="http://i.imgur.com/PiZI9vC.png">
+
+- Email cảnh báo
+
+<img src="http://i.imgur.com/fOF5odG.png">
+
+- Khi khởi động lại dịch vụ ssh. Bản tin recovery báo trạng thái OK
+
+<img src="http://i.imgur.com/lulFsEU.png">
+
+<a name="4"></a>
+## 4. Tài liệu tham khảo
+
+- https://access.redhat.com/documentation/en-US/Red_Hat_Storage/3/html/Console_Administration_Guide/Configuring_Nagios_to_Send_Mail_Notifications.html
+
+
+
+
+
+
+
+
+
+
+
+
