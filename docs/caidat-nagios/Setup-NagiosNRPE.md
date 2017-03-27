@@ -20,12 +20,16 @@
 <a name="2"></a>
 ## 2. Mô hình triển khai
 
+- IP Planing:
+
 |  | Server Nagios | Client |
 |--|---------------|--------|
 | OS | CentOS 7 | Ubuntu 14 |
 | IP | 192.168.100.125 | 192.168.100.150 |
 
-<img src="">
+- Mô hình:
+
+<img src="http://i.imgur.com/Y7I2fgz.png">
 
 <a name="3"></a>
 ## 3. Cài đặt trên client
