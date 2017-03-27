@@ -20,17 +20,10 @@
 <a name="2"></a>
 ## 2. Mô hình triển khai
 
-- Server Nagios:
-```sh
-HĐH: Centos 7
-IP: 192.168.100.152
-```
-
-- Client
-```sh
-HĐH: U14
-IP: 192.168.100.150
-```
+|  | Server Nagios | Client |
+|--|---------------|--------|
+| OS | CentOS 7 | Ubuntu 14 |
+| IP | 192.168.100.125 | 192.168.100.150 |
 
 <img src="">
 
