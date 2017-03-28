@@ -74,7 +74,7 @@ cd /usr/local/nagios/libexec/rabbitmq/
 ./check_rabbitmq_server -H "node1" -u mon -p 1
 ```
 
-<img src="../images/plugin-rabbitmq1.png" />
+<img src="../../images/plugin-rabbitmq1.png" />
 
 #### Thêm câu lệnh kiểm tra trong Nagios:
 
@@ -232,4 +232,4 @@ systemctl restart nagios
 
 Kiểm tra trên Web UI:
 
-<img src="../images/plugin-rabbitmq2.png">
+<img src="../../images/plugin-rabbitmq2.png">
