@@ -1,0 +1,1628 @@
+2017/01/21 09:56:45 [emerg] 5384#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/21 09:56:45 [emerg] 5384#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/21 09:56:45 [emerg] 5384#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/21 09:56:45 [emerg] 5384#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/21 09:56:45 [emerg] 5384#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/21 09:56:45 [emerg] 5384#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/21 09:56:45 [emerg] 5384#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/21 09:56:45 [emerg] 5384#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/21 10:15:03 [notice] 5708#0: signal process started
+2017/01/21 10:15:06 [notice] 5711#0: signal process started
+2017/01/21 10:15:06 [error] 5711#0: open() "/var/run/nginx.pid" failed (2: No such file or directory)
+2017/01/21 10:18:46 [notice] 5749#0: signal process started
+2017/01/21 10:20:00 [notice] 5765#0: signal process started
+2017/01/21 10:26:42 [notice] 6029#0: signal process started
+2017/01/21 10:26:44 [notice] 6030#0: signal process started
+2017/01/21 10:26:44 [error] 6030#0: open() "/var/run/nginx.pid" failed (2: No such file or directory)
+2017/01/21 10:26:45 [notice] 6031#0: signal process started
+2017/01/21 10:26:45 [error] 6031#0: open() "/var/run/nginx.pid" failed (2: No such file or directory)
+2017/01/21 10:28:25 [notice] 6047#0: signal process started
+2017/01/21 10:28:30 [emerg] 6053#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/21 10:28:30 [emerg] 6053#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/21 10:28:30 [emerg] 6053#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/21 10:28:30 [emerg] 6053#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/21 10:28:30 [emerg] 6053#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/21 10:28:30 [emerg] 6053#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/21 10:28:30 [emerg] 6053#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/21 10:28:30 [emerg] 6053#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/21 10:28:30 [emerg] 6053#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/21 10:28:30 [emerg] 6053#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/21 10:28:30 [emerg] 6053#0: still could not bind()
+2017/01/21 10:32:00 [notice] 6073#0: signal process started
+2017/01/21 10:53:00 [notice] 6310#0: signal process started
+2017/01/21 12:29:29 [notice] 7024#0: signal process started
+2017/01/21 12:34:33 [notice] 7061#0: signal process started
+2017/01/21 12:38:05 [notice] 7092#0: signal process started
+2017/01/21 12:46:10 [crit] 7097#0: hls: cleanup stat() "/etc/nginx/html/live/liverpool/index.m3u8.bak" failed (2: No such file or directory)
+2017/01/21 14:13:55 [error] 7096#0: *2 hls: open() failed: '/etc/nginx/html/live/liverpool/index.m3u8.bak' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/01/21 14:51:51 [error] 7096#0: *2 hls: open() failed: '/etc/nginx/html/live/liverpool/index.m3u8.bak' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/01/21 16:59:38 [error] 7096#0: *2 hls: open() failed: '/etc/nginx/html/live/liverpool/index.m3u8.bak' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/01/21 19:20:12 [emerg] 9459#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/21 19:20:12 [emerg] 9459#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/21 19:20:12 [emerg] 9459#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/21 19:20:12 [emerg] 9459#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/21 19:20:12 [emerg] 9459#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/21 19:20:12 [emerg] 9459#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/21 19:20:12 [emerg] 9459#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/21 19:20:12 [emerg] 9459#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/21 19:20:12 [emerg] 9459#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/21 19:20:12 [emerg] 9459#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/21 19:20:12 [emerg] 9459#0: still could not bind()
+2017/01/21 19:27:59 [error] 7095#0: *342 hls: open() failed: '/etc/nginx/html/live/liverpool/index.m3u8.bak' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/01/22 15:44:29 [emerg] 21756#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/22 15:44:29 [emerg] 21756#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/22 15:44:29 [emerg] 21756#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/22 15:44:29 [emerg] 21756#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/22 15:44:29 [emerg] 21756#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/22 15:44:29 [emerg] 21756#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/22 15:44:29 [emerg] 21756#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/22 15:44:29 [emerg] 21756#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/22 15:44:29 [emerg] 21756#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/22 15:44:29 [emerg] 21756#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/22 15:44:29 [emerg] 21756#0: still could not bind()
+2017/01/22 18:46:01 [error] 7096#0: *564 hls: open() failed: '/etc/nginx/html/live/disney/index.m3u8.bak' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/01/24 01:51:04 [notice] 31033#0: signal process started
+2017/01/24 01:52:24 [error] 31036#0: *1 access forbidden by rule, client: 113.190.8.35, server: 0.0.0.0:1935
+2017/01/24 01:52:32 [error] 31037#0: *2 access forbidden by rule, client: 113.190.8.35, server: 0.0.0.0:1935
+2017/01/24 01:52:57 [emerg] 31051#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/24 01:52:57 [emerg] 31051#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/24 01:52:57 [emerg] 31051#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/24 01:52:57 [emerg] 31051#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/24 01:52:57 [emerg] 31051#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/24 01:52:57 [emerg] 31051#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/24 01:52:57 [emerg] 31051#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/24 01:52:57 [emerg] 31051#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/24 01:52:57 [emerg] 31051#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/24 01:52:57 [emerg] 31051#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/24 01:52:57 [emerg] 31051#0: still could not bind()
+2017/01/24 01:54:13 [notice] 31058#0: signal process started
+2017/01/24 01:59:39 [emerg] 31099#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/24 01:59:39 [emerg] 31099#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/24 01:59:39 [notice] 31098#0: signal process started
+2017/01/24 01:59:42 [notice] 31108#0: signal process started
+2017/01/24 01:59:42 [emerg] 31109#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/24 01:59:42 [emerg] 31109#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/24 01:59:54 [notice] 31116#0: signal process started
+2017/01/24 01:59:54 [emerg] 31117#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/24 01:59:54 [emerg] 31117#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/24 02:00:07 [notice] 31126#0: signal process started
+2017/01/24 02:00:07 [emerg] 31127#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/24 02:00:07 [emerg] 31127#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/24 02:00:09 [notice] 31134#0: signal process started
+2017/01/24 02:00:09 [emerg] 31135#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/01/24 02:00:09 [emerg] 31135#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/01/24 02:00:14 [notice] 31140#0: signal process started
+2017/01/24 02:04:57 [error] 31145#0: *3 hls: open() failed: '/etc/nginx/html/live/bongda/index.m3u8.bak' (2: No such file or directory), client: 113.190.8.35, server: 0.0.0.0:1935
+2017/01/24 02:07:24 [error] 31145#0: *3 hls: open() failed: '/etc/nginx/html/live/bongda/index.m3u8.bak' (2: No such file or directory), client: 113.190.8.35, server: 0.0.0.0:1935
+2017/01/24 02:14:29 [notice] 31274#0: signal process started
+2017/01/24 02:25:56 [notice] 31351#0: signal process started
+2017/01/24 02:27:12 [notice] 31365#0: signal process started
+2017/01/24 02:35:26 [notice] 31447#0: signal process started
+2017/01/24 02:35:30 [notice] 31448#0: signal process started
+2017/01/24 02:35:30 [error] 31448#0: open() "/var/run/nginx.pid" failed (2: No such file or directory)
+2017/01/24 02:35:32 [notice] 31449#0: signal process started
+2017/01/24 02:35:32 [error] 31449#0: open() "/var/run/nginx.pid" failed (2: No such file or directory)
+2017/01/24 02:35:33 [notice] 31450#0: signal process started
+2017/01/24 02:35:33 [error] 31450#0: open() "/var/run/nginx.pid" failed (2: No such file or directory)
+2017/01/24 02:35:34 [notice] 31451#0: signal process started
+2017/01/24 02:35:34 [error] 31451#0: open() "/var/run/nginx.pid" failed (2: No such file or directory)
+2017/01/24 02:35:35 [notice] 31452#0: signal process started
+2017/01/24 02:35:35 [error] 31452#0: open() "/var/run/nginx.pid" failed (2: No such file or directory)
+2017/01/24 02:36:15 [notice] 31462#0: signal process started
+2017/01/24 03:24:30 [notice] 639#0: signal process started
+2017/01/26 17:15:10 [error] 643#0: *224 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/02 16:42:11 [notice] 10909#0: signal process started
+2017/02/02 17:26:39 [notice] 11498#0: signal process started
+2017/02/02 17:32:32 [notice] 11584#0: signal process started
+2017/02/02 17:32:44 [notice] 11590#0: signal process started
+2017/02/04 07:18:52 [emerg] 889#0: unknown directive "Server_tokens" in /etc/nginx/nginx.conf:75
+2017/02/04 07:19:33 [notice] 893#0: signal process started
+2017/02/04 16:29:02 [notice] 4563#0: signal process started
+2017/02/04 16:34:00 [notice] 4591#0: signal process started
+2017/02/04 16:34:37 [notice] 4599#0: signal process started
+2017/02/04 16:35:00 [notice] 4603#0: signal process started
+2017/02/04 16:35:49 [notice] 4613#0: signal process started
+2017/02/04 16:38:17 [notice] 4632#0: signal process started
+2017/02/04 16:39:34 [notice] 4645#0: signal process started
+2017/02/04 16:40:11 [notice] 4651#0: signal process started
+2017/02/04 16:48:04 [notice] 4722#0: signal process started
+2017/02/04 16:48:34 [notice] 4730#0: signal process started
+2017/02/04 16:49:09 [emerg] 4736#0: unexpected "}" in /etc/nginx/nginx.conf:90
+2017/02/04 16:49:23 [notice] 4738#0: signal process started
+2017/02/04 16:50:04 [notice] 4746#0: signal process started
+2017/02/04 16:50:41 [emerg] 4754#0: unexpected "}" in /etc/nginx/nginx.conf:91
+2017/02/04 16:50:50 [notice] 4755#0: signal process started
+2017/02/04 16:51:11 [notice] 4761#0: signal process started
+2017/02/04 16:51:38 [notice] 4767#0: signal process started
+2017/02/04 16:52:04 [notice] 4775#0: signal process started
+2017/02/04 16:53:01 [notice] 4788#0: signal process started
+2017/02/04 16:53:30 [notice] 4804#0: signal process started
+2017/02/04 16:53:47 [notice] 4817#0: signal process started
+2017/02/04 16:58:21 [notice] 4947#0: signal process started
+2017/02/04 17:03:27 [notice] 5021#0: signal process started
+2017/02/04 17:04:43 [notice] 5053#0: signal process started
+2017/02/04 17:05:23 [notice] 5069#0: signal process started
+2017/02/04 17:12:44 [notice] 5258#0: signal process started
+2017/02/04 17:17:03 [notice] 5410#0: signal process started
+2017/02/04 17:40:08 [notice] 5811#0: signal process started
+2017/02/04 17:43:02 [notice] 5854#0: signal process started
+2017/02/04 18:02:06 [notice] 6380#0: signal process started
+2017/02/05 15:40:12 [notice] 18477#0: signal process started
+2017/02/05 15:42:43 [notice] 18534#0: signal process started
+2017/02/05 18:27:18 [error] 18540#0: *39 hls: open() failed: '/etc/nginx/html/live/mu/index.m3u8.bak' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/06 11:02:34 [notice] 25098#0: signal process started
+2017/02/06 11:02:39 [notice] 25102#0: signal process started
+2017/02/06 11:26:39 [notice] 25335#0: signal process started
+2017/02/06 12:28:57 [notice] 25648#0: signal process started
+2017/02/06 12:28:59 [notice] 25652#0: signal process started
+2017/02/06 12:30:36 [notice] 25680#0: signal process started
+2017/02/06 16:42:22 [notice] 30211#0: signal process started
+2017/02/06 16:48:23 [notice] 30251#0: signal process started
+2017/02/06 16:48:24 [notice] 30255#0: signal process started
+2017/02/06 17:04:45 [notice] 2487#0: signal process started
+2017/02/06 17:09:59 [notice] 2674#0: signal process started
+2017/02/07 03:55:33 [notice] 11793#0: signal process started
+2017/02/07 03:55:35 [notice] 11797#0: signal process started
+2017/02/07 03:55:36 [notice] 11801#0: signal process started
+2017/02/07 15:50:23 [notice] 10987#0: signal process started
+2017/02/08 03:42:18 [error] 10988#0: *8933 hls: open() failed: '/etc/nginx/html/live/test/index.m3u8.bak' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 07:29:17 [emerg] 31972#0: the invalid "proxy_protocols" parameter in /etc/nginx/nginx.conf:17
+2017/02/09 07:29:44 [notice] 31973#0: signal process started
+2017/02/09 07:35:50 [notice] 32051#0: signal process started
+2017/02/09 07:52:08 [notice] 32117#0: signal process started
+2017/02/09 07:52:14 [notice] 32121#0: signal process started
+2017/02/09 07:59:14 [notice] 32139#0: signal process started
+2017/02/09 08:00:15 [emerg] 32148#0: invalid port in url "rtmp://localhost:1936" in /etc/nginx/nginx.conf:26
+2017/02/09 08:00:38 [notice] 32151#0: signal process started
+2017/02/09 08:00:39 [notice] 32155#0: signal process started
+2017/02/09 08:06:52 [notice] 32168#0: signal process started
+2017/02/09 08:07:20 [notice] 32172#0: signal process started
+2017/02/09 08:09:31 [notice] 32180#0: signal process started
+2017/02/09 09:04:26 [notice] 32395#0: signal process started
+2017/02/09 09:04:27 [notice] 32399#0: signal process started
+2017/02/09 09:05:03 [error] 32400#0: *11 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:03 [error] 32400#0: *13 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:03 [error] 32401#0: *15 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:03 [error] 32400#0: *17 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:03 [error] 32400#0: *19 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:03 [error] 32400#0: *21 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:03 [error] 32401#0: *23 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:03 [error] 32400#0: *25 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:03 [error] 32400#0: *27 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:03 [error] 32401#0: *29 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:03 [error] 32400#0: *31 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:04 [error] 32400#0: *33 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:04 [error] 32400#0: *35 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:04 [error] 32401#0: *37 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:04 [error] 32400#0: *39 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:04 [error] 32401#0: *41 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:04 [error] 32400#0: *43 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:04 [error] 32400#0: *45 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:04 [error] 32400#0: *47 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:04 [error] 32400#0: *49 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:04 [error] 32400#0: *51 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:04 [error] 32400#0: *53 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:04 [error] 32400#0: *55 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:05 [error] 32400#0: *57 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:05 [error] 32401#0: *59 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:05 [error] 32400#0: *61 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:05 [error] 32401#0: *63 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:05 [error] 32400#0: *65 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:05 [error] 32401#0: *67 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:05 [error] 32400#0: *69 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:05 [error] 32401#0: *71 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:05 [error] 32400#0: *73 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:05 [error] 32401#0: *75 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:05 [error] 32400#0: *77 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:05 [error] 32401#0: *79 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:06 [error] 32401#0: *81 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:06 [error] 32401#0: *83 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:06 [error] 32401#0: *85 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:06 [error] 32401#0: *87 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:06 [error] 32401#0: *89 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:06 [error] 32401#0: *91 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:06 [error] 32401#0: *93 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:06 [error] 32401#0: *95 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:06 [error] 32401#0: *97 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:06 [error] 32401#0: *99 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:06 [error] 32401#0: *101 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:06 [error] 32401#0: *103 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:06 [error] 32401#0: *105 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:07 [error] 32401#0: *107 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:07 [error] 32401#0: *109 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:07 [error] 32401#0: *111 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:07 [error] 32401#0: *113 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:07 [error] 32401#0: *115 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:07 [error] 32401#0: *117 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:07 [error] 32401#0: *119 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:07 [error] 32400#0: *121 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:07 [error] 32400#0: *123 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:07 [error] 32400#0: *125 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:07 [error] 32400#0: *127 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:07 [error] 32401#0: *129 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:08 [error] 32401#0: *131 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:08 [error] 32401#0: *133 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:08 [error] 32401#0: *135 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:08 [error] 32401#0: *137 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:08 [error] 32401#0: *139 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:08 [error] 32401#0: *141 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:08 [error] 32401#0: *143 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:08 [error] 32401#0: *145 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:08 [error] 32401#0: *147 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:08 [error] 32401#0: *149 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:08 [error] 32401#0: *151 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:08 [error] 32401#0: *153 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:09 [error] 32401#0: *155 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:09 [error] 32401#0: *157 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:09 [error] 32401#0: *159 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:09 [error] 32400#0: *161 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:09 [error] 32400#0: *163 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:09 [error] 32400#0: *165 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:09 [error] 32400#0: *167 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:09 [error] 32400#0: *169 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:09 [error] 32400#0: *171 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:09 [error] 32400#0: *173 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:09 [error] 32401#0: *175 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:09 [error] 32401#0: *177 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:09 [error] 32401#0: *179 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:10 [error] 32400#0: *181 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:10 [error] 32400#0: *183 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:10 [error] 32400#0: *185 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:10 [error] 32400#0: *187 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:10 [error] 32400#0: *189 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:10 [error] 32400#0: *191 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:10 [error] 32400#0: *193 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:10 [error] 32401#0: *195 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:10 [error] 32401#0: *197 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:10 [error] 32401#0: *199 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:10 [error] 32401#0: *201 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:10 [error] 32401#0: *203 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:11 [error] 32401#0: *205 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:11 [error] 32400#0: *207 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:11 [error] 32400#0: *209 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:11 [error] 32400#0: *211 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:11 [error] 32400#0: *213 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:11 [error] 32400#0: *215 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:11 [error] 32400#0: *217 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:11 [error] 32400#0: *219 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:11 [error] 32400#0: *221 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:11 [error] 32400#0: *223 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:11 [error] 32401#0: *225 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:11 [error] 32401#0: *227 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:11 [error] 32401#0: *229 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:12 [error] 32401#0: *231 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:12 [error] 32401#0: *233 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:12 [error] 32401#0: *235 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:12 [error] 32400#0: *237 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:12 [error] 32400#0: *239 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 09:05:12 [error] 32401#0: *23 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:35 [error] 32400#0: *251 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:35 [error] 32400#0: *253 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:35 [error] 32401#0: *257 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:35 [error] 32401#0: *259 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:36 [error] 32401#0: *261 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:36 [error] 32401#0: *263 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:36 [error] 32401#0: *265 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:36 [error] 32401#0: *267 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:36 [error] 32400#0: *269 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:36 [error] 32400#0: *271 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:36 [error] 32400#0: *273 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:36 [error] 32400#0: *275 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:36 [error] 32400#0: *277 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:36 [error] 32400#0: *279 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:36 [error] 32401#0: *281 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:36 [error] 32401#0: *283 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:37 [error] 32401#0: *285 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:37 [error] 32401#0: *287 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:37 [error] 32401#0: *289 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:37 [error] 32401#0: *291 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:37 [error] 32401#0: *293 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:37 [error] 32400#0: *295 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:37 [error] 32401#0: *297 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:37 [error] 32400#0: *299 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:37 [error] 32401#0: *301 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:37 [error] 32400#0: *303 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:37 [error] 32401#0: *305 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:37 [error] 32400#0: *307 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:37 [error] 32401#0: *309 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:38 [error] 32400#0: *311 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:38 [error] 32401#0: *313 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:38 [error] 32401#0: *315 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:38 [error] 32400#0: *317 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:38 [error] 32401#0: *319 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:38 [error] 32401#0: *321 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:38 [error] 32400#0: *323 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:38 [error] 32401#0: *325 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:38 [error] 32400#0: *327 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:38 [error] 32401#0: *329 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:38 [error] 32400#0: *331 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:38 [error] 32401#0: *333 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:39 [error] 32400#0: *335 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:39 [error] 32401#0: *337 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:39 [error] 32400#0: *339 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:39 [error] 32401#0: *341 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:39 [error] 32400#0: *343 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:39 [error] 32401#0: *345 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:39 [error] 32400#0: *347 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:39 [error] 32400#0: *349 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:39 [error] 32401#0: *351 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:39 [error] 32400#0: *353 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:39 [error] 32400#0: *355 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:39 [error] 32401#0: *357 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:39 [error] 32400#0: *359 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:40 [error] 32401#0: *361 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:40 [error] 32400#0: *363 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:40 [error] 32401#0: *365 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:40 [error] 32400#0: *367 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:40 [error] 32401#0: *369 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:40 [error] 32400#0: *371 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:40 [error] 32401#0: *373 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:40 [error] 32400#0: *375 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:40 [error] 32401#0: *377 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:40 [error] 32400#0: *379 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:40 [error] 32401#0: *381 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:40 [error] 32400#0: *383 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:41 [error] 32400#0: *385 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:41 [error] 32400#0: *387 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:41 [error] 32401#0: *389 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:41 [error] 32400#0: *391 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:41 [error] 32401#0: *393 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:41 [error] 32400#0: *395 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:41 [error] 32400#0: *397 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:41 [error] 32400#0: *399 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:41 [error] 32400#0: *401 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:41 [error] 32401#0: *403 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:41 [error] 32401#0: *405 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:41 [error] 32401#0: *407 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:41 [error] 32401#0: *409 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:42 [error] 32401#0: *411 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:42 [error] 32401#0: *413 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:42 [error] 32401#0: *415 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:42 [error] 32400#0: *417 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:42 [error] 32400#0: *419 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:42 [error] 32400#0: *421 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:42 [error] 32400#0: *423 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:42 [error] 32400#0: *425 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:42 [error] 32400#0: *427 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:42 [error] 32400#0: *429 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:42 [error] 32401#0: *431 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:42 [error] 32401#0: *433 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:43 [error] 32401#0: *435 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:43 [error] 32401#0: *437 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:43 [error] 32400#0: *439 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:43 [error] 32400#0: *441 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:43 [error] 32400#0: *443 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:43 [error] 32400#0: *445 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:43 [error] 32400#0: *447 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:43 [error] 32401#0: *449 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:43 [error] 32401#0: *451 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:43 [error] 32401#0: *453 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:43 [error] 32401#0: *455 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:43 [error] 32401#0: *457 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:44 [error] 32401#0: *459 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:44 [error] 32400#0: *461 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:44 [error] 32400#0: *463 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:44 [error] 32401#0: *465 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:44 [error] 32400#0: *467 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:44 [error] 32401#0: *469 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:44 [error] 32400#0: *471 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:44 [error] 32400#0: *473 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:44 [error] 32401#0: *475 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:44 [error] 32400#0: *477 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:44 [error] 32401#0: *479 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:44 [error] 32401#0: *481 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:44 [error] 32401#0: *483 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:45 [error] 32401#0: *485 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:45 [error] 32401#0: *487 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:45 [error] 32400#0: *489 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:45 [error] 32401#0: *491 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:45 [error] 32400#0: *493 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:45 [error] 32401#0: *495 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:45 [error] 32401#0: *497 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:45 [error] 32400#0: *499 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:45 [error] 32401#0: *501 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:45 [error] 32400#0: *503 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:45 [error] 32401#0: *505 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:45 [error] 32400#0: *507 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:46 [error] 32401#0: *509 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:46 [error] 32400#0: *511 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:46 [error] 32400#0: *513 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:46 [error] 32400#0: *515 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:46 [error] 32400#0: *517 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:46 [error] 32400#0: *519 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:46 [error] 32400#0: *521 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:46 [error] 32400#0: *523 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:46 [error] 32400#0: *525 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:46 [error] 32401#0: *527 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:46 [error] 32401#0: *529 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:46 [error] 32401#0: *531 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:46 [error] 32401#0: *533 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:47 [error] 32401#0: *535 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:47 [error] 32400#0: *537 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:47 [error] 32400#0: *539 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:47 [error] 32400#0: *541 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:47 [error] 32400#0: *543 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:47 [error] 32400#0: *545 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:47 [error] 32400#0: *547 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:47 [error] 32401#0: *549 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:47 [error] 32401#0: *551 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:47 [error] 32401#0: *553 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:47 [error] 32401#0: *555 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:47 [error] 32401#0: *557 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:48 [error] 32400#0: *559 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:48 [error] 32400#0: *561 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:48 [error] 32400#0: *563 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:48 [error] 32401#0: *565 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:48 [error] 32401#0: *567 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:48 [error] 32401#0: *569 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:48 [error] 32400#0: *571 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:48 [error] 32400#0: *573 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:48 [error] 32400#0: *575 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:48 [error] 32400#0: *577 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:48 [error] 32400#0: *579 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:48 [error] 32400#0: *581 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:49 [error] 32400#0: *583 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:49 [error] 32400#0: *585 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:49 [error] 32401#0: *587 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:49 [error] 32401#0: *589 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:49 [error] 32401#0: *591 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:49 [error] 32401#0: *593 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:49 [error] 32401#0: *595 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:49 [error] 32401#0: *597 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:49 [error] 32401#0: *599 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:49 [error] 32401#0: *601 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:49 [error] 32400#0: *603 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:49 [error] 32401#0: *605 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:50 [error] 32401#0: *607 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:50 [error] 32401#0: *609 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:50 [error] 32401#0: *611 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:50 [error] 32400#0: *613 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:50 [error] 32400#0: *615 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:50 [error] 32400#0: *617 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:50 [error] 32400#0: *619 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:50 [error] 32400#0: *621 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:50 [error] 32400#0: *623 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:50 [error] 32400#0: *625 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:50 [error] 32400#0: *627 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:51 [error] 32400#0: *629 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:51 [error] 32400#0: *631 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:51 [error] 32401#0: *633 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:51 [error] 32400#0: *635 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:51 [error] 32400#0: *637 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:51 [error] 32400#0: *639 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:51 [error] 32400#0: *641 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:51 [error] 32401#0: *643 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:51 [error] 32401#0: *645 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:51 [error] 32401#0: *647 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:51 [error] 32401#0: *649 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:52 [error] 32400#0: *651 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:52 [error] 32400#0: *653 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:52 [error] 32400#0: *655 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:52 [error] 32400#0: *657 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:52 [error] 32400#0: *659 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:52 [error] 32400#0: *661 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:52 [error] 32400#0: *663 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:52 [error] 32401#0: *665 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:52 [error] 32401#0: *667 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:52 [error] 32400#0: *669 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:53 [error] 32400#0: *671 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:53 [error] 32400#0: *673 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:53 [error] 32400#0: *675 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:53 [error] 32401#0: *265 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:53 [error] 32401#0: *257 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:53 [error] 32400#0: *677 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:54 [error] 32401#0: *679 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:54 [error] 32401#0: *681 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:54 [error] 32400#0: *683 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:54 [error] 32401#0: *685 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:54 [error] 32400#0: *687 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:54 [error] 32401#0: *689 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:54 [error] 32400#0: *691 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:54 [error] 32401#0: *693 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:54 [error] 32400#0: *695 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:54 [error] 32401#0: *697 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:54 [error] 32400#0: *699 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:55 [error] 32401#0: *701 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:55 [error] 32400#0: *703 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:55 [error] 32401#0: *705 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:55 [error] 32400#0: *707 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:55 [error] 32400#0: *709 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:55 [error] 32401#0: *711 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:55 [error] 32401#0: *713 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:55 [error] 32400#0: *715 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:55 [error] 32401#0: *717 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:55 [error] 32400#0: *719 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:55 [error] 32400#0: *721 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:56 [error] 32401#0: *723 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:56 [error] 32401#0: *725 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:56 [error] 32401#0: *727 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:56 [error] 32401#0: *729 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:56 [error] 32401#0: *731 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:56 [error] 32401#0: *733 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:56 [error] 32401#0: *735 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:56 [error] 32400#0: *737 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:56 [error] 32401#0: *739 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:56 [error] 32401#0: *741 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:57 [error] 32401#0: *743 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:57 [error] 32400#0: *745 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:57 [error] 32401#0: *747 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:57 [error] 32400#0: *749 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:57 [error] 32401#0: *751 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:57 [error] 32400#0: *753 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:57 [error] 32401#0: *755 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:57 [error] 32400#0: *757 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:57 [error] 32401#0: *759 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:57 [error] 32401#0: *761 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:57 [error] 32400#0: *763 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:58 [error] 32401#0: *765 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:58 [error] 32400#0: *767 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:58 [error] 32401#0: *769 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:58 [error] 32400#0: *771 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:58 [error] 32401#0: *773 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:58 [error] 32400#0: *775 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:58 [error] 32400#0: *777 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:58 [error] 32400#0: *779 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:58 [error] 32400#0: *781 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:58 [error] 32401#0: *783 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:58 [error] 32400#0: *785 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:58 [error] 32401#0: *787 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:58 [notice] 2078#0: signal process started
+2017/02/09 13:09:59 [error] 32400#0: *789 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:09:59 [error] 32400#0: *791 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:00 [notice] 2082#0: signal process started
+2017/02/09 13:10:02 [error] 32401#0: *313 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:01 [error] 32400#0: *443 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:01 [error] 32400#0: *429 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:02 [error] 32401#0: *567 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:02 [error] 32401#0: *535 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:02 [error] 32400#0: *489 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:02 [error] 32400#0: *375 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32400#0: *777 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *365 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *361 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *345 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32400#0: *629 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *743 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32400#0: *443 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *713 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *681 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32400#0: *423 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *649 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32400#0: *355 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32400#0: *349 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32400#0: *279 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *553 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *535 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *533 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32400#0: *775 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32400#0: *771 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *497 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *487 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *485 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *483 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *481 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *459 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32400#0: *715 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *453 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *451 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32400#0: *687 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32400#0: *683 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32400#0: *669 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32400#0: *651 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *407 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *321 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *315 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32400#0: *499 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32400#0: *493 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *265 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:10:06 [error] 32401#0: *257 hls: rename failed: '/etc/nginx/html/live/test/index.m3u8.bak'->'/etc/nginx/html/live/test/index.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/09 13:15:15 [notice] 2106#0: signal process started
+2017/02/11 06:22:03 [notice] 12001#0: signal process started
+2017/02/11 08:21:16 [emerg] 2319#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/11 08:21:16 [emerg] 2319#0: bind() to 0.0.0.0:1936 failed (98: Address already in use)
+2017/02/11 08:21:16 [emerg] 2319#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/11 08:21:16 [emerg] 2319#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/11 08:21:16 [emerg] 2319#0: bind() to 0.0.0.0:1936 failed (98: Address already in use)
+2017/02/11 08:21:16 [emerg] 2319#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/11 08:21:16 [emerg] 2319#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/11 08:21:16 [emerg] 2319#0: bind() to 0.0.0.0:1936 failed (98: Address already in use)
+2017/02/11 08:21:16 [emerg] 2319#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/11 08:21:16 [emerg] 2319#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/11 08:21:16 [emerg] 2319#0: bind() to 0.0.0.0:1936 failed (98: Address already in use)
+2017/02/11 08:21:16 [emerg] 2319#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/11 08:21:16 [emerg] 2319#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/11 08:21:16 [emerg] 2319#0: bind() to 0.0.0.0:1936 failed (98: Address already in use)
+2017/02/11 08:21:16 [emerg] 2319#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/11 14:08:36 [notice] 5707#0: signal process started
+2017/02/11 16:30:04 [error] 5709#0: *128 hls: open() failed: '/etc/nginx/html/live/football/index.m3u8.bak' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/12 12:28:23 [notice] 22459#0: signal process started
+2017/02/12 12:32:07 [emerg] 22584#0: "chunk_size" directive is not allowed here in /etc/nginx/nginx.conf:27
+2017/02/12 12:32:35 [notice] 22596#0: signal process started
+2017/02/12 12:55:27 [emerg] 22936#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/12 12:55:27 [emerg] 22936#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/12 12:55:27 [emerg] 22936#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/12 12:55:27 [emerg] 22936#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/12 12:55:27 [emerg] 22936#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/12 12:55:27 [emerg] 22936#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/12 12:55:27 [emerg] 22936#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/12 12:55:27 [emerg] 22936#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/12 12:55:37 [notice] 22943#0: signal process started
+2017/02/12 12:57:12 [emerg] 22996#0: unknown directive "all" in /etc/nginx/nginx.conf:29
+2017/02/12 12:57:39 [emerg] 23007#0: no "events" section in configuration
+2017/02/12 12:57:43 [emerg] 23008#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/12 12:57:43 [emerg] 23008#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/12 12:57:43 [emerg] 23008#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/12 12:57:43 [emerg] 23008#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/12 12:57:43 [emerg] 23008#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/12 12:57:43 [emerg] 23008#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/12 12:57:43 [emerg] 23008#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/12 12:57:43 [emerg] 23008#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/12 12:57:51 [notice] 23013#0: signal process started
+2017/02/12 12:58:26 [notice] 23029#0: signal process started
+2017/02/12 12:58:26 [alert] 22946#0: *2 open socket #15 left in connection 3
+2017/02/12 12:58:26 [alert] 22946#0: aborting
+2017/02/12 13:09:40 [error] 23033#0: *29 live: already publishing, client: 123.16.5.234, server: 0.0.0.0:1935
+2017/02/16 12:46:45 [emerg] 8863#0: invalid number of arguments in "dash" directive in /etc/nginx/nginx.conf:34
+2017/02/16 12:48:06 [emerg] 8870#0: no "events" section in configuration
+2017/02/16 12:48:13 [emerg] 8871#0: no "events" section in configuration
+2017/02/16 12:48:21 [emerg] 8874#0: the same path name "/etc/nginx/html/live" used in /etc/nginx/nginx.conf:44 and in /etc/nginx/nginx.conf:44
+2017/02/16 12:48:40 [emerg] 8877#0: the same path name "/etc/nginx/html/live" used in /etc/nginx/nginx.conf:44 and in /etc/nginx/nginx.conf:44
+2017/02/16 12:48:42 [emerg] 8878#0: the same path name "/etc/nginx/html/live" used in /etc/nginx/nginx.conf:44 and in /etc/nginx/nginx.conf:44
+2017/02/16 21:34:35 [notice] 14829#0: signal process started
+2017/02/16 22:02:30 [notice] 16115#0: signal process started
+2017/02/16 22:04:38 [error] 16116#0: *989 dash: error creating dash temp video file (2: No such file or directory), client: 14.177.3.121, server: 0.0.0.0:1935
+2017/02/16 22:04:38 [error] 16116#0: *989 dash: error creating dash temp video file (2: No such file or directory), client: 14.177.3.121, server: 0.0.0.0:1935
+2017/02/16 22:04:38 [error] 16116#0: *989 dash: error creating video init file (2: No such file or directory), client: 14.177.3.121, server: 0.0.0.0:1935
+2017/02/16 22:04:38 [error] 16116#0: *989 dash: open failed: '/etc/nginx/html/vod/hoanghd/index.mpd.bak' (2: No such file or directory), client: 14.177.3.121, server: 0.0.0.0:1935
+2017/02/16 22:04:38 [error] 16116#0: *989 hls: open() failed: '/etc/nginx/html/live/hoanghd/index.m3u8.bak' (2: No such file or directory), client: 14.177.3.121, server: 0.0.0.0:1935
+2017/02/17 09:05:34 [emerg] 25055#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/17 09:05:34 [emerg] 25055#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/17 09:05:34 [emerg] 25055#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/17 09:05:34 [emerg] 25055#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/17 09:05:34 [emerg] 25055#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/17 09:05:34 [emerg] 25055#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/17 09:05:34 [emerg] 25055#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/17 09:05:34 [emerg] 25055#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/17 09:07:33 [notice] 25252#0: signal process started
+2017/02/17 09:12:10 [notice] 25379#0: signal process started
+2017/02/17 09:14:45 [notice] 25432#0: signal process started
+2017/02/17 09:38:30 [notice] 25754#0: signal process started
+2017/02/19 01:09:41 [emerg] 26467#0: "timeout" directive is not allowed here in /etc/nginx/nginx.conf:27
+2017/02/19 01:11:03 [notice] 26478#0: signal process started
+2017/02/19 01:11:25 [error] 26479#0: *1054 live: already publishing, client: 14.177.46.210, server: 0.0.0.0:1935
+2017/02/19 01:12:31 [error] 26479#0: *1057 live: already publishing, client: 14.177.46.210, server: 0.0.0.0:1935
+2017/02/19 01:13:24 [error] 26479#0: *1059 live: already publishing, client: 14.177.46.210, server: 0.0.0.0:1935
+2017/02/19 15:21:16 [notice] 3177#0: signal process started
+2017/02/19 16:32:27 [notice] 4338#0: signal process started
+2017/02/19 16:36:28 [error] 4340#0: *1201 dash: error creating fragment file (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/19 16:36:28 [error] 4340#0: *1201 dash: error creating fragment file (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/19 16:36:28 [error] 4340#0: *1201 dash: write() failed (9: Bad file descriptor), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/19 16:36:28 [error] 4340#0: *1201 dash: error creating video init file (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/19 16:36:28 [error] 4340#0: *1201 dash: open failed: '/etc/nginx/html/vod/football/index.mpd.bak' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/19 16:37:17 [error] 4340#0: *1204 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/19 16:38:33 [error] 4340#0: *1205 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/19 16:38:42 [error] 4340#0: *1206 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/19 16:57:52 [notice] 5816#0: signal process started
+2017/02/19 21:15:55 [notice] 10169#0: signal process started
+2017/02/20 00:03:36 [notice] 15740#0: signal process started
+2017/02/20 13:52:40 [notice] 30466#0: signal process started
+2017/02/20 13:52:45 [notice] 30470#0: signal process started
+2017/02/20 13:52:49 [emerg] 30478#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/20 13:52:49 [emerg] 30478#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/20 13:52:49 [emerg] 30478#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/20 13:52:49 [emerg] 30478#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/20 13:52:49 [emerg] 30478#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/20 13:52:49 [emerg] 30478#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/20 13:52:49 [emerg] 30478#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/20 13:52:49 [emerg] 30478#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/20 13:52:49 [emerg] 30478#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/20 13:52:49 [emerg] 30478#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/20 13:52:49 [emerg] 30478#0: still could not bind()
+2017/02/20 14:07:44 [notice] 30837#0: signal process started
+2017/02/20 14:09:45 [notice] 30885#0: signal process started
+2017/02/20 14:09:48 [notice] 30893#0: signal process started
+2017/02/20 14:11:10 [notice] 30918#0: signal process started
+2017/02/20 14:11:10 [emerg] 30919#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/20 14:11:10 [emerg] 30919#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/20 14:11:13 [notice] 30924#0: signal process started
+2017/02/20 14:11:13 [emerg] 30925#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/20 14:11:13 [emerg] 30925#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/20 14:11:18 [notice] 30932#0: signal process started
+2017/02/20 14:13:21 [notice] 30974#0: signal process started
+2017/02/20 14:15:04 [emerg] 31010#0: unexpected "}" in /etc/nginx/nginx.conf:35
+2017/02/20 14:15:14 [notice] 31012#0: signal process started
+2017/02/20 14:15:23 [emerg] 31018#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/20 14:15:23 [emerg] 31018#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/20 14:15:23 [emerg] 31018#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/20 14:15:23 [emerg] 31018#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/20 14:15:23 [emerg] 31018#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/20 14:15:23 [emerg] 31018#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/20 14:15:23 [emerg] 31018#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/20 14:15:23 [emerg] 31018#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/20 14:15:23 [emerg] 31018#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/20 14:15:23 [emerg] 31018#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/20 14:15:23 [emerg] 31018#0: still could not bind()
+2017/02/20 14:16:12 [notice] 31040#0: signal process started
+2017/02/20 14:18:07 [notice] 31081#0: signal process started
+2017/02/20 14:21:34 [notice] 31167#0: signal process started
+2017/02/20 14:26:11 [notice] 31232#0: signal process started
+2017/02/20 14:26:45 [notice] 31242#0: signal process started
+2017/02/20 14:26:46 [notice] 31246#0: signal process started
+2017/02/20 14:28:37 [emerg] 31290#0: unknown directive "exec__record_done" in /etc/nginx/nginx.conf:34
+2017/02/20 14:28:49 [notice] 31295#0: signal process started
+2017/02/20 14:30:28 [notice] 31315#0: signal process started
+2017/02/20 14:36:44 [emerg] 31383#0: unexpected "}" in /etc/nginx/nginx.conf:36
+2017/02/20 14:36:54 [notice] 31386#0: signal process started
+2017/02/20 14:38:31 [notice] 31430#0: signal process started
+2017/02/20 14:43:45 [notice] 31568#0: signal process started
+2017/02/20 14:43:52 [notice] 31574#0: signal process started
+2017/02/20 14:43:52 [alert] 31431#0: *14 open socket #12 left in connection 4
+2017/02/20 14:43:52 [alert] 31431#0: aborting
+2017/02/20 14:47:58 [notice] 31687#0: signal process started
+2017/02/20 14:51:13 [notice] 31764#0: signal process started
+2017/02/20 14:51:22 [notice] 31768#0: signal process started
+2017/02/20 14:51:22 [error] 31768#0: open() "/var/run/nginx.pid" failed (2: No such file or directory)
+2017/02/20 14:54:44 [notice] 31888#0: signal process started
+2017/02/20 14:54:49 [notice] 31892#0: signal process started
+2017/02/20 14:56:02 [notice] 31925#0: signal process started
+2017/02/20 14:58:41 [notice] 31969#0: signal process started
+2017/02/20 14:58:52 [notice] 31976#0: signal process started
+2017/02/20 14:58:56 [notice] 31978#0: signal process started
+2017/02/20 14:59:00 [notice] 31982#0: signal process started
+2017/02/20 14:59:00 [alert] 31950#0: *1 open socket #15 left in connection 3
+2017/02/20 14:59:00 [alert] 31950#0: aborting
+2017/02/20 14:59:02 [notice] 31983#0: signal process started
+2017/02/20 14:59:02 [error] 31983#0: open() "/var/run/nginx.pid" failed (2: No such file or directory)
+2017/02/20 14:59:04 [notice] 31984#0: signal process started
+2017/02/20 14:59:04 [error] 31984#0: open() "/var/run/nginx.pid" failed (2: No such file or directory)
+2017/02/20 14:59:05 [notice] 31985#0: signal process started
+2017/02/20 14:59:05 [error] 31985#0: open() "/var/run/nginx.pid" failed (2: No such file or directory)
+2017/02/20 23:13:43 [alert] 31991#0: unknown process 7320 exited on signal 9
+2017/02/21 00:02:04 [emerg] 9521#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/21 00:02:04 [emerg] 9521#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/21 00:02:04 [emerg] 9521#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/21 00:02:04 [emerg] 9521#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/21 00:02:04 [emerg] 9521#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/21 00:02:04 [emerg] 9521#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/21 00:02:04 [emerg] 9521#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/21 00:02:04 [emerg] 9521#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/21 00:02:04 [emerg] 9521#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/21 00:02:04 [emerg] 9521#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/21 00:02:04 [emerg] 9521#0: still could not bind()
+2017/02/21 17:01:53 [alert] 31991#0: unknown process 23285 exited on signal 9
+2017/02/22 00:26:27 [notice] 26426#0: signal process started
+2017/02/22 00:26:34 [emerg] 30866#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/22 00:26:34 [emerg] 30866#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/22 00:26:34 [emerg] 30866#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/22 00:26:34 [emerg] 30866#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/22 00:26:34 [emerg] 30866#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/22 00:26:34 [emerg] 30866#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/22 00:26:34 [emerg] 30866#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/22 00:26:34 [emerg] 30866#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/22 00:26:34 [emerg] 30866#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/22 00:26:34 [emerg] 30866#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/22 00:26:34 [emerg] 30866#0: still could not bind()
+2017/02/22 00:37:00 [error] 26436#0: *234 live: already publishing, client: 123.16.38.54, server: 0.0.0.0:1935
+2017/02/22 00:37:09 [error] 26436#0: *235 live: already publishing, client: 123.16.38.54, server: 0.0.0.0:1935
+2017/02/22 00:37:25 [error] 26436#0: *237 live: already publishing, client: 123.16.38.54, server: 0.0.0.0:1935
+2017/02/22 00:37:45 [error] 26436#0: *238 live: already publishing, client: 123.16.38.54, server: 0.0.0.0:1935
+2017/02/22 00:38:23 [error] 26436#0: *239 live: already publishing, client: 123.16.38.54, server: 0.0.0.0:1935
+2017/02/22 00:39:01 [error] 26436#0: *240 live: already publishing, client: 123.16.38.54, server: 0.0.0.0:1935
+2017/02/22 00:53:55 [error] 26436#0: *215 hls: open() failed: '/etc/nginx/html/live/mu/index.m3u8.bak' (2: No such file or directory), client: 123.16.38.54, server: 0.0.0.0:1935
+2017/02/23 01:06:03 [notice] 19794#0: signal process started
+2017/02/23 03:34:17 [error] 19796#0: *959 hls: open() failed: '/etc/nginx/html/live/mu/index.m3u8.bak' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/23 03:37:11 [error] 19796#0: *959 hls: open() failed: '/etc/nginx/html/live/mu/index.m3u8.bak' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/23 19:50:11 [alert] 19796#0: unknown process 28496 exited on signal 9
+2017/02/24 19:32:53 [notice] 22807#0: signal process started
+2017/02/24 19:40:20 [notice] 22849#0: signal process started
+2017/02/24 19:40:55 [notice] 22855#0: signal process started
+2017/02/24 19:42:00 [notice] 22867#0: signal process started
+2017/02/24 19:45:22 [notice] 22907#0: signal process started
+2017/02/25 01:10:11 [notice] 26119#0: signal process started
+2017/02/25 01:11:00 [notice] 26123#0: signal process started
+2017/02/25 01:11:03 [notice] 26127#0: signal process started
+2017/02/25 01:11:04 [notice] 26131#0: signal process started
+2017/02/25 01:11:08 [notice] 26135#0: signal process started
+2017/02/25 22:34:33 [error] 26137#0: *1134 hls: open() failed: '/etc/nginx/html/live/football/index.m3u8.bak' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/26 17:25:09 [emerg] 15015#0: "hls" directive is not allowed here in /etc/nginx/nginx.conf:82
+2017/02/26 17:25:24 [notice] 15018#0: signal process started
+2017/02/26 19:44:44 [emerg] 17285#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/26 19:44:44 [emerg] 17285#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/26 19:44:44 [emerg] 17285#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/26 19:44:44 [emerg] 17285#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/26 19:44:44 [emerg] 17285#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/26 19:44:44 [emerg] 17285#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/26 19:44:44 [emerg] 17285#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/26 19:44:44 [emerg] 17285#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/26 19:44:44 [emerg] 17285#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/26 19:44:44 [emerg] 17285#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/26 19:44:44 [emerg] 17285#0: still could not bind()
+2017/02/26 19:44:56 [notice] 17290#0: signal process started
+2017/02/26 20:12:37 [notice] 17554#0: signal process started
+2017/02/26 20:13:41 [notice] 17570#0: signal process started
+2017/02/26 20:15:43 [notice] 17615#0: signal process started
+2017/02/26 20:16:21 [emerg] 17638#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/26 20:16:21 [emerg] 17638#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/26 20:16:21 [emerg] 17638#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/02/26 20:16:21 [emerg] 17638#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/26 20:16:21 [emerg] 17638#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/26 20:16:21 [emerg] 17638#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/02/26 20:16:21 [emerg] 17638#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/26 20:16:21 [emerg] 17638#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/26 20:16:21 [emerg] 17638#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/02/26 20:16:21 [emerg] 17638#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/26 20:16:21 [emerg] 17638#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/26 20:16:21 [emerg] 17638#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/02/26 20:16:21 [emerg] 17638#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/26 20:16:21 [emerg] 17638#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/26 20:16:21 [emerg] 17638#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/02/26 20:16:21 [emerg] 17638#0: still could not bind()
+2017/02/26 20:27:06 [error] 17616#0: *1264 dash: error creating fragment file (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/26 20:27:06 [error] 17616#0: *1264 dash: error creating fragment file (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/26 20:27:06 [error] 17616#0: *1264 dash: write() failed (9: Bad file descriptor), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/26 20:27:06 [error] 17616#0: *1264 dash: error creating video init file (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/26 20:27:06 [error] 17616#0: *1264 dash: open failed: '/etc/nginx/html/vod/football/index.mpd.bak' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/26 20:40:50 [notice] 18064#0: signal process started
+2017/02/26 20:40:52 [notice] 18068#0: signal process started
+2017/02/26 20:41:41 [notice] 18096#0: signal process started
+2017/02/26 20:48:06 [notice] 18191#0: signal process started
+2017/02/26 20:51:54 [notice] 18256#0: signal process started
+2017/02/26 22:26:02 [error] 18259#0: *1 hls: open() failed: '/etc/nginx/html/live/football/index.m3u8.bak' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/26 22:44:27 [notice] 21657#0: signal process started
+2017/02/26 22:56:28 [notice] 22088#0: signal process started
+2017/02/26 22:56:29 [notice] 22092#0: signal process started
+2017/02/26 22:56:30 [notice] 22096#0: signal process started
+2017/02/26 22:56:30 [notice] 22100#0: signal process started
+2017/02/26 22:56:34 [emerg] 22106#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/26 22:56:34 [emerg] 22106#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/26 22:56:34 [emerg] 22106#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/26 22:56:34 [emerg] 22106#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/26 22:56:34 [emerg] 22106#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/26 22:56:34 [emerg] 22106#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/26 22:56:34 [emerg] 22106#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/26 22:56:34 [emerg] 22106#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/26 22:56:34 [emerg] 22106#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/26 22:56:34 [emerg] 22106#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/26 22:56:34 [emerg] 22106#0: still could not bind()
+2017/02/26 23:13:11 [emerg] 22787#0: "server_name" directive is not allowed here in /etc/nginx/nginx.conf:78
+2017/02/26 23:14:13 [notice] 22812#0: signal process started
+2017/02/26 23:14:14 [notice] 22817#0: signal process started
+2017/02/26 23:14:15 [notice] 22822#0: signal process started
+2017/02/26 23:14:15 [notice] 22826#0: signal process started
+2017/02/28 21:36:11 [notice] 23732#0: signal process started
+2017/02/28 21:41:53 [notice] 23847#0: signal process started
+2017/02/28 21:42:15 [alert] 23848#0: unknown process 23863 exited on signal 9
+2017/02/28 21:43:27 [notice] 23878#0: signal process started
+2017/02/28 21:44:33 [alert] 23880#0: unknown process 23905 exited on signal 9
+2017/02/28 22:33:49 [notice] 24995#0: signal process started
+2017/02/28 22:33:52 [emerg] 24999#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/28 22:33:52 [emerg] 24999#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/28 22:33:52 [emerg] 24999#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/28 22:33:52 [emerg] 24999#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/28 22:33:52 [emerg] 24999#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/28 22:33:52 [emerg] 24999#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/28 22:33:52 [emerg] 24999#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/28 22:33:52 [emerg] 24999#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/28 22:33:52 [emerg] 24999#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/02/28 22:33:52 [emerg] 24999#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/02/28 22:33:52 [emerg] 24999#0: still could not bind()
+2017/02/28 22:34:43 [alert] 24996#0: unknown process 25009 exited on signal 9
+2017/02/28 22:34:46 [alert] 24997#0: unknown process 25653 exited on signal 9
+2017/02/28 22:34:46 [alert] 24997#0: unknown process 25683 exited on signal 9
+2017/02/28 22:34:46 [alert] 24997#0: unknown process 25718 exited on signal 9
+2017/02/28 22:34:46 [alert] 24996#0: unknown process 25693 exited on signal 9
+2017/02/28 22:34:46 [alert] 24996#0: unknown process 25618 exited on signal 9
+2017/02/28 22:34:46 [alert] 24996#0: unknown process 25584 exited on signal 9
+2017/02/28 22:34:46 [alert] 24997#0: unknown process 25533 exited on signal 9
+2017/02/28 22:34:46 [alert] 24997#0: unknown process 25532 exited on signal 9
+2017/02/28 22:34:46 [alert] 24997#0: unknown process 25556 exited on signal 9
+2017/02/28 22:34:46 [alert] 24996#0: unknown process 25065 exited on signal 9
+2017/02/28 22:34:46 [alert] 24996#0: unknown process 25075 exited on signal 9
+2017/02/28 22:34:46 [alert] 24997#0: unknown process 25531 exited on signal 9
+2017/02/28 22:34:46 [alert] 24997#0: unknown process 25555 exited on signal 9
+2017/02/28 22:34:46 [alert] 24996#0: unknown process 25059 exited on signal 9
+2017/02/28 22:34:46 [alert] 24996#0: unknown process 25557 exited on signal 9
+2017/02/28 22:34:46 [alert] 24996#0: unknown process 25600 exited on signal 9
+2017/02/28 22:34:46 [alert] 24996#0: unknown process 25582 exited on signal 9
+2017/02/28 22:34:46 [alert] 24996#0: unknown process 25607 exited on signal 9
+2017/02/28 22:34:46 [alert] 24996#0: unknown process 25583 exited on signal 9
+2017/02/28 22:34:47 [alert] 24997#0: unknown process 25661 exited on signal 9
+2017/02/28 22:34:47 [alert] 24997#0: unknown process 25633 exited on signal 9
+2017/02/28 22:34:47 [alert] 24997#0: unknown process 25570 exited on signal 9
+2017/02/28 22:34:47 [alert] 24996#0: unknown process 25055 exited on signal 9
+2017/02/28 22:34:47 [alert] 24996#0: unknown process 25598 exited on signal 9
+2017/02/28 22:35:21 [alert] 24997#0: unknown process 26129 exited on signal 9
+2017/02/28 22:35:21 [alert] 24997#0: unknown process 26071 exited on signal 9
+2017/02/28 22:35:21 [alert] 24997#0: unknown process 26079 exited on signal 9
+2017/02/28 22:35:21 [alert] 24997#0: unknown process 26098 exited on signal 9
+2017/02/28 22:35:21 [alert] 24997#0: unknown process 26282 exited on signal 11
+2017/02/28 22:35:21 [alert] 24996#0: unknown process 26049 exited on signal 9
+2017/02/28 22:35:21 [alert] 24996#0: unknown process 26164 exited on signal 9
+2017/02/28 22:35:21 [alert] 24996#0: unknown process 26246 exited on signal 9
+2017/02/28 22:35:21 [alert] 24996#0: unknown process 26014 exited on signal 9
+2017/02/28 22:35:21 [alert] 24996#0: unknown process 26040 exited on signal 9
+2017/02/28 22:35:21 [alert] 24997#0: unknown process 26202 exited on signal 9
+2017/02/28 22:35:21 [alert] 24997#0: unknown process 26016 exited on signal 9
+2017/02/28 22:35:21 [alert] 24997#0: unknown process 26020 exited on signal 9
+2017/02/28 22:35:21 [alert] 24996#0: unknown process 26278 exited on signal 9
+2017/02/28 22:35:21 [alert] 24997#0: unknown process 26203 exited on signal 9
+2017/02/28 22:35:22 [alert] 24997#0: unknown process 26308 exited on signal 9
+2017/02/28 22:35:22 [alert] 24997#0: unknown process 26268 exited on signal 9
+2017/02/28 22:35:22 [alert] 24997#0: unknown process 26429 exited on signal 11
+2017/02/28 22:35:22 [alert] 24997#0: unknown process 26428 exited on signal 11
+2017/02/28 22:35:22 [alert] 24996#0: unknown process 26430 exited on signal 11
+2017/02/28 22:35:22 [alert] 24996#0: unknown process 26434 exited on signal 11
+2017/02/28 22:35:22 [alert] 24996#0: unknown process 26224 exited on signal 9
+2017/02/28 22:35:22 [alert] 24996#0: unknown process 26435 exited on signal 11
+2017/02/28 22:35:22 [alert] 24997#0: unknown process 26130 exited on signal 9
+2017/02/28 22:35:22 [alert] 24997#0: unknown process 26149 exited on signal 9
+2017/02/28 22:35:22 [alert] 24997#0: unknown process 26162 exited on signal 9
+2017/02/28 22:35:22 [alert] 24997#0: unknown process 26195 exited on signal 9
+2017/02/28 22:35:22 [alert] 24996#0: unknown process 26398 exited on signal 9
+2017/02/28 22:35:23 [alert] 24997#0: unknown process 26400 exited on signal 9
+2017/02/28 22:35:23 [alert] 24997#0: unknown process 26131 exited on signal 9
+2017/02/28 22:35:23 [alert] 24997#0: unknown process 26148 exited on signal 9
+2017/02/28 22:35:23 [alert] 24997#0: unknown process 26163 exited on signal 9
+2017/02/28 22:35:23 [alert] 24997#0: unknown process 26188 exited on signal 9
+2017/02/28 22:35:23 [alert] 24996#0: unknown process 26399 exited on signal 9
+2017/02/28 22:35:23 [alert] 24996#0: unknown process 26365 exited on signal 9
+2017/02/28 22:35:25 [alert] 24996#0: unknown process 25010 exited on signal 9
+2017/02/28 22:35:24 [alert] 24997#0: unknown process 26477 exited on signal 11
+2017/02/28 22:35:25 [alert] 24996#0: unknown process 25998 exited on signal 9
+2017/02/28 22:35:25 [alert] 24996#0: unknown process 25058 exited on signal 9
+2017/02/28 22:35:25 [alert] 24996#0: unknown process 26357 exited on signal 9
+2017/02/28 22:35:25 [alert] 24996#0: unknown process 26392 exited on signal 9
+2017/02/28 22:35:25 [alert] 24996#0: unknown process 25056 exited on signal 9
+2017/02/28 22:35:25 [alert] 24996#0: unknown process 25749 exited on signal 9
+2017/02/28 22:35:25 [alert] 24996#0: unknown process 25694 exited on signal 9
+2017/02/28 22:35:25 [alert] 24996#0: unknown process 26443 exited on signal 9
+2017/02/28 22:35:25 [alert] 24996#0: unknown process 25064 exited on signal 9
+2017/02/28 22:35:25 [alert] 24996#0: unknown process 25692 exited on signal 9
+2017/02/28 22:35:25 [alert] 24997#0: unknown process 25652 exited on signal 9
+2017/02/28 22:35:25 [alert] 24997#0: unknown process 25668 exited on signal 9
+2017/02/28 22:35:25 [alert] 24997#0: unknown process 25581 exited on signal 9
+2017/02/28 22:35:25 [alert] 24996#0: unknown process 25599 exited on signal 9
+2017/02/28 22:35:25 [alert] 24996#0: unknown process 26023 exited on signal 9
+2017/02/28 22:35:25 [alert] 24996#0: unknown process 26013 exited on signal 9
+2017/02/28 22:35:25 [alert] 24997#0: unknown process 25684 exited on signal 9
+2017/02/28 22:35:25 [alert] 24997#0: unknown process 25717 exited on signal 9
+2017/02/28 22:35:25 [alert] 24997#0: unknown process 25682 exited on signal 9
+2017/02/28 22:35:25 [alert] 24996#0: unknown process 26118 exited on signal 9
+2017/02/28 22:35:25 [alert] 24996#0: unknown process 26161 exited on signal 9
+2017/02/28 22:35:25 [alert] 24997#0: unknown process 25654 exited on signal 9
+2017/02/28 22:35:25 [alert] 24997#0: unknown process 26015 exited on signal 9
+2017/02/28 22:35:25 [alert] 24997#0: unknown process 26174 exited on signal 9
+2017/02/28 22:35:25 [alert] 24997#0: unknown process 26097 exited on signal 9
+2017/02/28 22:35:25 [alert] 24997#0: unknown process 26019 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25006 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25008 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26649 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25997 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25302 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25304 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25317 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25062 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25070 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26619 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25007 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 25406 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26587 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25352 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26267 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26312 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25060 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26647 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26648 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26651 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26382 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25057 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26290 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26588 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26637 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25061 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26566 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 25249 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 25359 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25252 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26646 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26638 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25054 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26006 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26004 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25263 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26005 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 25382 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 25399 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25066 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25250 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 25351 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 25360 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26003 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26463 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 25255 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 25295 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 25247 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25063 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26475 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26488 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25251 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26450 exited on signal 9
+2017/02/28 22:36:25 [error] 24997#0: *465 hls: rename failed: '/etc/nginx/html/live/mu_low_high_high.m3u8.bak'->'/etc/nginx/html/live/mu_low_high_high.m3u8' (2: No such file or directory), client: 127.0.0.1, server: 0.0.0.0:1935
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26048 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26022 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25253 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 25254 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 25256 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26064 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26497 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26507 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26018 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26476 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26017 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26021 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26047 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26057 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 25248 exited on signal 9
+2017/02/28 22:36:25 [alert] 24996#0: unknown process 26467 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26498 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26458 exited on signal 9
+2017/02/28 22:36:25 [alert] 24997#0: unknown process 26650 exited on signal 9
+2017/02/28 22:38:36 [alert] 24996#0: unknown process 26661 exited on signal 9
+2017/02/28 22:40:15 [notice] 26701#0: signal process started
+2017/02/28 22:40:16 [notice] 26705#0: signal process started
+2017/02/28 22:40:16 [notice] 26709#0: signal process started
+2017/02/28 22:40:17 [notice] 26713#0: signal process started
+2017/02/28 22:47:11 [notice] 26837#0: signal process started
+2017/02/28 22:47:15 [alert] 26714#0: unknown process 26781 exited on signal 9
+2017/02/28 22:52:21 [alert] 26838#0: unknown process 26919 exited on signal 9
+2017/03/01 22:20:26 [alert] 26839#0: unknown process 13881 exited on signal 9
+2017/03/01 22:30:01 [alert] 26839#0: unknown process 13966 exited on signal 9
+2017/03/01 22:31:32 [alert] 26838#0: unknown process 14026 exited on signal 9
+2017/03/01 22:32:45 [alert] 26838#0: unknown process 14087 exited on signal 9
+2017/03/01 22:33:34 [alert] 26838#0: unknown process 14151 exited on signal 9
+2017/03/01 22:34:41 [alert] 26839#0: unknown process 14211 exited on signal 9
+2017/03/01 22:34:55 [alert] 26838#0: unknown process 14271 exited on signal 9
+2017/03/01 22:35:11 [alert] 26838#0: unknown process 14329 exited on signal 9
+2017/03/11 23:34:05 [notice] 31747#0: signal process started
+2017/03/11 23:37:13 [error] 31749#0: *1010 mp4: error reading file at offset=6456582367 while searching for moov box (11: Resource temporarily unavailable), client: 113.190.55.223, server: 0.0.0.0:1935
+2017/03/11 23:37:37 [error] 31749#0: *1015 mp4: error reading file at offset=6456582367 while searching for moov box (11: Resource temporarily unavailable), client: 113.190.55.223, server: 0.0.0.0:1935
+2017/03/12 00:00:31 [alert] 31748#0: unknown process 32251 exited on signal 9
+2017/03/12 00:01:50 [error] 31749#0: *1074 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/03/12 00:01:50 [alert] 31749#0: unknown process 32422 exited on signal 9
+2017/03/12 00:09:07 [error] 31748#0: *1081 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/03/12 00:09:14 [alert] 31748#0: unknown process 352 exited on signal 9
+2017/03/12 00:10:45 [alert] 31748#0: unknown process 357 exited on signal 9
+2017/03/12 00:11:14 [error] 31749#0: *1172 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/03/12 00:11:14 [alert] 31749#0: unknown process 396 exited on signal 9
+2017/03/12 00:11:22 [error] 31749#0: *1189 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/03/12 00:11:22 [alert] 31749#0: unknown process 399 exited on signal 9
+2017/03/12 00:11:27 [alert] 31748#0: unknown process 401 exited on signal 9
+2017/03/12 00:13:14 [alert] 31749#0: unknown process 32459 exited on signal 9
+2017/03/12 00:18:25 [alert] 31749#0: unknown process 670 exited on signal 9
+2017/03/12 00:19:23 [alert] 31749#0: unknown process 689 exited on signal 9
+2017/03/12 00:27:57 [alert] 31749#0: unknown process 843 exited on signal 9
+2017/03/12 00:30:25 [notice] 1111#0: signal process started
+2017/03/12 00:30:39 [error] 1112#0: *1366 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2017/03/12 00:30:39 [alert] 1112#0: unknown process 1174 exited on signal 9
+2017/03/12 00:31:15 [alert] 1112#0: unknown process 1118 exited on signal 9
+2017/03/12 00:41:38 [alert] 1113#0: unknown process 1275 exited on signal 9
+2017/03/12 23:35:30 [notice] 17882#0: signal process started
+2017/03/12 23:38:54 [error] 17884#0: *1518 directory index of "/opt/vod/" is forbidden, client: 113.190.55.223, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "cloud.livesoccer.cf"
+2017/03/12 23:38:54 [error] 17884#0: *1518 open() "/opt/vod/favicon.ico" failed (2: No such file or directory), client: 113.190.55.223, server: cloud.livesoccer.cf, request: "GET /favicon.ico HTTP/1.1", host: "cloud.livesoccer.cf"
+2017/03/12 23:38:54 [error] 17884#0: *1518 open() "/opt/vod/favicon.ico" failed (2: No such file or directory), client: 113.190.55.223, server: cloud.livesoccer.cf, request: "GET /favicon.ico HTTP/1.1", host: "cloud.livesoccer.cf", referrer: "http://cloud.livesoccer.cf/"
+2017/03/12 23:38:57 [error] 17884#0: *1518 open() "/opt/vod/favicon.ico" failed (2: No such file or directory), client: 113.190.55.223, server: cloud.livesoccer.cf, request: "GET /favicon.ico HTTP/1.1", host: "cloud.livesoccer.cf"
+2017/03/12 23:39:10 [error] 17884#0: *1518 open() "/opt/vod/vod/hellokitty" failed (2: No such file or directory), client: 113.190.55.223, server: cloud.livesoccer.cf, request: "GET /vod/hellokitty HTTP/1.1", host: "cloud.livesoccer.cf"
+2017/03/12 23:39:34 [error] 17884#0: *1518 directory index of "/opt/vod/hellokitty/" is forbidden, client: 113.190.55.223, server: cloud.livesoccer.cf, request: "GET /hellokitty/ HTTP/1.1", host: "cloud.livesoccer.cf"
+2017/03/13 00:21:04 [error] 17884#0: *1547 directory index of "/opt/vod/" is forbidden, client: 175.141.96.181, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 00:21:07 [error] 17884#0: *1548 directory index of "/opt/vod/" is forbidden, client: 189.152.191.13, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 00:55:10 [error] 17884#0: *1549 directory index of "/opt/vod/" is forbidden, client: 189.144.247.15, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 01:04:06 [error] 17884#0: *1550 directory index of "/opt/vod/" is forbidden, client: 94.70.255.152, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 01:12:38 [error] 17884#0: *1551 directory index of "/opt/vod/" is forbidden, client: 73.189.206.241, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 03:26:44 [error] 17884#0: *1552 directory index of "/opt/vod/" is forbidden, client: 212.175.209.148, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 04:02:44 [error] 17884#0: *1553 directory index of "/opt/vod/" is forbidden, client: 187.204.126.181, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 04:17:22 [error] 17884#0: *1554 directory index of "/opt/vod/" is forbidden, client: 78.108.60.246, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 04:19:21 [error] 17884#0: *1556 directory index of "/opt/vod/" is forbidden, client: 187.163.192.35, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 04:33:22 [error] 17884#0: *1557 directory index of "/opt/vod/" is forbidden, client: 113.163.204.36, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 04:33:26 [error] 17884#0: *1558 directory index of "/opt/vod/" is forbidden, client: 92.27.51.53, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 09:20:30 [error] 17884#0: *1559 directory index of "/opt/vod/" is forbidden, client: 115.76.101.172, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 10:26:08 [error] 17884#0: *1560 directory index of "/opt/vod/" is forbidden, client: 14.183.247.250, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 10:34:39 [error] 17884#0: *1561 directory index of "/opt/vod/" is forbidden, client: 139.162.119.197, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/13 11:20:19 [error] 17884#0: *1563 directory index of "/opt/vod/" is forbidden, client: 171.248.84.29, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 11:50:25 [error] 17884#0: *1564 directory index of "/opt/vod/" is forbidden, client: 189.178.46.16, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 11:51:35 [error] 17884#0: *1565 directory index of "/opt/vod/" is forbidden, client: 190.69.148.142, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 12:58:18 [error] 17884#0: *1566 directory index of "/opt/vod/" is forbidden, client: 14.167.134.151, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 13:44:41 [error] 17884#0: *1567 directory index of "/opt/vod/" is forbidden, client: 118.140.205.138, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 13:48:31 [error] 17884#0: *1568 directory index of "/opt/vod/" is forbidden, client: 80.179.17.24, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 14:09:17 [error] 17884#0: *1580 directory index of "/opt/vod/" is forbidden, client: 58.10.48.8, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0", host: "139.59.96.163:80"
+2017/03/13 14:24:03 [error] 17884#0: *1582 directory index of "/opt/vod/" is forbidden, client: 198.84.194.106, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 15:03:50 [error] 17884#0: *1583 directory index of "/opt/vod/" is forbidden, client: 185.110.132.231, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/13 16:00:46 [error] 17883#0: *1615 directory index of "/opt/vod/" is forbidden, client: 211.21.200.214, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 16:37:36 [error] 17883#0: *1662 directory index of "/opt/vod/" is forbidden, client: 187.149.26.46, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/13 21:00:18 [error] 17883#0: *1676 open() "/opt/vod/w00tw00t.at.blackhats.romanian.anti-sec:)" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /w00tw00t.at.blackhats.romanian.anti-sec:) HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:19 [error] 17883#0: *1677 open() "/opt/vod/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:19 [error] 17883#0: *1678 open() "/opt/vod/admin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /admin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:19 [error] 17883#0: *1679 open() "/opt/vod/admin/pma/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /admin/pma/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:20 [error] 17883#0: *1680 open() "/opt/vod/admin/phpmyadmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /admin/phpmyadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:20 [error] 17883#0: *1681 open() "/opt/vod/db/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /db/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:21 [error] 17883#0: *1682 open() "/opt/vod/dbadmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /dbadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:21 [error] 17883#0: *1683 open() "/opt/vod/myadmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /myadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:21 [error] 17883#0: *1684 open() "/opt/vod/mysql/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /mysql/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:22 [error] 17883#0: *1685 open() "/opt/vod/mysqladmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /mysqladmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:22 [error] 17883#0: *1686 open() "/opt/vod/typo3/phpmyadmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /typo3/phpmyadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:23 [error] 17883#0: *1687 open() "/opt/vod/phpadmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:23 [error] 17883#0: *1688 open() "/opt/vod/pma/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /pma/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:23 [error] 17883#0: *1689 open() "/opt/vod/web/phpMyAdmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /web/phpMyAdmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:24 [error] 17883#0: *1690 open() "/opt/vod/xampp/phpmyadmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /xampp/phpmyadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:24 [error] 17883#0: *1691 open() "/opt/vod/web/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /web/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:25 [error] 17883#0: *1692 open() "/opt/vod/php-my-admin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /php-my-admin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:25 [error] 17883#0: *1693 open() "/opt/vod/websql/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /websql/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:25 [error] 17883#0: *1694 open() "/opt/vod/phpMyAdmin-2/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:26 [error] 17883#0: *1695 open() "/opt/vod/_phpmyadmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /_phpmyadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:26 [error] 17883#0: *1696 open() "/opt/vod/administrator/components/com_joommyadmin/phpmyadmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /administrator/components/com_joommyadmin/phpmyadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:27 [error] 17883#0: *1697 open() "/opt/vod/apache-default/phpmyadmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /apache-default/phpmyadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:27 [error] 17883#0: *1698 open() "/opt/vod/blog/phpmyadmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /blog/phpmyadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:27 [error] 17883#0: *1699 open() "/opt/vod/cpanelphpmyadmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /cpanelphpmyadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:28 [error] 17883#0: *1700 open() "/opt/vod/cpphpmyadmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /cpphpmyadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:28 [error] 17883#0: *1701 open() "/opt/vod/forum/phpmyadmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /forum/phpmyadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:28 [error] 17883#0: *1702 open() "/opt/vod/php/phpmyadmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /php/phpmyadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:29 [error] 17883#0: *1703 open() "/opt/vod/phpmyadmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpmyadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:29 [error] 17883#0: *1704 open() "/opt/vod/phpMyAdmin-2.10.0.0/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.10.0.0/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:30 [error] 17883#0: *1705 open() "/opt/vod/phpMyAdmin-2.10.0.1/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.10.0.1/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:30 [error] 17883#0: *1706 open() "/opt/vod/phpMyAdmin-2.10.0.2/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.10.0.2/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:30 [error] 17883#0: *1707 open() "/opt/vod/phpMyAdmin-2.10.0/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.10.0/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:31 [error] 17883#0: *1708 open() "/opt/vod/phpMyAdmin-2.10.1.0/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.10.1.0/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:31 [error] 17883#0: *1709 open() "/opt/vod/phpMyAdmin-2.10.2.0/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.10.2.0/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:32 [error] 17883#0: *1710 open() "/opt/vod/phpMyAdmin-2.11.0.0/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.11.0.0/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:32 [error] 17883#0: *1711 open() "/opt/vod/phpMyAdmin-2.11.1-all-languages/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.11.1-all-languages/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:32 [error] 17883#0: *1712 open() "/opt/vod/phpMyAdmin-2.11.1.0/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.11.1.0/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:33 [error] 17883#0: *1713 open() "/opt/vod/phpMyAdmin-2.11.1.1/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.11.1.1/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:33 [error] 17883#0: *1714 open() "/opt/vod/phpMyAdmin-2.11.1.2/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.11.1.2/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:34 [error] 17883#0: *1715 open() "/opt/vod/phpMyAdmin-2.6.1-pl2/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.6.1-pl2/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:34 [error] 17883#0: *1716 open() "/opt/vod/phpMyAdmin-2.6.1-pl3/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.6.1-pl3/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:34 [error] 17883#0: *1717 open() "/opt/vod/phpMyAdmin-2.6.4-pl3/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.6.4-pl3/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:35 [error] 17883#0: *1718 open() "/opt/vod/phpMyAdmin-2.6.4-pl4/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.6.4-pl4/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:35 [error] 17883#0: *1719 open() "/opt/vod/phpMyAdmin-2.6.4-rc1/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.6.4-rc1/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:36 [error] 17883#0: *1720 open() "/opt/vod/phpMyAdmin-2.6.5/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.6.5/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:36 [error] 17883#0: *1721 open() "/opt/vod/phpMyAdmin-2.6.6/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.6.6/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:36 [error] 17883#0: *1722 open() "/opt/vod/phpMyAdmin-2.6.9/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.6.9/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:37 [error] 17883#0: *1723 open() "/opt/vod/phpMyAdmin-2.7.0-beta1/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.7.0-beta1/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:37 [error] 17883#0: *1724 open() "/opt/vod/phpMyAdmin-2.7.0-pl1/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.7.0-pl1/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:38 [error] 17883#0: *1725 open() "/opt/vod/phpMyAdmin-2.7.0-pl2/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.7.0-pl2/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:38 [error] 17883#0: *1726 open() "/opt/vod/phpMyAdmin-2.7.0-rc1/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.7.0-rc1/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:38 [error] 17883#0: *1727 open() "/opt/vod/phpMyAdmin-2.7.5/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.7.5/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:39 [error] 17883#0: *1728 open() "/opt/vod/phpMyAdmin-2.7.6/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.7.6/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:39 [error] 17883#0: *1729 open() "/opt/vod/phpMyAdmin-2.7.7/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.7.7/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:40 [error] 17883#0: *1730 open() "/opt/vod/phpMyAdmin-2.8.2.3/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.8.2.3/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:40 [error] 17883#0: *1731 open() "/opt/vod/phpMyAdmin-2.8.2/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.8.2/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:40 [error] 17883#0: *1732 open() "/opt/vod/phpMyAdmin-2.8.3/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.8.3/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:41 [error] 17883#0: *1733 open() "/opt/vod/phpMyAdmin-2.8.4/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.8.4/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:41 [error] 17883#0: *1734 open() "/opt/vod/phpMyAdmin-2.8.5/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.8.5/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:42 [error] 17883#0: *1735 open() "/opt/vod/phpMyAdmin-2.8.6/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.8.6/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:42 [error] 17883#0: *1736 open() "/opt/vod/phpMyAdmin-2.8.7/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.8.7/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:42 [error] 17883#0: *1737 open() "/opt/vod/phpMyAdmin-2.8.8/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.8.8/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:43 [error] 17883#0: *1738 open() "/opt/vod/phpMyAdmin-2.8.9/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.8.9/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:43 [error] 17883#0: *1739 open() "/opt/vod/phpMyAdmin-2.9.0-rc1/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.9.0-rc1/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:44 [error] 17883#0: *1740 open() "/opt/vod/phpMyAdmin-2.9.0.1/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.9.0.1/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:44 [error] 17883#0: *1741 open() "/opt/vod/phpMyAdmin-2.9.0.2/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.9.0.2/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:45 [error] 17883#0: *1742 open() "/opt/vod/phpMyAdmin-2.9.0/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.9.0/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:45 [error] 17883#0: *1743 open() "/opt/vod/phpMyAdmin-2.9.1/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.9.1/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:45 [error] 17883#0: *1744 open() "/opt/vod/phpMyAdmin-2.9.2/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2.9.2/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:46 [error] 17883#0: *1745 open() "/opt/vod/phpMyAdmin-2/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-2/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:46 [error] 17883#0: *1746 open() "/opt/vod/phpMyAdmin-3.0.0-rc1-english/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-3.0.0-rc1-english/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:46 [error] 17883#0: *1747 open() "/opt/vod/phpMyAdmin-3.0.0.0-all-languages/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-3.0.0.0-all-languages/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:47 [error] 17883#0: *1748 open() "/opt/vod/phpMyAdmin-3.0.1.0-english/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-3.0.1.0-english/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:47 [error] 17883#0: *1749 open() "/opt/vod/phpMyAdmin-3.0.1.0/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-3.0.1.0/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:48 [error] 17883#0: *1750 open() "/opt/vod/phpMyAdmin-3.0.1.1/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-3.0.1.1/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:48 [error] 17883#0: *1751 open() "/opt/vod/phpMyAdmin-3.1.0.0-english/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-3.1.0.0-english/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:48 [error] 17883#0: *1752 open() "/opt/vod/phpMyAdmin-3.1.0.0/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-3.1.0.0/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:49 [error] 17883#0: *1753 open() "/opt/vod/phpMyAdmin-3.1.1.0-all-languages/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-3.1.1.0-all-languages/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:49 [error] 17883#0: *1754 open() "/opt/vod/phpMyAdmin-3.1.2.0-all-languages/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-3.1.2.0-all-languages/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:50 [error] 17883#0: *1755 open() "/opt/vod/phpMyAdmin-3.1.2.0-english/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-3.1.2.0-english/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:50 [error] 17883#0: *1756 open() "/opt/vod/phpMyAdmin-3.1.2.0/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-3.1.2.0/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:50 [error] 17883#0: *1757 open() "/opt/vod/phpMyAdmin-3.4.3.1/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin-3.4.3.1/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:51 [error] 17883#0: *1758 open() "/opt/vod/phpMyAdmin2/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin2/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:00:51 [error] 17883#0: *1759 open() "/opt/vod/phpMyAdmin3/scripts/setup.php" failed (2: No such file or directory), client: 80.82.65.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin3/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/13 21:31:13 [error] 17883#0: *1760 directory index of "/opt/vod/" is forbidden, client: 86.236.149.209, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/14 00:12:20 [error] 17883#0: *1762 open() "/opt/vod/s" failed (2: No such file or directory), client: 113.76.101.85, server: cloud.livesoccer.cf, request: "GET http://www.baidu.com/s?wd=5118 HTTP/1.1", host: "www.baidu.com"
+2017/03/14 02:33:50 [error] 17883#0: *1764 open() "/opt/vod/script" failed (2: No such file or directory), client: 221.194.44.252, server: cloud.livesoccer.cf, request: "GET /script HTTP/1.1", host: "139.59.96.163"
+2017/03/14 03:12:01 [error] 17883#0: *1766 open() "/opt/vod/live/footba" failed (2: No such file or directory), client: 173.252.84.202, server: cloud.livesoccer.cf, request: "GET /live/footba HTTP/1.1", host: "139.59.96.163"
+2017/03/14 03:41:25 [error] 17883#0: *1767 directory index of "/opt/vod/" is forbidden, client: 88.146.206.194, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/14 03:44:12 [error] 17883#0: *1768 directory index of "/opt/vod/" is forbidden, client: 187.176.111.109, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/14 04:00:37 [error] 17883#0: *1769 directory index of "/opt/vod/" is forbidden, client: 187.195.104.107, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/14 04:34:44 [error] 17883#0: *1770 directory index of "/opt/vod/" is forbidden, client: 36.80.173.142, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/14 05:41:51 [error] 17883#0: *1771 open() "/opt/vod/phpmyadmin/index.php" failed (2: No such file or directory), client: 203.113.10.12, server: cloud.livesoccer.cf, request: "HEAD /phpmyadmin/index.php HTTP/1.1", host: "139.59.96.163"
+2017/03/14 07:07:31 [error] 17883#0: *1772 directory index of "/opt/vod/" is forbidden, client: 187.221.29.104, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/14 11:04:59 [error] 17883#0: *1774 directory index of "/opt/vod/" is forbidden, client: 177.53.57.4, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/14 11:05:04 [error] 17883#0: *1775 directory index of "/opt/vod/" is forbidden, client: 81.218.220.235, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/14 11:12:37 [error] 17883#0: *1777 directory index of "/opt/vod/" is forbidden, client: 89.248.172.90, server: cloud.livesoccer.cf, request: "GET http://httpheader.net/ HTTP/1.1", host: "httpheader.net"
+2017/03/14 11:38:24 [error] 17883#0: *1781 directory index of "/opt/vod/" is forbidden, client: 187.206.38.186, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/14 13:14:40 [error] 17883#0: *1783 directory index of "/opt/vod/" is forbidden, client: 75.127.155.170, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/14 13:52:15 [error] 17883#0: *1784 directory index of "/opt/vod/" is forbidden, client: 114.24.35.181, server: cloud.livesoccer.cf, request: "HEAD / HTTP/1.0"
+2017/03/14 14:06:31 [error] 17883#0: *1785 directory index of "/opt/vod/" is forbidden, client: 60.191.38.77, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/14 17:39:23 [error] 17883#0: *1787 directory index of "/opt/vod/" is forbidden, client: 189.152.185.17, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/14 20:58:09 [error] 17883#0: *1789 directory index of "/opt/vod/" is forbidden, client: 104.148.14.253, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "www.susu76.com"
+2017/03/14 21:17:50 [error] 17883#0: *1790 directory index of "/opt/vod/" is forbidden, client: 201.145.90.130, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/14 21:38:40 [error] 17883#0: *1791 open() "/opt/vod/pmd" failed (2: No such file or directory), client: 112.74.109.187, server: cloud.livesoccer.cf, request: "GET /pmd HTTP/1.1", host: "139.59.96.163", referrer: "http://139.59.96.163:80/pmd"
+2017/03/15 02:18:41 [error] 17883#0: *1793 directory index of "/opt/vod/" is forbidden, client: 201.119.55.216, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/15 04:18:10 [error] 17883#0: *1794 directory index of "/opt/vod/" is forbidden, client: 42.116.186.24, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/15 06:31:52 [error] 17883#0: *1797 directory index of "/opt/vod/" is forbidden, client: 222.164.219.5, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/15 07:09:36 [error] 17883#0: *1798 directory index of "/opt/vod/" is forbidden, client: 139.162.114.70, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/15 08:48:06 [error] 17883#0: *1800 directory index of "/opt/vod/" is forbidden, client: 85.71.49.80, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/15 08:53:12 [error] 17883#0: *1801 directory index of "/opt/vod/" is forbidden, client: 195.154.108.119, server: cloud.livesoccer.cf, request: "POST / HTTP/1.1", host: "139.59.96.163"
+2017/03/15 09:10:51 [error] 17883#0: *1802 directory index of "/opt/vod/" is forbidden, client: 84.85.54.180, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/15 10:25:57 [error] 17883#0: *1803 directory index of "/opt/vod/" is forbidden, client: 188.10.44.70, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/15 11:20:32 [error] 17883#0: *1805 directory index of "/opt/vod/" is forbidden, client: 89.248.172.90, server: cloud.livesoccer.cf, request: "GET http://httpheader.net/ HTTP/1.1", host: "httpheader.net"
+2017/03/15 12:12:39 [error] 17883#0: *1809 directory index of "/opt/vod/" is forbidden, client: 203.198.126.234, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/15 13:06:49 [error] 17883#0: *1810 directory index of "/opt/vod/" is forbidden, client: 162.243.188.75, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/15 13:16:31 [error] 17883#0: *1811 directory index of "/opt/vod/" is forbidden, client: 14.162.71.123, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/15 15:59:52 [error] 17883#0: *1812 directory index of "/opt/vod/" is forbidden, client: 95.226.236.186, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/15 16:09:28 [error] 17883#0: *1813 open() "/opt/vod/phpmyadmin" failed (2: No such file or directory), client: 112.74.109.187, server: cloud.livesoccer.cf, request: "GET /phpmyadmin HTTP/1.1", host: "139.59.96.163", referrer: "http://139.59.96.163:80/phpmyadmin"
+2017/03/15 17:31:12 [error] 17883#0: *1815 directory index of "/opt/vod/" is forbidden, client: 187.152.91.63, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/15 18:11:00 [error] 17883#0: *1817 directory index of "/opt/vod/" is forbidden, client: 93.208.42.211, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/15 18:15:54 [error] 17883#0: *1818 directory index of "/opt/vod/" is forbidden, client: 123.20.112.215, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/15 20:00:03 [error] 17883#0: *1819 directory index of "/opt/vod/" is forbidden, client: 123.16.4.196, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/15 20:29:16 [error] 17883#0: *1847 directory index of "/opt/vod/" is forbidden, client: 123.16.4.196, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/15 20:29:16 [error] 17883#0: *1848 directory index of "/opt/vod/" is forbidden, client: 123.16.4.196, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/15 20:53:06 [error] 17883#0: *1897 directory index of "/opt/vod/" is forbidden, client: 123.16.4.196, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/15 20:58:09 [error] 17883#0: *1918 directory index of "/opt/vod/" is forbidden, client: 78.45.216.43, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0", host: "139.59.96.163"
+2017/03/16 00:08:16 [error] 17883#0: *1922 directory index of "/opt/vod/" is forbidden, client: 89.248.172.90, server: cloud.livesoccer.cf, request: "GET http://httpheader.net/ HTTP/1.1", host: "httpheader.net"
+2017/03/16 00:08:46 [error] 17883#0: *1923 directory index of "/opt/vod/" is forbidden, client: 89.248.172.90, server: cloud.livesoccer.cf, request: "GET http://httpheader.net/ HTTP/1.1", host: "httpheader.net"
+2017/03/16 00:13:40 [error] 17883#0: *1928 directory index of "/opt/vod/" is forbidden, client: 58.11.102.12, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0", host: "139.59.96.163:80"
+2017/03/16 00:13:46 [error] 17883#0: *1930 directory index of "/opt/vod/" is forbidden, client: 92.27.227.105, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/16 01:16:01 [error] 17883#0: *1932 directory index of "/opt/vod/" is forbidden, client: 113.163.78.37, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/16 01:45:34 [error] 17883#0: *1933 open() "/opt/vod/manager/html" failed (2: No such file or directory), client: 201.217.141.34, server: cloud.livesoccer.cf, request: "GET /manager/html HTTP/1.1", host: "139.59.96.163"
+2017/03/16 01:53:36 [error] 17883#0: *1934 open() "/opt/vod/check_proxy" failed (2: No such file or directory), client: 180.97.106.37, server: cloud.livesoccer.cf, request: "HEAD http://180.163.113.82/check_proxy HTTP/1.1", host: "180.163.113.82"
+2017/03/16 01:55:50 [error] 17883#0: *1935 directory index of "/opt/vod/" is forbidden, client: 202.194.207.101, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/16 02:03:25 [error] 17883#0: *1936 directory index of "/opt/vod/" is forbidden, client: 49.147.1.167, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/16 02:03:26 [error] 17883#0: *1937 directory index of "/opt/vod/" is forbidden, client: 49.147.1.167, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/16 05:44:53 [error] 17883#0: *1939 directory index of "/opt/vod/" is forbidden, client: 190.173.174.77, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/16 05:46:44 [error] 17883#0: *1940 directory index of "/opt/vod/" is forbidden, client: 168.1.128.74, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/16 07:17:19 [error] 17883#0: *1942 open() "/opt/vod/s" failed (2: No such file or directory), client: 14.116.17.126, server: cloud.livesoccer.cf, request: "GET http://www.baidu.com/s?wd=5118 HTTP/1.1", host: "www.baidu.com"
+2017/03/16 07:59:46 [error] 17883#0: *1944 open() "/opt/vod/cgi/common.cgi" failed (2: No such file or directory), client: 179.105.202.98, server: cloud.livesoccer.cf, request: "GET /cgi/common.cgi HTTP/1.0", host: "139.59.96.163"
+2017/03/16 07:59:47 [error] 17883#0: *1945 open() "/opt/vod/stssys.htm" failed (2: No such file or directory), client: 179.105.202.98, server: cloud.livesoccer.cf, request: "GET /stssys.htm HTTP/1.0", host: "139.59.96.163"
+2017/03/16 07:59:48 [error] 17883#0: *1946 directory index of "/opt/vod/" is forbidden, client: 179.105.202.98, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0", host: "139.59.96.163"
+2017/03/16 07:59:49 [error] 17883#0: *1947 open() "/opt/vod/command.php" failed (2: No such file or directory), client: 179.105.202.98, server: cloud.livesoccer.cf, request: "POST /command.php HTTP/1.0", host: "139.59.96.163"
+2017/03/16 07:59:50 [error] 17883#0: *1948 open() "/opt/vod/;rm$IFS-f$IFS'/tmp/nmbt2.sh'" failed (2: No such file or directory), client: 179.105.202.98, server: cloud.livesoccer.cf, request: "GET /;rm$IFS-f$IFS'/tmp/nmbt2.sh' HTTP/1.0", host: "139.59.96.163"
+2017/03/16 08:28:38 [error] 17883#0: *1949 directory index of "/opt/vod/" is forbidden, client: 104.128.144.131, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0", host: "139.59.96.163"
+2017/03/16 08:28:39 [error] 17883#0: *1950 open() "/opt/vod/redirect.php" failed (2: No such file or directory), client: 104.128.144.131, server: cloud.livesoccer.cf, request: "HEAD /redirect.php HTTP/1.0", host: "139.59.96.163"
+2017/03/16 08:40:02 [error] 17883#0: *1951 directory index of "/opt/vod/" is forbidden, client: 118.140.136.254, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/16 08:54:18 [error] 17883#0: *1952 directory index of "/opt/vod/" is forbidden, client: 41.251.90.121, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/16 09:34:08 [error] 17883#0: *1953 directory index of "/opt/vod/" is forbidden, client: 113.167.150.197, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/16 10:43:29 [error] 17883#0: *1955 directory index of "/opt/vod/" is forbidden, client: 187.152.28.96, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/16 15:15:20 [error] 17883#0: *1958 directory index of "/opt/vod/" is forbidden, client: 185.117.72.44, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/16 16:22:13 [error] 17883#0: *1959 directory index of "/opt/vod/" is forbidden, client: 118.68.71.45, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/16 17:04:59 [error] 17883#0: *1961 directory index of "/opt/vod/" is forbidden, client: 112.135.113.110, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/16 17:19:16 [error] 17883#0: *1963 open() "/opt/vod/robots.txt" failed (2: No such file or directory), client: 195.154.182.164, server: cloud.livesoccer.cf, request: "HEAD /robots.txt HTTP/1.0"
+2017/03/16 21:07:00 [error] 17884#0: *1968 directory index of "/opt/vod/" is forbidden, client: 185.110.132.231, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/16 22:13:28 [notice] 26295#0: signal process started
+2017/03/16 22:16:51 [notice] 26342#0: signal process started
+2017/03/16 22:18:27 [alert] 26345#0: unknown process 26353 exited on signal 9
+2017/03/16 22:22:26 [alert] 26345#0: unknown process 26546 exited on signal 9
+2017/03/16 22:24:25 [alert] 26345#0: unknown process 26602 exited on signal 9
+2017/03/16 22:24:29 [alert] 26346#0: unknown process 26594 exited on signal 9
+2017/03/16 22:24:55 [alert] 26346#0: unknown process 26646 exited on signal 9
+2017/03/16 22:24:57 [alert] 26346#0: unknown process 26595 exited on signal 9
+2017/03/16 22:26:21 [notice] 26694#0: signal process started
+2017/03/16 22:26:34 [notice] 26745#0: signal process started
+2017/03/16 22:31:06 [error] 26747#0: *68 directory index of "/opt/vod/" is forbidden, client: 116.106.8.144, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/16 22:31:21 [alert] 26695#0: unknown process 26849 exited on signal 9
+2017/03/16 22:33:13 [emerg] 26926#0: unknown directive "-c:v" in /etc/nginx/nginx.conf:33
+2017/03/16 22:33:15 [emerg] 26927#0: unknown directive "-c:v" in /etc/nginx/nginx.conf:33
+2017/03/16 22:33:49 [notice] 26934#0: signal process started
+2017/03/16 22:33:51 [notice] 26938#0: signal process started
+2017/03/16 22:34:45 [alert] 26695#0: unknown process 26850 exited on signal 9
+2017/03/16 22:38:44 [notice] 27008#0: signal process started
+2017/03/16 22:38:52 [notice] 27015#0: signal process started
+2017/03/16 22:38:52 [alert] 26940#0: *82 open socket #3 left in connection 3
+2017/03/16 22:38:52 [alert] 26940#0: *84 open socket #4 left in connection 4
+2017/03/16 22:38:52 [alert] 26940#0: aborting
+2017/03/16 22:40:20 [notice] 27074#0: signal process started
+2017/03/16 22:40:24 [emerg] 27075#0: mkdir() "/mnt/stream/hls/" failed (2: No such file or directory)
+2017/03/16 22:41:03 [emerg] 27098#0: mkdir() "html/live/" failed (2: No such file or directory)
+2017/03/16 22:41:20 [emerg] 27111#0: mkdir() "html/live/" failed (2: No such file or directory)
+2017/03/16 22:44:19 [notice] 27199#0: signal process started
+2017/03/16 22:47:28 [notice] 27255#0: signal process started
+2017/03/17 03:59:16 [error] 27261#0: *19 open() "/opt/vod/w00tw00t.at.blackhats.romanian.anti-sec:)" failed (2: No such file or directory), client: 80.82.64.21, server: cloud.livesoccer.cf, request: "GET /w00tw00t.at.blackhats.romanian.anti-sec:) HTTP/1.1", host: "139.59.96.163"
+2017/03/17 03:59:16 [error] 27261#0: *20 open() "/opt/vod/phpMyAdmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.64.21, server: cloud.livesoccer.cf, request: "GET /phpMyAdmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/17 03:59:17 [error] 27261#0: *21 open() "/opt/vod/phpmyadmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.64.21, server: cloud.livesoccer.cf, request: "GET /phpmyadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/17 03:59:17 [error] 27261#0: *22 open() "/opt/vod/pma/scripts/setup.php" failed (2: No such file or directory), client: 80.82.64.21, server: cloud.livesoccer.cf, request: "GET /pma/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/17 03:59:17 [error] 27261#0: *23 open() "/opt/vod/myadmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.64.21, server: cloud.livesoccer.cf, request: "GET /myadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/17 03:59:18 [error] 27261#0: *24 open() "/opt/vod/MyAdmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.64.21, server: cloud.livesoccer.cf, request: "GET /MyAdmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/17 03:59:18 [error] 27261#0: *25 open() "/opt/vod/scripts/setup.php" failed (2: No such file or directory), client: 80.82.64.21, server: cloud.livesoccer.cf, request: "GET /scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/17 03:59:19 [error] 27261#0: *26 open() "/opt/vod/mysql/scripts/setup.php" failed (2: No such file or directory), client: 80.82.64.21, server: cloud.livesoccer.cf, request: "GET /mysql/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/17 03:59:19 [error] 27261#0: *27 open() "/opt/vod/mysqladmin/scripts/setup.php" failed (2: No such file or directory), client: 80.82.64.21, server: cloud.livesoccer.cf, request: "GET /mysqladmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/17 04:10:03 [error] 27261#0: *28 directory index of "/opt/vod/" is forbidden, client: 193.63.58.83, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/17 04:26:48 [error] 27261#0: *30 directory index of "/opt/vod/" is forbidden, client: 2.25.107.164, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 06:21:44 [error] 27261#0: *31 directory index of "/opt/vod/" is forbidden, client: 187.131.216.241, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 07:28:59 [error] 27261#0: *32 directory index of "/opt/vod/" is forbidden, client: 175.100.112.46, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 09:04:56 [error] 27261#0: *33 directory index of "/opt/vod/" is forbidden, client: 86.160.253.116, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 09:34:31 [error] 27261#0: *34 directory index of "/opt/vod/" is forbidden, client: 182.138.162.7, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0", host: "139.59.96.163:80"
+2017/03/17 09:36:23 [error] 27261#0: *35 directory index of "/opt/vod/" is forbidden, client: 175.152.110.68, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/17 10:08:37 [error] 27261#0: *36 directory index of "/opt/vod/" is forbidden, client: 80.11.201.226, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 10:13:01 [error] 27261#0: *37 directory index of "/opt/vod/" is forbidden, client: 85.97.195.84, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 10:53:35 [error] 27261#0: *38 directory index of "/opt/vod/" is forbidden, client: 54.149.51.58, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/17 11:29:52 [error] 27261#0: *39 directory index of "/opt/vod/" is forbidden, client: 60.48.103.214, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 11:42:12 [error] 27261#0: *40 directory index of "/opt/vod/" is forbidden, client: 189.238.125.98, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 12:49:05 [error] 27261#0: *42 directory index of "/opt/vod/" is forbidden, client: 121.217.220.165, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 13:35:51 [error] 27261#0: *43 directory index of "/opt/vod/" is forbidden, client: 213.255.19.230, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 14:27:27 [error] 27261#0: *44 directory index of "/opt/vod/" is forbidden, client: 77.29.105.219, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 15:35:30 [error] 27261#0: *45 directory index of "/opt/vod/" is forbidden, client: 203.173.204.139, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 15:38:35 [error] 27261#0: *46 directory index of "/opt/vod/" is forbidden, client: 104.198.71.125, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 16:49:04 [error] 27261#0: *47 directory index of "/opt/vod/" is forbidden, client: 101.78.193.82, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 17:12:38 [error] 27261#0: *49 directory index of "/opt/vod/" is forbidden, client: 23.247.88.20, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "www.susu75.com"
+2017/03/17 18:56:10 [error] 27261#0: *50 open() "/opt/vod/script" failed (2: No such file or directory), client: 221.194.44.252, server: cloud.livesoccer.cf, request: "GET /script HTTP/1.1", host: "139.59.96.163"
+2017/03/17 19:01:04 [error] 27261#0: *51 directory index of "/opt/vod/" is forbidden, client: 36.81.81.244, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 19:22:13 [error] 27261#0: *53 open() "/opt/vod/phpmyadmin/scripts/setup.php" failed (2: No such file or directory), client: 183.82.0.15, server: cloud.livesoccer.cf, request: "GET /phpmyadmin/scripts/setup.php HTTP/1.1", host: "139.59.96.163"
+2017/03/17 21:49:25 [error] 27261#0: *55 directory index of "/opt/vod/" is forbidden, client: 200.6.220.102, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 21:49:28 [error] 27261#0: *56 directory index of "/opt/vod/" is forbidden, client: 200.6.220.102, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 22:00:24 [error] 27261#0: *57 directory index of "/opt/vod/" is forbidden, client: 104.198.71.125, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 22:30:43 [error] 27261#0: *58 directory index of "/opt/vod/" is forbidden, client: 83.83.221.63, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 22:30:45 [error] 27261#0: *59 directory index of "/opt/vod/" is forbidden, client: 83.83.221.63, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 22:30:46 [error] 27261#0: *60 directory index of "/opt/vod/" is forbidden, client: 83.83.221.63, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 22:30:50 [error] 27261#0: *61 directory index of "/opt/vod/" is forbidden, client: 83.83.221.63, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 22:31:00 [error] 27261#0: *62 directory index of "/opt/vod/" is forbidden, client: 83.83.221.63, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 22:31:32 [error] 27261#0: *63 directory index of "/opt/vod/" is forbidden, client: 83.83.221.63, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/17 22:46:57 [error] 27261#0: *64 open() "/opt/vod/script" failed (2: No such file or directory), client: 221.194.44.252, server: cloud.livesoccer.cf, request: "GET /script HTTP/1.1", host: "139.59.96.163"
+2017/03/17 23:36:54 [error] 27261#0: *65 directory index of "/opt/vod/" is forbidden, client: 118.163.166.38, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/18 00:15:40 [error] 27261#0: *66 directory index of "/opt/vod/" is forbidden, client: 171.246.69.216, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/18 01:15:04 [error] 27261#0: *67 directory index of "/opt/vod/" is forbidden, client: 125.46.76.23, server: cloud.livesoccer.cf, request: "POST / HTTP/1.1", host: "139.59.96.163"
+2017/03/18 02:28:49 [error] 27261#0: *68 directory index of "/opt/vod/" is forbidden, client: 60.191.38.77, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/18 03:30:37 [error] 27261#0: *69 directory index of "/opt/vod/" is forbidden, client: 104.198.71.125, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/18 04:05:26 [error] 27261#0: *71 directory index of "/opt/vod/" is forbidden, client: 218.103.37.219, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/18 06:28:36 [error] 27261#0: *72 directory index of "/opt/vod/" is forbidden, client: 125.25.169.90, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/18 06:31:15 [error] 27261#0: *73 directory index of "/opt/vod/" is forbidden, client: 125.46.76.23, server: cloud.livesoccer.cf, request: "POST / HTTP/1.1", host: "139.59.96.163"
+2017/03/18 06:39:29 [error] 27261#0: *74 directory index of "/opt/vod/" is forbidden, client: 42.98.24.47, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/18 06:58:09 [error] 27261#0: *75 directory index of "/opt/vod/" is forbidden, client: 104.198.71.125, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/18 12:15:41 [error] 27261#0: *78 directory index of "/opt/vod/" is forbidden, client: 187.145.110.191, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/18 13:43:12 [error] 27261#0: *80 directory index of "/opt/vod/" is forbidden, client: 58.11.114.51, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0", host: "139.59.96.163:80"
+2017/03/18 19:02:59 [error] 27261#0: *82 directory index of "/opt/vod/" is forbidden, client: 222.164.219.49, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/18 19:57:26 [error] 27261#0: *83 directory index of "/opt/vod/" is forbidden, client: 218.111.8.120, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/18 22:19:43 [error] 27261#0: *84 directory index of "/opt/vod/" is forbidden, client: 95.84.165.71, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0", host: "139.59.96.163"
+2017/03/19 06:28:20 [error] 27261#0: *87 directory index of "/opt/vod/" is forbidden, client: 115.87.196.58, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/19 08:32:06 [error] 27261#0: *89 directory index of "/opt/vod/" is forbidden, client: 213.153.85.80, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/19 10:09:05 [error] 27261#0: *90 directory index of "/opt/vod/" is forbidden, client: 58.187.147.54, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/19 10:42:04 [error] 27261#0: *91 directory index of "/opt/vod/" is forbidden, client: 185.110.132.231, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/19 15:38:05 [error] 27261#0: *94 open() "/opt/vod/s" failed (2: No such file or directory), client: 14.116.17.139, server: cloud.livesoccer.cf, request: "GET http://www.baidu.com/s?wd=5118 HTTP/1.1", host: "www.baidu.com"
+2017/03/19 16:49:35 [error] 27261#0: *95 directory index of "/opt/vod/" is forbidden, client: 187.209.195.245, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/19 17:21:53 [error] 27261#0: *96 directory index of "/opt/vod/" is forbidden, client: 113.22.169.215, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/19 17:29:10 [error] 27261#0: *97 directory index of "/opt/vod/" is forbidden, client: 182.53.0.148, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/19 22:33:37 [error] 27261#0: *98 directory index of "/opt/vod/" is forbidden, client: 116.48.135.189, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/19 23:36:14 [error] 27261#0: *99 directory index of "/opt/vod/" is forbidden, client: 91.219.242.183, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/20 00:35:08 [error] 27261#0: *100 directory index of "/opt/vod/" is forbidden, client: 72.214.122.2, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/20 02:49:10 [error] 27261#0: *102 directory index of "/opt/vod/" is forbidden, client: 124.43.118.199, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/20 03:50:30 [error] 27261#0: *104 directory index of "/opt/vod/" is forbidden, client: 14.167.122.154, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/20 04:11:37 [error] 27261#0: *105 directory index of "/opt/vod/" is forbidden, client: 118.70.67.176, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/20 04:47:13 [error] 27261#0: *106 directory index of "/opt/vod/" is forbidden, client: 220.191.231.222, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/20 06:29:57 [error] 27261#0: *107 directory index of "/opt/vod/" is forbidden, client: 116.110.243.157, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/20 07:27:10 [error] 27261#0: *108 directory index of "/opt/vod/" is forbidden, client: 27.74.120.174, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/20 07:40:06 [error] 27261#0: *110 open() "/opt/vod/s" failed (2: No such file or directory), client: 14.116.17.93, server: cloud.livesoccer.cf, request: "GET http://www.baidu.com/s?wd=5118 HTTP/1.1", host: "www.baidu.com"
+2017/03/20 08:15:21 [error] 27261#0: *111 directory index of "/opt/vod/" is forbidden, client: 198.20.69.74, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/20 09:00:46 [emerg] 16264#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/20 09:00:46 [emerg] 16264#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/20 09:00:46 [emerg] 16264#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/20 09:00:46 [emerg] 16264#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/20 09:00:46 [emerg] 16264#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/20 09:00:46 [emerg] 16264#0: still could not bind()
+2017/03/20 09:02:49 [emerg] 16367#0: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/03/20 09:03:26 [emerg] 16379#0: unknown directive "rtmp" in /etc/nginx/nginx.conf:14
+2017/03/20 09:04:09 [emerg] 16390#0: unknown directive "rtmp" in /etc/nginx/nginx.conf:14
+2017/03/20 09:04:11 [emerg] 16393#0: unknown directive "rtmp" in /etc/nginx/nginx.conf:14
+2017/03/20 09:04:35 [emerg] 16400#0: unknown directive "rtmp_stat" in /etc/nginx/nginx.conf:190
+2017/03/20 09:17:50 [emerg] 25095#0: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/03/20 09:20:21 [emerg] 25268#0: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/03/20 09:43:18 [emerg] 31651#0: unknown directive "rtmp" in /etc/nginx/nginx.conf:14
+2017/03/20 09:49:29 [emerg] 3217#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/20 09:49:29 [emerg] 3217#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/20 09:49:29 [emerg] 3217#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/20 09:49:29 [emerg] 3217#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/20 09:49:29 [emerg] 3217#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/20 09:49:29 [emerg] 3217#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/20 09:49:29 [emerg] 3217#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/20 09:49:29 [emerg] 3217#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/20 09:49:29 [emerg] 3217#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/20 09:49:29 [emerg] 3217#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/20 09:49:29 [emerg] 3217#0: still could not bind()
+2017/03/20 11:36:42 [error] 27260#0: *124 directory index of "/opt/vod/" is forbidden, client: 83.238.174.17, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/20 15:18:41 [error] 27260#0: *127 directory index of "/opt/vod/" is forbidden, client: 124.13.151.102, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/20 16:12:32 [error] 27260#0: *128 directory index of "/opt/vod/" is forbidden, client: 208.111.75.69, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/20 18:07:24 [error] 27260#0: *129 directory index of "/opt/vod/" is forbidden, client: 101.108.204.249, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/20 19:38:38 [error] 27260#0: *131 directory index of "/opt/vod/" is forbidden, client: 139.162.114.70, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/20 21:28:46 [error] 27260#0: *133 directory index of "/opt/vod/" is forbidden, client: 187.145.20.166, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/21 00:10:42 [error] 27260#0: *134 directory index of "/opt/vod/" is forbidden, client: 78.88.168.111, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0", host: "139.59.96.163"
+2017/03/21 13:27:41 [error] 27260#0: *136 directory index of "/opt/vod/" is forbidden, client: 45.63.92.80, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "www.shanxinhui.com"
+2017/03/21 13:31:15 [error] 27260#0: *137 directory index of "/opt/vod/" is forbidden, client: 41.132.134.215, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/21 18:34:59 [error] 27260#0: *143 directory index of "/opt/vod/" is forbidden, client: 123.18.35.107, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/21 18:35:00 [error] 27260#0: *144 directory index of "/opt/vod/" is forbidden, client: 123.18.35.107, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/21 18:35:03 [error] 27260#0: *145 directory index of "/opt/vod/" is forbidden, client: 123.18.35.107, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/21 19:13:57 [error] 27260#0: *146 directory index of "/opt/vod/" is forbidden, client: 104.148.75.115, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "www.la008.com"
+2017/03/21 19:26:25 [error] 27260#0: *147 directory index of "/opt/vod/" is forbidden, client: 139.162.114.70, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/21 19:56:18 [error] 27260#0: *148 directory index of "/opt/vod/" is forbidden, client: 183.129.160.229, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/21 20:27:51 [error] 27260#0: *149 directory index of "/opt/vod/" is forbidden, client: 162.222.183.189, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/21 20:50:47 [error] 27260#0: *150 directory index of "/opt/vod/" is forbidden, client: 193.63.58.83, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/21 21:02:24 [error] 27260#0: *151 directory index of "/opt/vod/" is forbidden, client: 189.254.115.20, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/21 21:22:02 [error] 27260#0: *152 directory index of "/opt/vod/" is forbidden, client: 115.133.60.14, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/21 22:30:13 [error] 27260#0: *153 directory index of "/opt/vod/" is forbidden, client: 115.127.32.62, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/21 23:19:25 [error] 27260#0: *154 directory index of "/opt/vod/" is forbidden, client: 110.232.81.126, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/22 01:37:02 [error] 27260#0: *155 directory index of "/opt/vod/" is forbidden, client: 212.179.90.226, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/22 11:25:12 [error] 27260#0: *157 directory index of "/opt/vod/" is forbidden, client: 139.162.124.167, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/22 11:28:44 [error] 27260#0: *158 directory index of "/opt/vod/" is forbidden, client: 90.229.168.107, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/22 18:22:44 [error] 27260#0: *159 open() "/opt/vod/current_config/passwd" failed (2: No such file or directory), client: 183.129.160.229, server: cloud.livesoccer.cf, request: "GET /current_config/passwd HTTP/1.1", host: "139.59.96.163"
+2017/03/22 19:31:34 [error] 27260#0: *161 directory index of "/opt/vod/" is forbidden, client: 222.186.34.77, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163", referrer: "http://139.59.96.163"
+2017/03/22 23:02:02 [error] 27260#0: *162 directory index of "/opt/vod/" is forbidden, client: 201.127.193.148, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/22 23:02:14 [error] 27260#0: *163 directory index of "/opt/vod/" is forbidden, client: 189.190.134.49, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/23 00:12:29 [error] 27260#0: *165 directory index of "/opt/vod/" is forbidden, client: 162.243.188.75, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/23 01:04:20 [error] 27260#0: *166 open() "/opt/vod/check_proxy" failed (2: No such file or directory), client: 180.97.106.37, server: cloud.livesoccer.cf, request: "HEAD http://180.163.113.82/check_proxy HTTP/1.1", host: "180.163.113.82"
+2017/03/23 01:47:23 [error] 27260#0: *167 directory index of "/opt/vod/" is forbidden, client: 114.33.181.240, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/23 02:45:58 [error] 27260#0: *168 directory index of "/opt/vod/" is forbidden, client: 14.186.124.201, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/23 03:21:15 [error] 27260#0: *171 directory index of "/opt/vod/" is forbidden, client: 115.69.217.38, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/23 04:40:42 [error] 27260#0: *173 open() "/opt/vod/cgi-bin/test-cgi" failed (2: No such file or directory), client: 51.15.161.134, server: cloud.livesoccer.cf, request: "GET /cgi-bin/test-cgi HTTP/1.1", host: "139.59.96.163"
+2017/03/23 04:42:03 [error] 27260#0: *175 open() "/opt/vod/cgi-bin/test-cgi" failed (2: No such file or directory), client: 51.15.161.134, server: cloud.livesoccer.cf, request: "GET /cgi-bin/test-cgi HTTP/1.1", host: "139.59.96.163"
+2017/03/23 04:43:14 [error] 27260#0: *177 open() "/opt/vod/cgi-bin/test-cgi" failed (2: No such file or directory), client: 51.15.161.134, server: cloud.livesoccer.cf, request: "GET /cgi-bin/test-cgi HTTP/1.1", host: "139.59.96.163"
+2017/03/23 04:44:26 [error] 27260#0: *179 open() "/opt/vod/cgi-bin/test-cgi" failed (2: No such file or directory), client: 51.15.161.134, server: cloud.livesoccer.cf, request: "GET /cgi-bin/test-cgi HTTP/1.1", host: "139.59.96.163"
+2017/03/23 04:54:19 [error] 27260#0: *181 open() "/opt/vod/cgi-bin/test-cgi" failed (2: No such file or directory), client: 51.15.161.134, server: cloud.livesoccer.cf, request: "GET /cgi-bin/test-cgi HTTP/1.1", host: "139.59.96.163"
+2017/03/23 04:59:12 [error] 27260#0: *183 open() "/opt/vod/cgi-bin/test-cgi" failed (2: No such file or directory), client: 51.15.161.134, server: cloud.livesoccer.cf, request: "GET /cgi-bin/test-cgi HTTP/1.1", host: "139.59.96.163"
+2017/03/23 05:45:28 [error] 27260#0: *185 directory index of "/opt/vod/" is forbidden, client: 71.40.49.148, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/23 05:53:15 [error] 27260#0: *187 open() "/opt/vod/cgi-bin/test" failed (2: No such file or directory), client: 51.15.161.134, server: cloud.livesoccer.cf, request: "GET /cgi-bin/test HTTP/1.1", host: "139.59.96.163"
+2017/03/23 05:54:39 [error] 27260#0: *189 open() "/opt/vod/cgi-bin/test" failed (2: No such file or directory), client: 51.15.161.134, server: cloud.livesoccer.cf, request: "GET /cgi-bin/test HTTP/1.1", host: "139.59.96.163"
+2017/03/23 05:55:54 [error] 27260#0: *191 open() "/opt/vod/cgi-bin/test" failed (2: No such file or directory), client: 51.15.161.134, server: cloud.livesoccer.cf, request: "GET /cgi-bin/test HTTP/1.1", host: "139.59.96.163"
+2017/03/23 05:57:11 [error] 27260#0: *193 open() "/opt/vod/cgi-bin/test" failed (2: No such file or directory), client: 51.15.161.134, server: cloud.livesoccer.cf, request: "GET /cgi-bin/test HTTP/1.1", host: "139.59.96.163"
+2017/03/23 06:07:07 [error] 27260#0: *195 open() "/opt/vod/cgi-bin/test" failed (2: No such file or directory), client: 51.15.161.134, server: cloud.livesoccer.cf, request: "GET /cgi-bin/test HTTP/1.1", host: "139.59.96.163"
+2017/03/23 06:12:07 [error] 27260#0: *197 open() "/opt/vod/cgi-bin/test" failed (2: No such file or directory), client: 51.15.161.134, server: cloud.livesoccer.cf, request: "GET /cgi-bin/test HTTP/1.1", host: "139.59.96.163"
+2017/03/23 06:17:20 [error] 27260#0: *198 directory index of "/opt/vod/" is forbidden, client: 70.32.33.90, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "1.1.1.1"
+2017/03/23 06:42:30 [error] 27260#0: *199 directory index of "/opt/vod/" is forbidden, client: 185.110.132.231, server: cloud.livesoccer.cf, request: "GET / HTTP/1.1", host: "139.59.96.163"
+2017/03/23 07:14:37 [error] 27260#0: *200 directory index of "/opt/vod/" is forbidden, client: 196.52.43.56, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/23 07:44:06 [error] 27260#0: *202 directory index of "/opt/vod/" is forbidden, client: 118.200.187.23, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/23 07:51:43 [error] 27260#0: *204 open() "/opt/vod/current_config/passwd" failed (2: No such file or directory), client: 183.129.160.229, server: cloud.livesoccer.cf, request: "GET /current_config/passwd HTTP/1.1", host: "139.59.96.163"
+2017/03/23 08:49:17 [error] 27260#0: *205 open() "/opt/vod/Struts2XMLHelloWorld/User/home.action:linux" failed (2: No such file or directory), client: 124.16.144.31, server: cloud.livesoccer.cf, request: "GET /Struts2XMLHelloWorld/User/home.action:linux HTTP/1.1", host: "139.59.96.163"
+2017/03/23 10:11:34 [error] 27260#0: *207 open() "/opt/vod/Struts2XMLHelloWorld/User/home.action:linux" failed (2: No such file or directory), client: 197.214.65.125, server: cloud.livesoccer.cf, request: "GET /Struts2XMLHelloWorld/User/home.action:linux HTTP/1.1", host: "139.59.96.163"
+2017/03/23 10:25:22 [error] 27260#0: *208 directory index of "/opt/vod/" is forbidden, client: 118.175.86.184, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/23 10:45:38 [error] 27260#0: *209 open() "/opt/vod/Struts2XMLHelloWorld/User/home.action:linux" failed (2: No such file or directory), client: 183.82.48.83, server: cloud.livesoccer.cf, request: "GET /Struts2XMLHelloWorld/User/home.action:linux HTTP/1.1", host: "139.59.96.163"
+2017/03/23 11:02:41 [error] 27260#0: *210 open() "/opt/vod/Struts2XMLHelloWorld/User/home.action:linux" failed (2: No such file or directory), client: 183.82.48.83, server: cloud.livesoccer.cf, request: "GET /Struts2XMLHelloWorld/User/home.action:linux HTTP/1.1", host: "139.59.96.163"
+2017/03/23 11:10:07 [error] 27260#0: *212 open() "/opt/vod/Struts2XMLHelloWorld/User/home.action:linux" failed (2: No such file or directory), client: 177.8.228.166, server: cloud.livesoccer.cf, request: "GET /Struts2XMLHelloWorld/User/home.action:linux HTTP/1.1", host: "139.59.96.163"
+2017/03/23 11:26:26 [error] 27260#0: *213 directory index of "/opt/vod/" is forbidden, client: 116.104.25.24, server: cloud.livesoccer.cf, request: "GET / HTTP/1.0"
+2017/03/23 12:11:19 [error] 27260#0: *216 open() "/opt/vod/Struts2XMLHelloWorld/User/home.action:linux" failed (2: No such file or directory), client: 188.165.172.114, server: cloud.livesoccer.cf, request: "GET /Struts2XMLHelloWorld/User/home.action:linux HTTP/1.1", host: "139.59.96.163"
+2017/03/23 12:13:39 [error] 27260#0: *217 open() "/opt/vod/Struts2XMLHelloWorld/User/home.action:linux" failed (2: No such file or directory), client: 112.196.54.138, server: cloud.livesoccer.cf, request: "GET /Struts2XMLHelloWorld/User/home.action:linux HTTP/1.1", host: "139.59.96.163"
+2017/03/23 12:25:51 [error] 27260#0: *218 open() "/opt/vod/current_config/passwd" failed (2: No such file or directory), client: 60.191.38.77, server: cloud.livesoccer.cf, request: "GET /current_config/passwd HTTP/1.1", host: "139.59.96.163"
+2017/03/23 12:25:51 [error] 27260#0: *218 open() "/opt/vod/current_config/Account1" failed (2: No such file or directory), client: 60.191.38.77, server: cloud.livesoccer.cf, request: "GET /current_config/Account1 HTTP/1.1", host: "139.59.96.163"
+2017/03/23 12:49:22 [emerg] 4615#0: upstream "backend" may not have port 9000 in /etc/nginx/nginx.conf:103
+2017/03/23 12:49:46 [emerg] 4622#0: upstream "backend" may not have port 9000 in /etc/nginx/nginx.conf:103
+2017/03/23 12:50:05 [emerg] 4629#0: invalid URL prefix in /etc/nginx/nginx.conf:103
+2017/03/23 12:50:10 [emerg] 4631#0: invalid URL prefix in /etc/nginx/nginx.conf:103
+2017/03/23 12:52:37 [emerg] 4662#0: upstream "backend" may not have port 9000 in /etc/nginx/nginx.conf:103
+2017/03/23 12:55:44 [emerg] 4745#0: invalid URL prefix in /etc/nginx/nginx.conf:103
+2017/03/23 12:56:01 [emerg] 4756#0: invalid URL prefix in /etc/nginx/nginx.conf:103
+2017/03/23 12:56:04 [emerg] 4759#0: invalid URL prefix in /etc/nginx/nginx.conf:103
+2017/03/23 12:59:38 [emerg] 4824#0: unknown directive "stream" in /etc/nginx/nginx.conf:91
+2017/03/23 13:00:21 [emerg] 4829#0: unknown directive "stream" in /etc/nginx/nginx.conf:91
+2017/03/23 13:00:23 [emerg] 4832#0: unknown directive "stream" in /etc/nginx/nginx.conf:91
+2017/03/23 13:01:50 [emerg] 4839#0: unknown directive "stream" in /etc/nginx/nginx.conf:15
+2017/03/23 13:02:45 [emerg] 4840#0: "upstream" directive is not allowed here in /etc/nginx/nginx.conf:15
+2017/03/23 13:09:38 [emerg] 8867#0: "location" directive is not allowed here in /etc/nginx/nginx.conf:25
+2017/03/23 13:10:05 [emerg] 8880#0: "location" directive is not allowed here in /etc/nginx/nginx.conf:25
+2017/03/23 13:10:56 [emerg] 8897#0: "location" directive is not allowed here in /etc/nginx/nginx.conf:24
+2017/03/23 13:12:38 [emerg] 8910#0: "listen" directive is not allowed here in /etc/nginx/nginx.conf:21
+2017/03/23 13:13:06 [emerg] 8915#0: no handler for server in /etc/nginx/nginx.conf:22
+2017/03/23 13:13:15 [emerg] 8918#0: no handler for server in /etc/nginx/nginx.conf:22
+2017/03/23 13:14:47 [emerg] 8935#0: "rtmp" directive is not allowed here in /etc/nginx/nginx.conf:33
+2017/03/23 13:15:11 [emerg] 8942#0: "http" directive is not allowed here in /etc/nginx/nginx.conf:65
+2017/03/23 13:16:20 [emerg] 8955#0: "location" directive is not allowed here in /etc/nginx/nginx.conf:23
+2017/03/23 13:16:25 [emerg] 8958#0: "location" directive is not allowed here in /etc/nginx/nginx.conf:23
+2017/03/23 13:17:18 [emerg] 8970#0: no handler for server in /etc/nginx/nginx.conf:21
+2017/03/23 13:19:13 [emerg] 9003#0: host not found in upstream "backend" in /etc/nginx/nginx.conf:98
+2017/03/23 13:21:08 [emerg] 9036#0: invalid URL prefix in /etc/nginx/nginx.conf:95
+2017/03/23 13:22:49 [emerg] 9066#0: invalid URL prefix in /etc/nginx/nginx.conf:95
+2017/03/23 13:24:08 [emerg] 9089#0: "location" directive is not allowed here in /etc/nginx/nginx.conf:21
+2017/03/23 13:26:18 [error] 27260#0: *219 open() "/opt/vod/Struts2XMLHelloWorld/User/home.action:linux" failed (2: No such file or directory), client: 104.40.150.110, server: cloud.livesoccer.cf, request: "GET /Struts2XMLHelloWorld/User/home.action:linux HTTP/1.1", host: "139.59.96.163"
+2017/03/23 13:32:52 [notice] 9617#0: signal process started
+2017/03/23 13:32:52 [emerg] 27259#0: unknown directive "stream" in /etc/nginx/nginx.conf:14
+2017/03/23 13:33:21 [notice] 9624#0: signal process started
+2017/03/23 13:33:36 [emerg] 9638#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/23 13:33:36 [emerg] 9638#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/23 13:33:36 [emerg] 9638#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/23 13:33:36 [emerg] 9638#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/23 13:33:36 [emerg] 9638#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/23 13:33:36 [emerg] 9638#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/23 13:33:36 [emerg] 9638#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/23 13:33:36 [emerg] 9638#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/23 13:33:36 [emerg] 9638#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/23 13:33:36 [emerg] 9638#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/23 13:33:36 [emerg] 9638#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/23 13:33:36 [emerg] 9638#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/23 13:33:36 [emerg] 9638#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/23 13:33:36 [emerg] 9638#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/23 13:33:36 [emerg] 9638#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/23 13:33:36 [emerg] 9638#0: still could not bind()
+2017/03/23 17:10:20 [emerg] 13671#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/23 17:10:20 [emerg] 13671#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/23 17:10:20 [emerg] 13671#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/23 17:10:20 [emerg] 13671#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/23 17:10:20 [emerg] 13671#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/23 17:10:20 [emerg] 13671#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/23 17:10:20 [emerg] 13671#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/23 17:10:20 [emerg] 13671#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/23 17:10:20 [emerg] 13671#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/23 17:10:20 [emerg] 13671#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/23 17:10:20 [emerg] 13671#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/23 17:10:20 [emerg] 13671#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/23 17:10:20 [emerg] 13671#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/23 17:10:20 [emerg] 13671#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/23 17:10:20 [emerg] 13671#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/23 17:10:20 [emerg] 13671#0: still could not bind()
+2017/03/23 23:51:26 [notice] 11488#0: signal process started
+2017/03/23 23:51:26 [emerg] 9630#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/03/23 23:51:26 [emerg] 9630#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/03/23 23:51:26 [emerg] 9630#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/03/23 23:51:26 [emerg] 9630#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/03/23 23:51:26 [emerg] 9630#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/03/23 23:51:26 [emerg] 9630#0: still could not bind()
+2017/03/23 23:53:46 [notice] 11570#0: signal process started
+2017/03/23 23:53:51 [notice] 11574#0: signal process started
+2017/03/23 23:54:04 [emerg] 11584#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/23 23:54:04 [emerg] 11584#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/23 23:54:04 [emerg] 11584#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/23 23:54:04 [emerg] 11584#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/23 23:54:04 [emerg] 11584#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/23 23:54:04 [emerg] 11584#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/23 23:54:04 [emerg] 11584#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/23 23:54:04 [emerg] 11584#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/23 23:54:04 [emerg] 11584#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/23 23:54:04 [emerg] 11584#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/23 23:54:04 [emerg] 11584#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/23 23:54:04 [emerg] 11584#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/23 23:54:04 [emerg] 11584#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/23 23:54:04 [emerg] 11584#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/23 23:54:04 [emerg] 11584#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/23 23:54:04 [emerg] 11584#0: still could not bind()
+2017/03/23 23:54:46 [notice] 11587#0: signal process started
+2017/03/25 22:45:35 [notice] 8493#0: signal process started
+2017/03/25 22:45:35 [error] 8493#0: invalid PID number "" in "/var/run/nginx.pid"
+2017/03/25 22:45:48 [notice] 8499#0: signal process started
+2017/03/25 22:45:48 [error] 8499#0: invalid PID number "" in "/var/run/nginx.pid"
+2017/03/25 22:45:57 [emerg] 8501#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/25 22:45:57 [emerg] 8501#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/25 22:45:57 [emerg] 8501#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/25 22:45:57 [emerg] 8501#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/25 22:45:57 [emerg] 8501#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/25 22:45:57 [emerg] 8501#0: still could not bind()
+2017/03/25 22:46:13 [notice] 8504#0: signal process started
+2017/03/25 22:46:13 [error] 8504#0: invalid PID number "" in "/var/run/nginx.pid"
+2017/03/25 22:46:25 [emerg] 8507#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/25 22:46:25 [emerg] 8507#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/25 22:46:25 [emerg] 8507#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/25 22:46:25 [emerg] 8507#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/25 22:46:25 [emerg] 8507#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/25 22:46:25 [emerg] 8507#0: still could not bind()
+2017/03/25 22:46:46 [emerg] 8547#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/25 22:46:46 [emerg] 8547#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/25 22:46:46 [emerg] 8547#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/25 22:46:46 [emerg] 8547#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/25 22:46:46 [emerg] 8547#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/25 22:46:46 [emerg] 8547#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/25 22:46:46 [emerg] 8547#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/25 22:46:46 [emerg] 8547#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/25 22:46:46 [emerg] 8547#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/25 22:46:46 [emerg] 8547#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/25 22:46:46 [emerg] 8547#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/25 22:46:46 [emerg] 8547#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/25 22:46:46 [emerg] 8547#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2017/03/25 22:46:46 [emerg] 8547#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2017/03/25 22:46:46 [emerg] 8547#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/03/25 22:46:46 [emerg] 8547#0: still could not bind()
+2017/03/26 03:36:00 [error] 8544#0: *78 upstream timed out (110: Connection timed out) while connecting to upstream, client: 43.241.222.224, server: 0.0.0.0:9000, upstream: "139.59.235.183:9000", bytes from/to client:0/0, bytes from/to upstream:0/0
+2017/03/26 03:36:15 [error] 8544#0: *78 connect() failed (111: Connection refused) while connecting to upstream, client: 43.241.222.224, server: 0.0.0.0:9000, upstream: "139.59.104.90:9000", bytes from/to client:0/0, bytes from/to upstream:0/0
+2017/03/26 04:47:57 [error] 8545#0: *99 upstream timed out (110: Connection timed out) while connecting to upstream, client: 71.6.158.166, server: 0.0.0.0:9000, upstream: "139.59.235.183:9000", bytes from/to client:0/0, bytes from/to upstream:0/0
+2017/03/26 04:47:57 [error] 8545#0: *99 connect() failed (111: Connection refused) while connecting to upstream, client: 71.6.158.166, server: 0.0.0.0:9000, upstream: "139.59.104.90:9000", bytes from/to client:0/0, bytes from/to upstream:0/0
+2017/03/26 15:00:18 [error] 8545#0: *275 connect() failed (111: Connection refused) while connecting to upstream, client: 93.174.93.136, server: 0.0.0.0:9000, upstream: "139.59.104.90:9000", bytes from/to client:0/0, bytes from/to upstream:0/0
+2017/03/26 15:00:18 [error] 8545#0: *275 connect() failed (111: Connection refused) while connecting to upstream, client: 93.174.93.136, server: 0.0.0.0:9000, upstream: "139.59.235.183:9000", bytes from/to client:0/0, bytes from/to upstream:0/0
+2017/03/27 12:51:59 [error] 8545#0: *418 connect() failed (111: Connection refused) while connecting to upstream, client: 61.164.149.128, server: 0.0.0.0:9000, upstream: "139.59.235.183:9000", bytes from/to client:0/0, bytes from/to upstream:0/0
+2017/03/27 12:51:59 [error] 8545#0: *418 connect() failed (111: Connection refused) while connecting to upstream, client: 61.164.149.128, server: 0.0.0.0:9000, upstream: "139.59.104.90:9000", bytes from/to client:0/0, bytes from/to upstream:0/0
+2017/03/27 12:52:01 [error] 8544#0: *421 connect() failed (111: Connection refused) while connecting to upstream, client: 61.164.149.128, server: 0.0.0.0:9000, upstream: "139.59.104.90:9000", bytes from/to client:0/0, bytes from/to upstream:0/0
+2017/03/27 12:52:01 [error] 8544#0: *421 connect() failed (111: Connection refused) while connecting to upstream, client: 61.164.149.128, server: 0.0.0.0:9000, upstream: "139.59.235.183:9000", bytes from/to client:0/0, bytes from/to upstream:0/0
+2017/03/27 12:52:03 [error] 8545#0: *424 no live upstreams while connecting to upstream, client: 61.164.149.128, server: 0.0.0.0:9000, upstream: "backend", bytes from/to client:0/0, bytes from/to upstream:0/0
+2017/03/27 12:52:04 [error] 8545#0: *425 no live upstreams while connecting to upstream, client: 61.164.149.128, server: 0.0.0.0:9000, upstream: "backend", bytes from/to client:0/0, bytes from/to upstream:0/0
+2017/03/27 12:52:05 [error] 8544#0: *426 connect() failed (111: Connection refused) while connecting to upstream, client: 61.164.149.128, server: 0.0.0.0:9000, upstream: "139.59.235.183:9000", bytes from/to client:0/0, bytes from/to upstream:0/0
+2017/03/27 12:52:05 [error] 8544#0: *426 connect() failed (111: Connection refused) while connecting to upstream, client: 61.164.149.128, server: 0.0.0.0:9000, upstream: "139.59.104.90:9000", bytes from/to client:0/0, bytes from/to upstream:0/0
+2017/03/27 14:21:47 [error] 8545#0: *432 connect() failed (111: Connection refused) while connecting to upstream, client: 185.163.109.66, server: 0.0.0.0:9000, upstream: "139.59.104.90:9000", bytes from/to client:0/0, bytes from/to upstream:0/0
+2017/03/27 14:21:47 [error] 8545#0: *432 connect() failed (111: Connection refused) while connecting to upstream, client: 185.163.109.66, server: 0.0.0.0:9000, upstream: "139.59.235.183:9000", bytes from/to client:0/0, bytes from/to upstream:0/0
+2017/03/27 19:18:07 [error] 8545#0: *441 connect() failed (111: Connection refused) while connecting to upstream, client: 93.174.93.136, server: 0.0.0.0:9000, upstream: "139.59.235.183:9000", bytes from/to client:0/0, bytes from/to upstream:0/0
+2017/03/27 19:18:07 [error] 8545#0: *441 connect() failed (111: Connection refused) while connecting to upstream, client: 93.174.93.136, server: 0.0.0.0:9000, upstream: "139.59.104.90:9000", bytes from/to client:0/0, bytes from/to upstream:0/0

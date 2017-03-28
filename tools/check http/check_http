@@ -1,0 +1,35 @@
+#!/bin/bash
+
+if [ "$1" == "" ]
+    then
+    echo "Usage: check_http hostname"
+else
+    status=`curl -I $1 | head -n 1`
+    code=`echo $status |  awk -F" " '{print $2}'`
+    case $code in
+        [100-199]*)
+        echo "Information: $status"
+        exit 0
+        ;;
+        [200-299]*)
+        echo "Success: $status"
+        exit 0    
+        ;;
+        [300-399]*)
+        echo "Forwarding: $status"
+        exit 1    
+        ;;
+        [400-499]*)
+        echo "Client Error: $status"
+        exit 2    
+        ;;
+        [500-599]*)
+        echo "Server Error: $status"
+        exit 3
+        ;;
+        *)
+        echo "Error Unknown: $status"
+        exit 3
+        ;;
+    esac
+fi
