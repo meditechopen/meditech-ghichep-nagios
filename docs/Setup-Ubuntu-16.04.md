@@ -28,7 +28,7 @@
 
 #### Bảng phân IP cho các host
 
-<img src="../images/IP-Planning.png>
+<img src="../images/IP-Planning.png />
 
 Link docs: https://goo.gl/yOim1o
 
