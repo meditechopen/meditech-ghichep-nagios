@@ -7,7 +7,7 @@
 
 ### Giám sát dịch vụ:
 
-- [MariaDB/MySQL](docs/Monitor-MySQL.md)
-- [RabbitMQ](docs/Monitor-RabbitMQ.md)
+- [MariaDB/MySQL](docs/services/Monitor-MySQL.md)
+- [RabbitMQ](docs/services/Monitor-RabbitMQ.md)
 
 **Còn tiếp...**
