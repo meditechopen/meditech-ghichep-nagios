@@ -104,7 +104,7 @@ cd /usr/local/nagios/libexec/
 
 Kết quả trả về có dạng, cho biết plugin hoạt động ổn định:
 
-<img src="../images/test-plugin-mysql.png"
+<img src="../../images/test-plugin-mysql.png" />
 <a name="2.3"></a>
 #### 2.3 Thêm thông tin host và giám sát
 
@@ -283,4 +283,4 @@ systemctl restart nagios
 
 Kiểm tra lại trên Web, **Current status > Services > db-mysql01**
 
-<img src="../images/plugin-mysql2.png" />
+<img src="../../images/plugin-mysql2.png" />
