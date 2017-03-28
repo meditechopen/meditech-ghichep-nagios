@@ -11,8 +11,8 @@
 ### 1. Thông tin host RabbitMQ
 
 ```
-OS: Ubuntu 16.04
-IP: 192.168.100.136
+OS: CentOS 7
+IP: 192.168.100.198
 Hostname: node1
 Service: RabbitMQ
 ```
@@ -64,7 +64,7 @@ vi /etc/hosts
 
 ```
 ...
-192.168.100.136 node1
+192.168.100.198 node1
 ```
 
 Kiểm tra plugin, bằng lệnh sau:

@@ -192,9 +192,9 @@ vi /usr/local/nagios/etc/servers/Web-1.cfg
 ```
 define host {
 use                             linux-server
-host_name                       web-01		
-alias                           web-01	
-address                         192.168.100.135
+host_name                       web01		
+alias                           web01	
+address                         192.168.100.199
 max_check_attempts              5
 check_period                    24x7
 notification_interval           30
@@ -202,7 +202,7 @@ notification_period             24x7
 }
 define service {
     use                 generic-service
-    host_name           web-01
+    host_name           web01
     service_description HTTP
     check_command       check_http
     normal_check_interval           5 
