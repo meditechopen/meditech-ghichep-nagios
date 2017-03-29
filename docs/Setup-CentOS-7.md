@@ -11,11 +11,23 @@
     - [2.2 Cài đặt NRPE](#2.2)
     - [2.3 Khởi động Nagios Server](#2.3)
     - [2.4 Cấu hình giám sát host Linux](#2.4)
+    - [2.5 Giám sát dịch vụ MySQL](#2.5)
+    - [2.6 Giám sát dịch vụ RabbitMQ](#2.6)
 - [3. Tham khảo](#3)
 
 
 <a name="1.1"></a>
 #### 1.1 Chuẩn bị môi trường cài đặt
+
+#### Mô hình cài đặt giám sát các host như sau:
+
+<img src="../images/topo.png" />
+
+#### Bảng phân IP cho các host
+
+<img src="../images/IP-Planning.png" />
+
+Link docs: https://goo.gl/yOim1o
 
 Để có thể cài đặt và sử dụng được Nagios Core, chúng ta phải cài đặt một số thư viện và các gói dịch vụ đi kèm.
 
@@ -180,9 +192,9 @@ vi /usr/local/nagios/etc/servers/Web-1.cfg
 ```
 define host {
 use                             linux-server
-host_name                       web-01		
-alias                           web-01	
-address                         192.168.100.135
+host_name                       web01		
+alias                           web01	
+address                         192.168.100.199
 max_check_attempts              5
 check_period                    24x7
 notification_interval           30
@@ -190,7 +202,7 @@ notification_period             24x7
 }
 define service {
     use                 generic-service
-    host_name           web-01
+    host_name           web01
     service_description HTTP
     check_command       check_http
     normal_check_interval           5 
@@ -213,6 +225,16 @@ systemctl restart nagios
 Vào giao diện Web để kiểm tra
 
 <img src="../images/nagios2.png" />
+
+<a name="2.5"></a>
+#### 2.5 Giám sát MySQL
+
+Vui lòng bấm vào [đây](../docs/services/Monitor-MySQL.md).
+
+<a name="2.6"></a>
+#### 2.6 Giám sát RabbitMQ
+
+Vui lòng bấm vào [đây](../docs/services/Monitor-RabbitMQ.md).
 
 <a name="3"></a>
 ### 3. Tham khảo
