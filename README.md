@@ -16,7 +16,7 @@
 
 #### Phần 2: Thực hành
 
-- 1. Hướng dẫn cài đặt
+- [1. Hướng dẫn cài đặt](docs/thuchanh-nagios/)
     - Trên [CentOS 7](docs/thuchanh-nagios/1.Setup-CentOS-7.md)
     - Trên [Ubuntu 16.04](docs/thuchanh-nagios/1.Setup-Ubuntu-16.04.md)
 - [2. Cài đặt Mail cảnh báo](docs/thuchanh-nagios/2.Setup-Mail-alert.md)
