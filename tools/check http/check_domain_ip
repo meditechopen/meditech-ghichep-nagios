@@ -1,0 +1,19 @@
+#!/bin/bash
+#echo "Check last `date`" >> /opt/cron-countip.txt
+name="$1"
+
+ip=`cat /etc/hosts | grep -w "$name" | awk {'print $1'}`
+rel=`nslookup $name | grep -w "$ip" | awk '{print $2}'`
+ip2=`nslookup $name | grep -w "Address" | sed '1d' | awk '{print $2}'`
+if [ -z "$rel" ]
+    then 
+   # echo "Bi thay doi:" $ip2
+   # sed -i "/$name/d" /etc/hosts
+   # echo "$ip2 $name" >> /etc/hosts
+    echo -e "Ten mien: $name da bi thay doi dia chi IP.\nCu the:\n- IP cu: $ip\n- IP moi: $ip2\n- Thoi gian check: `date`"
+# | mail -s "V.v Ten mien $name bi thay doi IP" daohuyhoang87@gmail.com
+    exit 2
+else
+    echo "OK." IP khong bi thay doi. $rel
+    exit 0
+fi

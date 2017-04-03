@@ -25,7 +25,7 @@ else
         ;;
         [500-599]*)
         echo "Server Error: $status"
-        exit 3
+        exit 2
         ;;
         *)
         echo "Error Unknown: $status"
