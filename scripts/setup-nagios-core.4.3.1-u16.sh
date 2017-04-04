@@ -67,7 +67,7 @@ systemctl start nagios.service
                  Username: nagiosadmin
                  Password: nagios"
 
-// Nang cao, phan them host tu dong
+# Nang cao, phan them host tu dong
 create_host()
 {
     read -p "Enter hostname: " HOST

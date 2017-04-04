@@ -48,6 +48,7 @@ make install-daemon-config
 
 ip_addr=` ip addr | grep 'state UP' -A2 | tail -n1 | awk -F'[/ ]+' '{print $3}'`
 sed -i "s/127.0.0.1/127.0.0.1 $ip_addr/g" /etc/xinetd.d/nrpe
+echo -e "nrpe \t\t5666/tcp" >> /etc/services
 systemctl restart xinetd.service
 
 sed -e '/#cfg_dir=\/usr\/local\/nagios\/etc\/servers/ s/^#*//' -i /usr/local/nagios/etc/nagios.cfg
