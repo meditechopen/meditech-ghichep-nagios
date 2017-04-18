@@ -4,6 +4,7 @@
 - Tổng quan về Nagios
 - Các cơ chế của Nagios
 - Hướng dẫn sử dụng Nagios dashboard
+- Ghi chép Soft và Hard States
 
 ## Thực hành
 - Cài đặt Nagios Core
