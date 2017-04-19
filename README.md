@@ -13,6 +13,7 @@
 
 - [1. Tổng quan về Nagios](docs/lythuyet-nagios/1.TongQuan.md)
 - [2. Giới thiệu Dashboard](docs/lythuyet-nagios/2.Dashboard.md)
+- [3. Những ghi chép trong cuốn Learning Nagios 4](https://github.com/meditechopen/meditech-ghichep-nagios/blob/master/docs/lythuyet-nagios/3.Soft%26Hard-States.md)
 
 #### Phần 2: Thực hành
 
