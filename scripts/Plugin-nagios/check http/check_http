@@ -2,7 +2,7 @@
 
 if [ "$1" == "" ]
     then
-    echo "Usage: check_http hostname"
+    echo "Usage: ./check_http HOSTNAME"
 else
     status=`curl -I $1 | head -n 1`
     code=`echo $status |  awk -F" " '{print $2}'`
