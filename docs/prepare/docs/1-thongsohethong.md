@@ -77,7 +77,7 @@ CPU được ráp sẵn trong các bộ mạch với hàng trăm con chip khác.
 
 ### Các thành phần .
 
-![cpu_1](/images/cpu_1.png)
+![cpu_1](/prepare/images/cpu_1.png)
 
 CPU có 3 khối chính là : 
 
