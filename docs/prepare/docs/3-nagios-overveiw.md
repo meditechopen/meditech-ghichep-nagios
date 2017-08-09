@@ -1,6 +1,6 @@
 # Tổng quan về Nagios.
 
-![](/images/nagios.png)
+![](/docs/prepare/images/nagios.png)
 
 
 ======================================================
@@ -22,7 +22,7 @@
 =======================================================
 
 <a name="1"></a>
-## 1. Hệ thống giám sát mạng. [top](#top)
+## 1. Hệ thống giám sát mạng.
 
 Giám sát mạng là một thuật ngữ dùng để chỉ việc sử dụng liên tục một hệ thống (có thể là một chương trình hoặc một thiết bị) 
 để theo dõi tất cả các hoạt động của các thiết bị, các dịch vụ trong một hệ thống mạng.
@@ -84,10 +84,10 @@ Những sự cố khách quan có thể xảy ra với hệ thống
 - Đường dây mạng bị đứt.
 
 <a name="2"></a>
-## 2. Tổng quan về Nagios. [top](#top)
+## 2. Tổng quan về Nagios.
 
 <a name="2.1"></a>
-### 2.1.Nagios là gì? [top](#top)
+### 2.1.Nagios là gì?
 
 Nagios là một hệ thống giám sát mạnh mẽ cho phép các tổ chức xác định và giải quyết các vấn đề cơ sở hạ tầng CNTT trước khi chúng ảnh hướng đến quá trình kinh doanh quan trọng
 
@@ -125,7 +125,7 @@ Nagios hỗ trợ người quản trị trong việc  :
 - Tùy chọn giao diện web để xem tình trạng mạng hiện có, thông báo và lịch sử các vấn đề, đăng nhập tập tin,…
 
 <a name="2.2"></a>
-### 2.2. Một số chức năng chính của Nagios. [top](#top)
+### 2.2. Một số chức năng chính của Nagios. 
 
 Cảnh báo: Nagios gửi cảnh báo khi có thành phần cơ sở hạ tầng bất ổn định và phục hồi, cung cấp cho các quản trị 
 viên thông báo của các sự kiện quan trọng. Cảnh báo có thể được gửi qua email, SMS, hay tùy chỉnh.
@@ -141,7 +141,7 @@ Bảo trì: Dự kiến thời gian ngừng làm việc ngăn cản các cảnh 
 Kế hoạch: Lập lịch đồ thị và báo cáo xu hướng và công suất cho phép bạn xách định sự cần thiết nâng cấp cơ sở hạ tầng trước khi xảy ra sự cố.
 
 <a name="2.3"></a>
-### 2.3. Đặc điểm của Nagios. [top](#top)
+### 2.3. Đặc điểm của Nagios. 
 
 Giám sát toàn diện
 
@@ -216,12 +216,12 @@ Mã nguồn tùy chỉnh
 - Phát hành theo giấy phép GPL (General Public License_Giấy phép công cộng).
 
 <a name="2.4"></a>
-### 2.4. Kiến trúc của nagios. [top](#top)
+### 2.4. Kiến trúc của nagios. 
 
 Hệ thống Nagios gồm hai phần chính:
 
 <a name="2.4.1"></a>
-#### 2.4.1. Nagios core. [top](#top)
+#### 2.4.1. Nagios core. 
 
 Nagios core là công cụ giám sát và cảnh báo, nó làm việc như các ứng dụng chính trên hàng trăm dự ansNagios được xây dựng. 
 Nó làm việc như là lịch trình sự kiện cơ bản, xử lý sự kiện,và quản lý thông báo cho các phần tử được theo dõi. Nó khắc họa 
@@ -230,7 +230,7 @@ thực hiện nhiệm vụ bổ sung, được thực hiện như một tiến t
 tự nhiên trên hệ thống Linux/* nix.
 
 <a name="2.4.2"></a>
-#### 2.4.2. Nagios Plugins. [top](#top)
+#### 2.4.2. Nagios Plugins. 
 
 Nagios plugins là phần mở rộng độc lập để Nagios Core cung cấp ở mức độ thấp về cách theo dõi bất cứ điều gì và tất cả mọi thứ 
 với Nagios Core. Plugins hoạt động như các ứng dụng độc lập, nhưng thương được thiết kế để thực thi bởi Nagios Core.
@@ -241,9 +241,9 @@ Plugin có thể được biên dịch nhị phân (viết bằng C, C++, …) h
 Ngoài ra, còn có các thành phần Nagios Frontends, Nagios Configtools.
 
 <a name="2.5"></a>
-### 2.5. Cách thức hoạt động của nagios. [top](#top)
+### 2.5. Cách thức hoạt động của nagios.
 
-![nagios-architect](/images/nagios-architect.png)
+![nagios-architect](/docs/prepare/images/nagios-architect.png)
 
 Nagios có 5 cách thực thi các hành động kiểm tra:
 
@@ -280,9 +280,9 @@ mạnh của Nagios là thông báo và tổng hợp báo cáo. Nagios sử dụ
 bạn về server Nagios. Công cụ này giúp cho thông tin gửi trên mạng được an toàn hơn vì nó được mã hóa và xác thực.
 
 <a name="2.6"></a>
-### 2.6. Mô tả về cách thức thực hiện kiểm tra của nagios. [top](#top)
+### 2.6. Mô tả về cách thức thực hiện kiểm tra của nagios.
 
-![nagios-test](/images/nagios-test.png)
+![nagios-test](/docs/prepare/images/nagios-test.png)
 
 Hình trên cho ta cái nhìn tổng quan về các cách thức kiểm tra dịch với Nagios. Có 5 client được giám sát bằng 5 cách thức khác nhau:
 

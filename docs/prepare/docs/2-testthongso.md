@@ -465,7 +465,7 @@ Kết quả cho ta thấy lưu lượng tối đa của card mạng này có th�
 
 CHúng ta sẽ nhận được hàng loạt các report báo về như sau ;
 
-![disk-1](/images/disk_1.png)
+![disk-1](/docs/prepare/images/disk_1.png)
 
 Ý nghĩa của các thông số như sau :
  <ul>
@@ -556,7 +556,7 @@ CHúng ta dùng công cụ tress để đẩy lượng RAM lên cao tùy vào m�
 
 - Đầu tiên kiểm tra xem lượng RAM hiện tại đang sử dụng trên máy dùng câu lệnh top :
 
-![ram1](/images/ram1.png)
+![ram1](/docs/prepare/images/ram1.png)
 
 - Sau đó dùng stress để đẩy RAM lên cao  :
 
@@ -569,7 +569,7 @@ CHúng ta dùng công cụ tress để đẩy lượng RAM lên cao tùy vào m�
 - Theo dõi RAM thay đổi qua lênh top chúng ta thấy được RAM đã được đẩy lên trong 1 thời gian ngắn,  việc này giúp chúng ta có 
 thể test các cảnh báo .
 
-![ram2](/images/ram2.png)
+![ram2](/docs/prepare/images/ram2.png)
 
 ### Phân tích qua lệnh free -m.
 
