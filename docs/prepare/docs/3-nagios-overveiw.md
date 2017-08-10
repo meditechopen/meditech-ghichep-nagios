@@ -10,7 +10,7 @@
 [1. Hệ thống giám sát mạng.](#1)</br>
 [2. Tổng quan về Nagios.](#2)
   - [2.1.Nagios là gì?](#2.1)
-  - [2.2. Một số chức năng chính của Nagios.](#2.2)
+  - [2.2. Tổng hợp một số chức năng chính của Nagios.](#2.2)
   - [2.3. Đặc điểm của Nagios.](#2.3)
   - [2.4. Kiến trúc của nagios.](#2.4)
     - [2.4.1. Nagios core.](#2.4.1)
@@ -229,9 +229,76 @@ lần thứ nhì trong phần sản phẩm ShowNet của giải Best of Show Int
 |Customized Dashboards|Một giao diện mạnh mẽ cung cấp cho tùy biến bố trí, thiết kế và sở thích trên cơ sở người dùng mỗi lần, cho khách hàng của bạn và các thành viên trong nhóm sự linh hoạt mà họ muốn. Người dùng có thể tạo trang tổng quan tùy chỉnh trong giao diện web để xem quan điểm nhanh của dữ liệu quan trọng nhất đối với họ. Người dùng cũng có thể dễ dàng chia sẻ bảng điều khiển với một URL tùy chỉnh để tăng cường sự hợp tác của đội.|
 |Network Insights|Máy chủ Nagios Log cung cấp cho người dùng nhận thức về cơ sở hạ tầng của họ. Lặn sâu vào các sự kiện mạng, nhật ký và sự kiện bảo mật. Sử dụng Log Server để cung cấp các bằng chứng cần thiết để theo dõi các mối đe dọa bảo mật và nhanh chóng giải quyết các lỗ hổng với các thông báo và cảnh báo được cài sẵn.|
 
+- Bảng liệt kê các tính năng.
+
+|Tính năng|Chi tiết|
+|---------|--------|
+|Comprehensive Dashboards|Hệ thống bảng điều khiển mạnh mẽ cung cấp cho người dùng khả năng truy vấn, lọc và phân tích sự kiện nhật ký đến.|
+|High Availability & Failover|Máy chủ nhật ký sử dụng một cụm máy chủ lưu trữ dữ liệu nhật ký để tránh mất dữ liệu và đảm bảo tính sẵn có của thông tin đăng nhập của bạn.|
+|Alerting|Tạo cảnh báo dựa trên các truy vấn có các ngưỡng cụ thể và gửi cho các thành viên thích hợp.|
+|Setup Wizards|Nhận dữ liệu nhật ký từ nguồn được chỉ định chỉ với một vài cú nhấp chuột bằng cách dễ dàng thực hiện theo các hướng dẫn từng bước.|
+|Quick Search & Query|Tìm kiếm với nhiều truy vấn và bộ lọc cho phép bạn nhanh chóng tìm ra vấn đề chính xác mà bạn đang tìm kiếm.|
+|Extendable Architecture|Quản trị viên có quyền truy cập đầy đủ vào API backend cho phép tùy chỉnh vô hạn với các ứng dụng của bên mình và bên thứ ba.|
+|Real-Time Data|Xem dữ liệu đăng nhập từ tất cả các máy chủ của bạn trong thời gian thực, cho phép bạn phân tích và giải quyết các vấn đề khi chúng xảy ra.|
+|Highly Scalable|Bạn có thể dễ dàng thêm các trường hợp cluster khác để cung cấp cho hệ thống của bạn mạnh mẽ hơn, tốc độ, dung lượng lưu trữ và độ tin cậy cao hơn.|
+
+#### 3. Netflow Analysis, Monitoring, and Bandwidth Utilization Software.
+
+- Bảng liệt kê các lợi ích của phiên bản.
+
+|Lợi ích|chi tiết|
+|---------|----------------|
+|Extensive Network Analysis|Network Analyzer cung cấp một cái nhìn sâu vào tất cả các nguồn lưu lượng mạng và các mối đe dọa bảo mật tiềm ẩn cho phép các quản trị viên hệ thống nhanh chóng thu thập thông tin cấp cao về sức khoẻ của mạng cũng như dữ liệu hạt rất cao để phân tích mạng hoàn chỉnh và toàn diện.|
+|Intuitive Design|Với giao diện web mạnh mẽ và trực quan, Network Analyzer rất dễ sử dụng, đồng thời cung cấp hiệu năng và tốc độ tối ưu. Network Analyzer liên tục tích hợp với giải pháp giám sát mạng của nagios, Nagios XI, cho phép hợp nhất các cảnh báo và thông báo cũng như duy trì một mạng lưới an toàn và an toàn. Dễ dàng thiết lập các cảnh báo và thêm các nguồn bằng trình thuật toán trực quan của Network Analyzer chỉ với một vài cú nhấp chuột.|
+|Network Clarity|Network Analyzer cung cấp một cái nhìn trung tâm về dữ liệu lưu lượng truy cập mạng và dữ liệu băng thông cũng như sự phân chia lưu lượng mạng. Bảng điều khiển mạnh mẽ cung cấp chế độ xem nhanh các nguồn dữ liệu dòng chảy hoặc luồng dữ liệu quan trọng, số liệu hệ thống máy chủ và hành vi mạng bất thường để đánh giá nhanh về sức khoẻ của mạng. Người dùng có thể dễ dàng tìm hiểu thông tin cụ thể về từng IP, cổng nguồn, cổng đích hoặc bất kỳ sự kết hợp nào của nó.|
+|In-Depth Insight|Khả năng cảnh báo và báo cáo tiên tiến của Network Analyzer cung cấp cho nhân viên CNTT nhận thức cao về mạng của họ. Có thể truy cập và lưu trữ dữ liệu chi tiết, chi tiết đến từng gói dữ liệu để theo dõi và phân tích thêm. Khi các ngưỡng quan trọng được vượt quá, hoạt động mạng bất thường xảy ra hoặc các yêu cầu về băng thông đã được đáp ứng, Network Analyzer có thể kích hoạt cảnh báo cho phép Quản trị viên bắt đầu giải quyết các vấn đề ngay lập tức.|
+|Adaptability|Tạo môi trường Mạng Analyzer thể hiện bản sắc mạng của bạn. Nhóm nguồn cho phép Quản trị viên tổ chức các nguồn tương tự cũng như áp dụng chế độ xem và truy vấn vào nhiều nguồn đồng thời và với các thông số chính xác của bạn. Bổ sung thêm các tính năng cho phép người sử dụng Network Analyzer để đẩy thông báo SNMP để giám sát và hệ thống quản lý SNMP trap. Network Analyzer thích ứng với môi trường hiện tại của bạn để thực hiện một quá trình triển khai không quá khó khăn chỉ mất vài phút để bắt đầu và chạy.|
+|Bandwidth Utilization Calculator|Một máy tính sử dụng băng thông có thể tuỳ chỉnh được bao gồm cho phép tạo báo cáo để tóm tắt việc sử dụng băng thông trên mỗi nguồn, IP hoặc bất kỳ sự kết hợp nào mà người dùng mong muốn.|
+
+
+- Bảng liệt kê các tính năng.
+
+|Tính năng|Chi tiết|
+|---------|--------|
+|Comprehensive Dashboard|Trang tổng quan nhà cung cấp tổng quan cấp cao về các nguồn, kiểm tra, dữ liệu luồng dữ liệu mạng và nhiều hơn nữa.|
+|Security and Reliability|Trình phân tích mạng có khả năng cảnh báo người dùng khi hoạt động đáng ngờ xảy ra trên mạng.|
+|Advanced Visualizations|Hình ảnh nâng cao cung cấp thông tin chi tiết sâu sắc, nhanh chóng về lưu lượng mạng, băng thông và sức khoẻ tổng thể của mạng.|
+|Custom Application Monitoring|Các truy vấn, lượt xem và báo cáo được cá nhân cung cấp cho bạn khả năng giám sát việc sử dụng mạng của các ứng dụng cụ thể.|
+|Automated Alert System|Nhận cảnh báo khi hoạt động bất thường diễn ra hoặc khi quá trình sử dụng băng thông vượt quá ngưỡng quy định của bạn.|
+|Seamless Nagios XI Integration|Tích hợp với Nagios XI để xem chính xác Mạng Analyzer máy chủ tải và không gian đĩa cứng từ bên trong hệ thống XI.|
+|Advanced User Management|Tùy chọn người dùng nâng cao cho phép các đội CNTT cùng làm việc hiệu quả để giữ cho mạng hoạt động trơn tru.|
+
+#### 4. Nagios Core "The open source industry standard in IT infrastructure monitoring and alerting"
+
+- Bảng liệt kê các lợi ích của phiên bản.
+
+|Lợi ích|chi tiết|
+|-------|--------|
+|Monitoring|Nhân viên CNTT cấu hình Nagios để theo dõi các thành phần cơ sở hạ tầng CNTT quan trọng, bao gồm hệ thống số liệu, giao thức mạng, ứng dụng, dịch vụ, máy chủ và cơ sở hạ tầng mạng.|
+|Alerting|Nagios gửi thông báo khi các thành phần cơ sở hạ tầng quan trọng bị fail và phục hồi, cung cấp cho các quản trị viên thông báo các sự kiện quan trọng. Cảnh báo có thể được gửi qua email, SMS hoặc tập lệnh tùy chỉnh.|
+|Response|Nhân viên CNTT có thể nhận cảnh báo và bắt đầu giải quyết sự cố và điều tra các cảnh báo bảo mật ngay lập tức. Cảnh báo có thể được leo thang đến các nhóm khác nhau nếu cảnh báo không được công nhận kịp thời.|
+|Reporting|Báo cáo cung cấp bản ghi lịch sử về sự cố, sự kiện, thông báo và phản hồi thông báo để xem xét sau. Báo cáo khả dụng giúp đảm bảo SLA của bạn đang được đáp ứng.|
+|Maintenance|Thời gian ngừng hoạt động theo lịch trình sẽ được lên lịch để ngăn ngừa các cảnh báo trong thời gian bảo trì và nâng cấp.|
+|Planning|Đồ thị và báo cáo về xu hướng và năng suất cho phép bạn xác định các nâng cấp cơ sở hạ tầng cần thiết trước khi xảy ra sự cố.|
+|Free|!!!|
+
+- Bảng liệt kê các tính năng.
+
+|Tính năng|Chi tiết|
+|---------|--------|
+|Comprehensive Monitoring|Core cung cấp giám sát tất cả các thành phần cơ sở hạ tầng quan trọng trong cơ sở hạ tầng CNTT của bạn.|
+|Visibility|Đạt được chế độ xem tập trung về toàn bộ hoạt động CNTT của bạn và xem lại thông tin trạng thái chi tiết thông qua giao diện web.|
+|Awareness|Cảnh báo với khả năng leo thang được gửi tới nhân viên CNTT thông qua email và SMS để đảm bảo phát hiện nhanh các tình trạng như cúp điện.|
+|Problem Remediation|Trình xử lý sự kiện có thể tự động khởi động lại các ứng dụng, máy chủ, thiết bị và dịch vụ không thành công khi có sự cố.|
+|Proactive Planning|Việc mở rộng quy hoạch khả năng và năng lực cho phép bạn lập kế hoạch nâng cấp.|
+|Reporting|Các báo cáo khả dụng đảm bảo SLA đang được đáp ứng và các báo cáo lịch sử cung cấp hồ sơ về các thông tin quan trọng.|
+|Multi-Tenant Capabilities|Chế độ xem người dùng đa người dùng và quan điểm người dùng cụ thể có thể được định cấu hình để đảm bảo khách hàng xem thông tin cụ thể.|
+|Extendable Architecture|Nhiều API cung cấp tích hợp với ứng dụng của bên thứ ba và các tiện ích do cộng đồng phát triển.|
+
+
 
 <a name="2.2"></a>
-### 2.2. Một số chức năng chính của Nagios. 
+### 2.2. Tổng hợp một số chức năng chính của Nagios. 
 
 Cảnh báo: Nagios gửi cảnh báo khi có thành phần cơ sở hạ tầng bất ổn định và phục hồi, cung cấp cho các quản trị 
 viên thông báo của các sự kiện quan trọng. Cảnh báo có thể được gửi qua email, SMS, hay tùy chỉnh.
