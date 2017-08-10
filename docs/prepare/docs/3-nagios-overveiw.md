@@ -205,6 +205,14 @@ lần thứ nhì trong phần sản phẩm ShowNet của giải Best of Show Int
 
 |Tính năng|Chi tiết|
 |---------|--------|
+|Powerful Monitoring Engine|Nagios XI sử dụng công cụ giám sát Nagios Core 4 mạnh mẽ để cung cấp cho người dùng hiệu quả, khả năng mở rộng theo dõi.|
+|Updated Web Interface|Trang tổng quan mới của bạn cung cấp tổng quan cấp cao về host, services và network devices.|
+|Advanced Graphs & More|Quản trị viên có thể dễ dàng xem sự cố mạng và giải quyết chúng trước khi chúng trở thành những thảm họa lớn.|
+|Capacity Planning|Biểu đồ quy hoạch xu hướng và năng suất được tích hợp tự động cho phép các tổ chức lên kế hoạch nâng cấp.|
+|Configuration Wizards|Nhanh chóng thay đổi! Đơn giản chỉ cần nhập các thông tin cần thiết, và bạn đang lên và theo dõi với một vài cú nhấp chuột đơn giản.|
+|Infrastructure Management|Tập hơn số lượng lớn máy chủ, Tự động Phát hiện, Tự động Tạm ngừng, đưa ra cái nhìn tổng quan và nhiều hơn nữa!|
+|Configuration Snapshot|Lưu các cấu hình gần đây nhất của bạn. Lưu trữ nó. Revert lại bất cứ khi nào bạn muốn. Không bao giờ mất nó một lần nữa.|
+|Advanced User Management|Dễ dàng thiết lập và quản lý tài khoản người dùng chỉ với một vài cú nhấp chuột sau đó chỉ định các vai trò tùy chỉnh để đảm bảo một môi trường an toàn.|
 
 #### 2. 
 
