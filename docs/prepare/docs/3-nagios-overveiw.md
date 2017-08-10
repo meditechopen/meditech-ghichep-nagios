@@ -214,7 +214,21 @@ lần thứ nhì trong phần sản phẩm ShowNet của giải Best of Show Int
 |Configuration Snapshot|Lưu các cấu hình gần đây nhất của bạn. Lưu trữ nó. Revert lại bất cứ khi nào bạn muốn. Không bao giờ mất nó một lần nữa.|
 |Advanced User Management|Dễ dàng thiết lập và quản lý tài khoản người dùng chỉ với một vài cú nhấp chuột sau đó chỉ định các vai trò tùy chỉnh để đảm bảo một môi trường an toàn.|
 
-#### 2. 
+#### 2. Centralized Log Management, Monitoring and Analysis Software.
+
+- Bảng liệt kê các lợi ích của phiên bản.
+
+|Lợi ích|chi tiết|
+|---------|----------------|
+|Ease of Use|Máy chủ Log Nagios đơn giản hóa quá trình tìm kiếm dữ liệu đăng nhập của bạn. Thiết lập các cảnh báo để thông báo cho bạn khi các mối đe dọa tiềm ẩn xuất hiện hoặc chỉ cần truy vấn dữ liệu nhật ký để kiểm tra nhanh bất kỳ hệ thống nào. Với Nagios Log Server, bạn sẽ nhận được tất cả các dữ liệu nhật ký của mình ở một vị trí, với tính sẵn sàng cao và khả năng vượt qua. Nhanh chóng cấu hình các máy chủ của bạn để gửi tất cả dữ liệu đăng nhập với các trình hướng dẫn cài đặt nguồn dễ dàng và bắt đầu giám sát các bản ghi của bạn chỉ trong vài phút.|
+|Infinite Scalability|Máy chủ Nagios Log có thể mở rộng để đáp ứng nhu cầu của toàn bộ cơ sở hạ tầng IT của bạn, vì vậy khi tổ chức của bạn phát triển, bạn có thể dễ dàng bổ sung thêm các trường hợp Nagios Log Server vào nhóm giám sát của bạn. Điều này cho phép bạn nhanh chóng thêm nhiều sức mạnh, tốc độ, lưu trữ và độ tin cậy vào nền tảng phân tích đăng nhập tổng thể của bạn. Nagios Log Server được thiết kế cho các tổ chức có kích thước bất kỳ và có thể thích ứng với một nút bấm.|
+|Your Data in Real Time|Dễ dàng tương quan các sự kiện đăng nhập trên tất cả các máy chủ trong một vài cú nhấp chuột. Nagios Log Server cho phép bạn xem các dữ liệu đăng nhập trong thời gian thực, cung cấp khả năng phân tích và giải quyết nhanh các vấn đề khi chúng xảy ra. Điều này giúp tổ chức của bạn an toàn, bảo mật và hoạt động trơn tru.|
+|Adaptability|Nagios Log Server có một API hoàn toàn có thể truy cập cho phép tích hợp hoàn chỉnh để phù hợp với nhu cầu của các ứng dụng bên ngoài của bạn. Máy chủ Nagios Log dễ dàng tích hợp với các giải pháp của bên thứ ba hoặc cơ sở hạ tầng hiện tại của bạn.|
+|Network Security|Nagios Log Server là một giải pháp hàng đầu được thiết kế hoàn hảo cho việc kiểm tra bảo mật và mạng. Dễ dàng tạo cảnh báo từ giao diện web dựa trên các truy vấn và ngưỡng quan trọng nhất đối với bạn. Thông báo cho người dùng thông qua Nagios XI / Nagios Core, email,SNMP hoặc thực hiện một kịch bản để đảm bảo giải quyết nhanh vấn đề. Nagios Log Server cho phép bạn lặn sâu vào vấn đề để giúp bạn tìm ra giải pháp. Ngoài ra, Nagios Log Server có thể lưu trữ các bản ghi lịch sử của tất cả các sự kiện cần kiểm tra bảo mật, giữ cho tổ chức của bạn tuân thủ các yêu cầu về bảo mật.|
+|Advanced User Management|Khả năng đa người dùng cho phép các đội CNTT cùng làm việc hiệu quả. Quản trị viên có thể thêm, chỉnh sửa và xóa người dùng cũng như thiết lập quyền truy cập. Quản trị viên cũng có thể cấp cho người dùng cụ thể quyền truy cập vào API bên ngoài thông qua khóa truy cập.|
+|Customized Dashboards|Một giao diện mạnh mẽ cung cấp cho tùy biến bố trí, thiết kế và sở thích trên cơ sở người dùng mỗi lần, cho khách hàng của bạn và các thành viên trong nhóm sự linh hoạt mà họ muốn. Người dùng có thể tạo trang tổng quan tùy chỉnh trong giao diện web để xem quan điểm nhanh của dữ liệu quan trọng nhất đối với họ. Người dùng cũng có thể dễ dàng chia sẻ bảng điều khiển với một URL tùy chỉnh để tăng cường sự hợp tác của đội.|
+|Network Insights|Máy chủ Nagios Log cung cấp cho người dùng nhận thức về cơ sở hạ tầng của họ. Lặn sâu vào các sự kiện mạng, nhật ký và sự kiện bảo mật. Sử dụng Log Server để cung cấp các bằng chứng cần thiết để theo dõi các mối đe dọa bảo mật và nhanh chóng giải quyết các lỗ hổng với các thông báo và cảnh báo được cài sẵn.|
+
 
 <a name="2.2"></a>
 ### 2.2. Một số chức năng chính của Nagios. 
