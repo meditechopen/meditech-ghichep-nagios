@@ -188,12 +188,25 @@ lần thứ nhì trong phần sản phẩm ShowNet của giải Best of Show Int
 
 #### 1. Nagios XI (Enterprise Server and Network Monitoring SoftwareEnterprise Server and Network Monitoring Software)
 
+- Bảng liệt kê các lợi ích của phiên bản.
 
-
-|Tên chức năng|chi tiết|
+|Lợi ích|chi tiết|
 |---------|----------------|
 |Comprehensive IT Infrastructure Monitoring| Cung cấp giám sát của tất cả các thành phần cơ sở hạ tầng quan trọng bao gồm các ứng dụng, dịch vụ, hệ điều hành, các giao thức mạng, các hệ thống đo và cơ sở hạ tầng mạng. Hàng trăm addons của bên thứ ba cung cấp cho việc giám sát hầu như tất cả các ứng dụng, dịch vụ và hệ thống trong hệ thống.|
 |Performance|Công cụ giám sát Nagios Core 4 mạnh mẽ cung cấp cho người dùng mức độ cao nhất về việc theo dõi hiệu suất của máy chủ. Các worker process hiệu quả cao cho phép khả năng mở rộng gần như vô hạn và giám sát hiệu quả.|
+|Visibility|Cung cấp một cái nhìn trung tâm về toàn bộ mạng lưới hoạt động CNTT và quy trình kinh doanh của bạn. Các bảng điều khiển mạnh mẽ cung cấp khả năng truy cập thông tin giám sát mạnh mẽ và dữ liệu của bên thứ ba. Chế độ xem giúp người dùng truy cập nhanh vào thông tin mà họ thấy hữu ích nhất.|
+|Proactive Planning & Awareness|Biểu đồ quy hoạch xu hướng và năng suất được tích hợp tự động, cho phép các tổ chức lên kế hoạch nâng cấp cơ sở hạ tầng trước khi hệ thống rơi vào lạc hậu. Cảnh báo được gửi cho nhân viên CNTT, các bên liên quan đến kinh doanh và người dùng cuối qua email hoặc tin nhắn văn bản di động, cung cấp cho họ thông tin để họ có thể bắt đầu giải quyết vấn đề ngay lập tức.|
+|Customizability|Một giao diện mạnh mẽ cung cấp cho tùy biến bố trí, thiết kế và sở thích trên cơ sở người dùng mỗi lần, cho khách hàng của bạn và các thành viên trong nhóm sự linh hoạt mà họ muốn.|
+|Ease of Use|Giao diện cấu hình dựa trên web cho phép quản trị viên có thể dễ dàng kiểm soát việc quản lý cấu hình giám sát, cài đặt hệ thống, và nhiều hơn nữa cho người dùng cuối và các thành viên trong nhóm. Các cấu hình thay đổi hướng dẫn người dùng thông qua quá trình giám sát các thiết bị, dịch vụ và ứng dụng mới - tất cả mà không cần phải hiểu các khái niệm giám sát phức tạp.|
+|Multi-Tenant Capabilities|Truy cập vào giao diện web của nhiều người dùng cho phép các bên liên quan xem trạng thái cơ sở hạ tầng có liên quan. Cá nhân hóa của người dùng cụ thể đảm bảo khách hàng chỉ nhìn thấy các thành phần cơ sở hạ tầng mà họ được ủy quyền cho. Quản lý người dùng nâng cao giúp đơn giản hóa quản trị bằng cách cho phép bạn quản lý tài khoản người dùng một cách dễ dàng. Cung cấp tài khoản người dùng mới với một vài cú nhấp chuột và người dùng tự động nhận được một email với các thông tin đăng nhập của họ.|
+|Extendable Architecture|Nhiều API cho phép tích hợp đơn giản với các ứng dụng của bên thứ ba và bên thứ ba. Hàng ngàn cộng đồng phát triển addons mở rộng giám sát và chức năng cảnh báo. Giao diện tùy chỉnh và phát triển addon có sẵn để điều chỉnh Nagios XI để đáp ứng nhu cầu chính xác của tổ chức bạn.|
+
+- Bảng liệt kê các tính năng.
+
+|Tính năng|Chi tiết|
+|---------|--------|
+
+#### 2. 
 
 <a name="2.2"></a>
 ### 2.2. Một số chức năng chính của Nagios. 
