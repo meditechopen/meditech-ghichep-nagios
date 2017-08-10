@@ -38,7 +38,7 @@ các dịch vụ này không được đảm bào hoạt động bình thường
 - Tài nguyên hệ thống: Các ứng dụng đều đòi hỏi tài nguyên hệ thống, việc giám sát tài nguyên sẽ đảm bảo cho chúng ta có những 
 can thiệp kịp thời, tránh ảnh hưởng đến hệ thống.
 
--   Lưu lượng trong mạng: nhằm đưa ra những giải pháp, ngăn ngừa hiện tượng quá tải trong mạng.
+-  Lưu lượng trong mạng: nhằm đưa ra những giải pháp, ngăn ngừa hiện tượng quá tải trong mạng.
 
 - Các chức năng về bảo mật: nhằm đảm bảo an ninh trong hệ thống.
 
@@ -123,6 +123,73 @@ Nagios hỗ trợ người quản trị trong việc  :
 - Thông báo cho người giám sát khi máy chủ hay dịch vụ có vấn đề và được giải quyết.
 
 - Tùy chọn giao diện web để xem tình trạng mạng hiện có, thông báo và lịch sử các vấn đề, đăng nhập tập tin,…
+
+### Tóm lược về lịch sử của nagios.
+
+- 1996 : Ethan Galstad đã tạo ra một ứng dụng MS-DOS đơn giản để "Ping" các máy chủ Novell Netware và trả về các trang số liệu .
+ ứng dụng này được thiết kết bằng các sử dụng các ứng dụng ở bên thứ 3 ở bên ngoài để thực hiện kiểm tra các máy chủ và gửi các trang 
+Khái niệm về kiến trúc cở bản của nagios được sinh ra.
+
+- 1998 : Ethan đã sử dụng những ý tưởng trước đây của mình để bắt đầu xây dựng một ứng dụng mới và được cải tiến để chạy dưới Linux.
+
+- 1999 : Ethan công bố sản phẩm của mình dưới dạng một dự án mã nguồn mở dưới cái tên "NetSaint". Ông ước tính có thể khoảng vài chục người 
+quan tâm đến sản phẩm này.
+
+- 2002 : Do những vấn đề gặp phải với tên nhãn hiệu "NetSaint" có thể có tác động lâu dài. Ethan quyết định đổi tên dự án thành "nagios"  
+được viết tắt của từ "Nagios Ain’t Gonna Insist On Sainthood" . Phát triển dự án NetSaint Plugins được chuyển đến dự án Nagios Plugins.
+
+- 2005 : Nagios được bình chọn là dự án của tháng (Project of the month-potm) theo bình chọn của  SourceForge.net
+
+- 2006 : Nagios được đánh giá bởi eWeek Labs là một trong số những công cụ phải có của doanh nghiệp. Nagios được đề cập đến như là một 
+"Hot Companies in Open Source" .
+
+- 2007 : Ethan đã thành lập Nagios Enterprises, LLC để cung cấp các dịch vụ tư vấn và phát triển xung quanh nagios. Nagios là sản phẩm cuối cùng 
+trong danh mục 'Công cụ tốt nhất hoặc tiện ích nhất cho người quản trị hệ thống' của giải thưởng cộng đồng SourceForge.net. Cùng năm nagios cũng đạt 
+được giải thưởng "Ứng dụng giám sát mạng của năm" 2007 của LinuxQuestions.org. LinuxWorld.com đánh giá Nagios là một trong "5 công cụ bảo mật mã nguồn 
+mở hàng đầu trong doanh nghiệp". EWeek đánh giá Nagios là một trong những "Ứng dụng mã nguồn mở quan trọng nhất mọi thời đại".
+
+- 2008 : Nagios làm bìa trước của tạp chí Thông tin Tuần báo mang tên "Doanh nghiệp mã nguồn mở". Nagios đoạt giải thưởng "Ứng dụng giám sát mạng trong 
+năm" của LinuxQuestions.org 2008 trong năm thứ hai liên tiếp. Nagios được vinh danh là một trong những Người đoạt giải nhất của Phần mềm nguồn mở Phần mềm 
+Nguồn mở của Infoworld ("BOSSIE") 2008. Nagios đoạt danh hiệu "Server Monitoring". Nagios được tải trực tiếp từ SourceForge.net trên 500.000 lần.
+
+- 2009 : Hợp đồng hỗ trợ hàng năm lần đầu tiên được Nagios Enterprises chính thức cung cấp. Nagios Enterprises đưa ra sản phẩm giám sát thương mại đầu tiên, Nagios XI.
+ Nagios thắng Giải thưởng Reader's Choice 2009 cho "Ứng dụng giám sát yêu thích của Linux". Nagios là người cuối cùng trong Giải thưởng Cộng đồng SourceForge.net năm 2009 
+cho "Công cụ Tốt nhất hoặc Tiện ích dành cho Người quản trị Hệ thống". Nagios đoạt giải thưởng "Ứng dụng giám sát mạng của năm" của LinuxQuestions.org năm thứ ba liên tiếp 
+trong năm thứ ba. Infoworld đặt tên Nagios là một trong số những người đoạt giải nhất của Phần mềm nguồn mở ("BOSSIE") năm 2009. Đây là năm thứ hai liên tiếp Nagios đạt được 
+danh hiệu như vậy. Nagios được đổi tên thành Nagios Core. Nagios Core được tải trực tiếp từ SourceForge.net trên 600.000 lần.
+
+- 2010 : Nagios đoạt giải thưởng "Ứng dụng giám sát mạng của năm" của LinuxQuestions.org năm thứ năm liên tiếp trong năm thứ tư. Nagios đoạt Giải thưởng 
+Linux Journal 2010 Readers’ Choice Award cho "Ứng dụng giám sát tốt nhất". Nagios đã giành được cuộc thăm dò LinuxCon 2010 cho "Các Công cụ Hoạt động CNTT Ưa thích". 
+Nagios Fusion được phát hành như là một bảng điều khiển trung tâm theo dõi máy chủ.
+
+- 2011 : Nagios BPI được phát hành để theo dõi quá trình kinh doanh. Hội nghị Thế giới Nagios đầu tiên được tổ chức tại Saint Paul, MN (Hoa Kỳ). 
+Nagios đoạt giải thưởng "Ứng dụng giám sát mạng của năm" của LinuxQuestions.org năm thứ năm liên tiếp. Nagios đoạt Giải thưởng 
+Linux Journal 2011 Readers’ Choice Award cho "Ứng dụng giám sát tốt nhất". Nagios đoạt giải nguồn mở mã nguồn mở PortalProgramas 2011 trong danh mục "Essential for Communications Networks". 
+Nagios được WebhostingSearch.com trao tặng "Best Web Tool". Nagios được liệt kê trong danh sách SecTools.org của 125 công cụ bảo mật hàng đầu.
+
+-  2012 : NSTI được phát hành để quản lý SNMP. Nagios Incident Manager được phát hành. Hội nghị Thế giới lần thứ hai Nagios được tổ chức tại Saint Paul, MN (Hoa Kỳ). 
+Nagios đoạt giải thưởng "Ứng dụng giám sát mạng của năm" của LinuxQuestions.org năm thứ sáu liên tiếp trong năm thứ sáu. Nagios đoạt Giải thưởng 
+Linux Journal 2012 Readers’ Choice Award cho "Ứng dụng giám sát tốt nhất". Nagios là một dự án đặc trưng trên SourceForget.net.
+
+- 2013 : Nagios Network Analyzer được phát hành để cung cấp phân tích sâu về mô hình lưu lượng mạng. NCPA được phát hành để tăng thêm độ mở rộng cho nagios . 
+Nagios Core 4 được phát hành. Hội nghị Thế giới Nagios lần thứ ba được tổ chức tại Saint Paul, MN (Hoa Kỳ).Nagios giành được giải thưởng "Ứng dụng giám sát mạng của năm" của LinuxQuestions.org năm 
+2013 cho năm thứ bảy liên tiếp. Nagios đoạt Giải thưởng Linux Journal 2013 Readers’ Choice Award cho "Ứng dụng giám sát tốt nhất".
+
+- 2014 : Nagios đã được cài đặt hơn 8 triệu lần kể từ năm 2008. Nagios được đặt tên là Kho tàng ẩn của St. Paul trong Tech{dot}MN. Nagios thông báo rằng nhóm Nagios Plugin đang trải qua một số 
+thay đổi, bao gồm cả việc giới thiệu một người bảo trợ mới. Nagios đoạt giải thưởng "Ứng dụng Theo dõi Mạng của năm" năm 2014 cho năm thứ tám liên tiếp. Hội nghị Thế giới Nagios lần thứ tư được 
+tổ chức tại Saint Paul, MN (Hoa Kỳ). Nagios Log Server được phát hành để cung cấp giám sát đăng nhập cấp doanh nghiệp và quản lý.
+
+- 2015 : Nagios XI 5 đến với hơn 200 cải tiến và đổi mới. Nagios đoạt giải thưởng "Ứng dụng giám sát mạng của năm" năm LinuxQuestions.org năm thứ chín liên tiếp. Nagios Log Server đã được lựa chọn 
+lần thứ nhì trong phần sản phẩm ShowNet của giải Best of Show Interop Tokyo 2015. Hội nghị Nagios World lần thứ năm được tổ chức tại Saint Paul, MN (Hoa Kỳ).
+
+- 2016 : Nagios Core vượt quá 7.500.000 lượt tải xuống trực tiếp từ SourceForge.net. Nagios giành được "Dự án Tháng" của SourceForge cho tháng 10 năm 2016.
+
+### Các chức năng được hỗ trợ bởi các bản Nagios.
+
+|Phiên bản|chức năng hỗ trợ|
+|---------|----------------|
+|Nagios XI (Enterprise Server and Network Monitoring SoftwareEnterprise Server and Network Monitoring Software)|Comprehensive IT Infrastructure Monitoring</br>
+1|
 
 <a name="2.2"></a>
 ### 2.2. Một số chức năng chính của Nagios. 
