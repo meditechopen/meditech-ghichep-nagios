@@ -193,6 +193,7 @@ lần thứ nhì trong phần sản phẩm ShowNet của giải Best of Show Int
 |Tên chức năng|chi tiết|
 |---------|----------------|
 |Comprehensive IT Infrastructure Monitoring| Cung cấp giám sát của tất cả các thành phần cơ sở hạ tầng quan trọng bao gồm các ứng dụng, dịch vụ, hệ điều hành, các giao thức mạng, các hệ thống đo và cơ sở hạ tầng mạng. Hàng trăm addons của bên thứ ba cung cấp cho việc giám sát hầu như tất cả các ứng dụng, dịch vụ và hệ thống trong hệ thống.|
+|Performance|Công cụ giám sát Nagios Core 4 mạnh mẽ cung cấp cho người dùng mức độ cao nhất về việc theo dõi hiệu suất của máy chủ. Các worker process hiệu quả cao cho phép khả năng mở rộng gần như vô hạn và giám sát hiệu quả.|
 
 <a name="2.2"></a>
 ### 2.2. Một số chức năng chính của Nagios. 
