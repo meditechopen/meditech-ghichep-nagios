@@ -188,7 +188,7 @@ lần thứ nhì trong phần sản phẩm ShowNet của giải Best of Show Int
 
 |Phiên bản|chức năng hỗ trợ|
 |---------|----------------|
-|Nagios XI (Enterprise Server and Network Monitoring SoftwareEnterprise Server and Network Monitoring Software)|Comprehensive IT Infrastructure Monitoring</br>1|
+|Nagios XI (Enterprise Server and Network Monitoring SoftwareEnterprise Server and Network Monitoring Software)|Comprehensive IT Infrastructure Monitoring : Cung cấp giám sát của tất cả các thành phần cơ sở hạ tầng quan trọng bao gồm các ứng dụng, dịch vụ, hệ điều hành, các giao thức mạng, các hệ thống đo và cơ sở hạ tầng mạng. Hàng trăm addons của bên thứ ba cung cấp cho việc giám sát hầu như tất cả các ứng dụng, dịch vụ và hệ thống trong hệ thống.</br>|
 
 <a name="2.2"></a>
 ### 2.2. Một số chức năng chính của Nagios. 
