@@ -7,10 +7,10 @@
 <a name="top"></a>
 # Mục Lục.
 
-[1. Hệ thống giám sát mạng.](#1)
+ [1. Hệ thống giám sát mạng.](#1)
   - [1.1 Tổng quan về hệ thống giám sát mạng.](#1.1)
   - [1.2. Những thành phần quan trọng và những tình huống cố hữu xảy ra trong một hệ thống.](#1.2)</br>
-[2. Tổng quan về Nagios.](#2)
+ [2. Tổng quan về Nagios.](#2)
   - [2.1.Nagios là gì?](#2.1)
   - [2.2. Tóm lược về lịch sử của nagios.](#2.2)
   - [2.3. Phân loại phiên bản của Nagios.](#2.3)
@@ -19,7 +19,7 @@
   - [2.6. Kiến trúc của nagios.](#2.6)
     - [2.6.1. Nagios core.](#2.6.1)
     - [2.6.2. Nagios Plugins.](#2.6.2)
-    - [2.6.3. Kiến trúc tổng qua, nội tại và mối quan hệ giữa các thành phần với nhau.](#2.6.3)
+    - [2.6.3. Kiến trúc tổng quan, nội tại và mối quan hệ giữa các thành phần với nhau.](#2.6.3)
   - [2.7. Cách thức hoạt động của nagios.](#2.7)
   - [2.8. Mô tả về cách thức thực hiện kiểm tra của nagios.](#2.8)
 
