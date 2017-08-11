@@ -184,7 +184,7 @@ lần thứ nhì trong phần sản phẩm ShowNet của giải Best of Show Int
 
 - 2016 : Nagios Core vượt quá 7.500.000 lượt tải xuống trực tiếp từ SourceForge.net. Nagios giành được "Dự án Tháng" của SourceForge cho tháng 10 năm 2016.
 
-### Các chức năng được hỗ trợ bởi các bản Nagios.
+### Phân loại phiên bản của Nagios.
 
 #### 1. Nagios XI (Enterprise Server and Network Monitoring SoftwareEnterprise Server and Network Monitoring Software)
 
@@ -412,6 +412,34 @@ Plugins xử lý đối số dòng lệnh, đi về các doanh nghiệp thực h
 Plugin có thể được biên dịch nhị phân (viết bằng C, C++, …) hoặc các bản thực thi (Perl, PHP,…).
 
 Ngoài ra, còn có các thành phần Nagios Frontends, Nagios Configtools.
+
+#### 2.4.3. Kiến trúc tổng qua, nội tại và mối quan hệ giữa các thành phần với nhau.
+
+- Nagios được xây  dựng theo kiến trúc client/server . Nagios kiểm tra các thông tin của máy chủ lưu trữ và các dịch vụ phụ thuộc vào 
+chương trình bên ngoài  (plugins) mà không có bất kỳ cơ chế nội bộ nào làm điều đó. Nagios server thường chạy trên một host và các plugins 
+chạy trên các remote hosts cần được giám sát. Sau đó chúng sẽ gửi thông tin tới máy chủ để hiển thị trong một GUI. 3 thành phần nội tại cần chú ý :
+
+![1](/docs/prepare/images/1.png)
+
+1. Scheduler  : 1 phần của Nagios server được sử dụng để kiểm tra các plugins và gửi thông báo theo kết quả.
+
+2. GUI : Một giao diện của Nagios được sử dụng để hiển thị các trang web được tạo bở CGI . Nó có thể là các nút màu xanh lá cây hoặc đỏ 
+âm thanh, đồ thị,.... Một nút màu xanh lá sẽ bị chuyển thành màu đỏ và phát ra một âm thanh khi một  plugins trả về bị lỗi theo sau để gửi cảnh 
+báo mềm. Khi cảnh báo mềm được nhắc đến  nhiều lần (số lần có thể đượ cấu hình). Một cảnh báo khos có thể được nâng lên , sau đó nagios sẽ gửi thông báo 
+cho quản tri viên.
+
+3. Plugins : Chúng được sử dụng để kiểm tra một dịch vụ và trả về kết quả cho máy chủ Nagios. Ngoài ra, chúng được cấu hình bởi người dùng.
+
+![2](/docs/prepare/images/2.png)
+
+Hình trên cho chúng ta cái nhìn tổng quan về nội bộ của nagios, Nagios có các plugins để theo dõi , nó kết nối vs apache được kiểm soát bởi CGI để hiển thị 
+kết quả. Hơn nữa cơ sở dữ liệu kết nối với nagios để giữ một file log.
+
+![3](/docs/prepare/images/3.png)
+
+Hình ảnh này lại cho chúng ta thấy được kiến trúc bên ngoài của Nagios . Plugins của nagios server kiểm tra csc dịch vụ của máy khác sử dụng 
+plugins của nó , NRPE (sử dụng NRPE để gửi dữ liệu được mã hóa bằng SSL / TSL), SSH (chạy trực tiếp qua sercure shell), SNMP (sử dụng cho máy chủ và các thiết bị mạng) 
+NSCA (Để phân phối tải lên máy chủ nagios)
 
 <a name="2.5"></a>
 ### 2.5. Cách thức hoạt động của nagios.
