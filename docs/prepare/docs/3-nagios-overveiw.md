@@ -7,7 +7,7 @@
 <a name="top"></a>
 # Mục Lục.
 
-[1. Hệ thống giám sát mạng.](#1)</br>
+[1. Hệ thống giám sát mạng.](#1)
   - [1.1 Tổng quan về hệ thống giám sát mạng.](#1.1)
   - [1.2. Những thành phần quan trọng và những tình huống cố hữu xảy ra trong một hệ thống.](#1.2)</br>
 [2. Tổng quan về Nagios.](#2)
