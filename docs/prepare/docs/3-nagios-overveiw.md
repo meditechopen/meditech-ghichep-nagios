@@ -7,22 +7,29 @@
 <a name="top"></a>
 # Mục Lục.
 
-[1. Hệ thống giám sát mạng.](#1)</br>
+[1. Hệ thống giám sát mạng.](#1)
+  - [1.1 Tổng quan về hệ thống giám sát mạng.](#1.1)
+  - [1.2. Những thành phần quan trọng và những tình huống cố hữu xảy ra trong một hệ thống.](#1.2)
 [2. Tổng quan về Nagios.](#2)
   - [2.1.Nagios là gì?](#2.1)
-  - [2.2. Tổng hợp một số chức năng chính của Nagios.](#2.2)
-  - [2.3. Đặc điểm của Nagios.](#2.3)
-  - [2.4. Kiến trúc của nagios.](#2.4)
-    - [2.4.1. Nagios core.](#2.4.1)
-    - [2.4.2. Nagios Plugins.](#2.4.2)
-  - [2.5. Cách thức hoạt động của nagios.](#2.5)
-  - [2.6. Mô tả về cách thức thực hiện kiểm tra của nagios.](#2.6)
+  - [2.2. Tóm lược về lịch sử của nagios.](#2.2)
+  - [2.3. Phân loại phiên bản của Nagios.](#2.3)
+  - [2.4. Tổng hợp một số chức năng chính của Nagios.](#2.4)
+  - [2.5. Đặc điểm của Nagios.](#2.5)
+  - [2.6. Kiến trúc của nagios.](#2.6)
+    - [2.6.1. Nagios core.](#2.6.1)
+    - [2.6.2. Nagios Plugins.](#2.6.2)
+    - [2.6.3. Kiến trúc tổng qua, nội tại và mối quan hệ giữa các thành phần với nhau.](#2.6.3)
+  - [2.7. Cách thức hoạt động của nagios.](#2.7)
+  - [2.8. Mô tả về cách thức thực hiện kiểm tra của nagios.](#2.8)
 
 
 =======================================================
 
 <a name="1"></a>
 ## 1. Hệ thống giám sát mạng.
+<a name="1.1"></a>
+### 1.1 Tổng quan về hệ thống giám sát mạng.
 
 Giám sát mạng là một thuật ngữ dùng để chỉ việc sử dụng liên tục một hệ thống (có thể là một chương trình hoặc một thiết bị) 
 để theo dõi tất cả các hoạt động của các thiết bị, các dịch vụ trong một hệ thống mạng.
@@ -46,7 +53,8 @@ can thiệp kịp thời, tránh ảnh hưởng đến hệ thống.
 
 - Tạo file log: thu được những thông tin về những thay đổi trong hệ thống.
 
-### Những thành phần quan trọng và những tình huống cố hữu xảy ra trong một hệ thống
+<a name="1.2"></a>
+### 1.2. Những thành phần quan trọng và những tình huống cố hữu xảy ra trong một hệ thống.
 
 Đối với 1 hệ thống thông thường những thông số qaun trọng cần phải giám sát như sau :
 
@@ -124,7 +132,8 @@ Nagios hỗ trợ người quản trị trong việc  :
 
 - Tùy chọn giao diện web để xem tình trạng mạng hiện có, thông báo và lịch sử các vấn đề, đăng nhập tập tin,…
 
-### Tóm lược về lịch sử của nagios.
+<a name="2.2"></a>
+### 2.2. Tóm lược về lịch sử của nagios.
 
 - 1996 : Ethan Galstad đã tạo ra một ứng dụng MS-DOS đơn giản để "Ping" các máy chủ Novell Netware và trả về các trang số liệu .
  ứng dụng này được thiết kết bằng các sử dụng các ứng dụng ở bên thứ 3 ở bên ngoài để thực hiện kiểm tra các máy chủ và gửi các trang 
@@ -183,10 +192,10 @@ tổ chức tại Saint Paul, MN (Hoa Kỳ). Nagios Log Server được phát h�
 lần thứ nhì trong phần sản phẩm ShowNet của giải Best of Show Interop Tokyo 2015. Hội nghị Nagios World lần thứ năm được tổ chức tại Saint Paul, MN (Hoa Kỳ).
 
 - 2016 : Nagios Core vượt quá 7.500.000 lượt tải xuống trực tiếp từ SourceForge.net. Nagios giành được "Dự án Tháng" của SourceForge cho tháng 10 năm 2016.
+<a name="2.3"></a>
+### 2.3. Phân loại phiên bản của Nagios.
 
-### Phân loại phiên bản của Nagios.
-
-#### 1. Nagios XI (Enterprise Server and Network Monitoring SoftwareEnterprise Server and Network Monitoring Software)
+#### 2.3.1. Nagios XI (Enterprise Server and Network Monitoring SoftwareEnterprise Server and Network Monitoring Software)
 
 - Bảng liệt kê các lợi ích của phiên bản.
 
@@ -214,7 +223,7 @@ lần thứ nhì trong phần sản phẩm ShowNet của giải Best of Show Int
 |Configuration Snapshot|Lưu các cấu hình gần đây nhất của bạn. Lưu trữ nó. Revert lại bất cứ khi nào bạn muốn. Không bao giờ mất nó một lần nữa.|
 |Advanced User Management|Dễ dàng thiết lập và quản lý tài khoản người dùng chỉ với một vài cú nhấp chuột sau đó chỉ định các vai trò tùy chỉnh để đảm bảo một môi trường an toàn.|
 
-#### 2. Centralized Log Management, Monitoring and Analysis Software.
+#### 2.3.2. Centralized Log Management, Monitoring and Analysis Software.
 
 - Bảng liệt kê các lợi ích của phiên bản.
 
@@ -242,7 +251,7 @@ lần thứ nhì trong phần sản phẩm ShowNet của giải Best of Show Int
 |Real-Time Data|Xem dữ liệu đăng nhập từ tất cả các máy chủ của bạn trong thời gian thực, cho phép bạn phân tích và giải quyết các vấn đề khi chúng xảy ra.|
 |Highly Scalable|Bạn có thể dễ dàng thêm các trường hợp cluster khác để cung cấp cho hệ thống của bạn mạnh mẽ hơn, tốc độ, dung lượng lưu trữ và độ tin cậy cao hơn.|
 
-#### 3. Netflow Analysis, Monitoring, and Bandwidth Utilization Software.
+#### 2.3.3. Netflow Analysis, Monitoring, and Bandwidth Utilization Software.
 
 - Bảng liệt kê các lợi ích của phiên bản.
 
@@ -268,7 +277,7 @@ lần thứ nhì trong phần sản phẩm ShowNet của giải Best of Show Int
 |Seamless Nagios XI Integration|Tích hợp với Nagios XI để xem chính xác Mạng Analyzer máy chủ tải và không gian đĩa cứng từ bên trong hệ thống XI.|
 |Advanced User Management|Tùy chọn người dùng nâng cao cho phép các đội CNTT cùng làm việc hiệu quả để giữ cho mạng hoạt động trơn tru.|
 
-#### 4. Nagios Core "The open source industry standard in IT infrastructure monitoring and alerting"
+#### 2.3.4. Nagios Core "The open source industry standard in IT infrastructure monitoring and alerting"
 
 - Bảng liệt kê các lợi ích của phiên bản.
 
@@ -297,8 +306,8 @@ lần thứ nhì trong phần sản phẩm ShowNet của giải Best of Show Int
 
 
 
-<a name="2.2"></a>
-### 2.2. Tổng hợp một số chức năng chính của Nagios. 
+<a name="2.4"></a>
+### 2.4. Tổng hợp một số chức năng chính của Nagios. 
 
 Cảnh báo: Nagios gửi cảnh báo khi có thành phần cơ sở hạ tầng bất ổn định và phục hồi, cung cấp cho các quản trị 
 viên thông báo của các sự kiện quan trọng. Cảnh báo có thể được gửi qua email, SMS, hay tùy chỉnh.
@@ -313,8 +322,8 @@ Bảo trì: Dự kiến thời gian ngừng làm việc ngăn cản các cảnh 
 
 Kế hoạch: Lập lịch đồ thị và báo cáo xu hướng và công suất cho phép bạn xách định sự cần thiết nâng cấp cơ sở hạ tầng trước khi xảy ra sự cố.
 
-<a name="2.3"></a>
-### 2.3. Đặc điểm của Nagios. 
+<a name="2.5"></a>
+### 2.5. Đặc điểm của Nagios. 
 
 Giám sát toàn diện
 
@@ -388,13 +397,13 @@ Mã nguồn tùy chỉnh
 
 - Phát hành theo giấy phép GPL (General Public License_Giấy phép công cộng).
 
-<a name="2.4"></a>
-### 2.4. Kiến trúc của nagios. 
+<a name="2.6"></a>
+### 2.6. Kiến trúc của nagios. 
 
 Hệ thống Nagios gồm hai phần chính:
 
-<a name="2.4.1"></a>
-#### 2.4.1. Nagios core. 
+<a name="2.6.1"></a>
+#### 2.6.1. Nagios core. 
 
 Nagios core là công cụ giám sát và cảnh báo, nó làm việc như các ứng dụng chính trên hàng trăm dự ansNagios được xây dựng. 
 Nó làm việc như là lịch trình sự kiện cơ bản, xử lý sự kiện,và quản lý thông báo cho các phần tử được theo dõi. Nó khắc họa 
@@ -402,8 +411,8 @@ một sooss API (Application Programming Interface_Giao diện lập trình ứn
 thực hiện nhiệm vụ bổ sung, được thực hiện như một tiến trình được viết bằng C vì lý do hiệu suất, và được thiết kế để chạy 
 tự nhiên trên hệ thống Linux/* nix.
 
-<a name="2.4.2"></a>
-#### 2.4.2. Nagios Plugins. 
+<a name="2.6.2"></a>
+#### 2.6.2. Nagios Plugins. 
 
 Nagios plugins là phần mở rộng độc lập để Nagios Core cung cấp ở mức độ thấp về cách theo dõi bất cứ điều gì và tất cả mọi thứ 
 với Nagios Core. Plugins hoạt động như các ứng dụng độc lập, nhưng thương được thiết kế để thực thi bởi Nagios Core.
@@ -412,8 +421,8 @@ Plugins xử lý đối số dòng lệnh, đi về các doanh nghiệp thực h
 Plugin có thể được biên dịch nhị phân (viết bằng C, C++, …) hoặc các bản thực thi (Perl, PHP,…).
 
 Ngoài ra, còn có các thành phần Nagios Frontends, Nagios Configtools.
-
-#### 2.4.3. Kiến trúc tổng qua, nội tại và mối quan hệ giữa các thành phần với nhau.
+<a name="2.6.3"></a>
+#### 2.6.3. Kiến trúc tổng qua, nội tại và mối quan hệ giữa các thành phần với nhau.
 
 - Nagios được xây  dựng theo kiến trúc client/server . Nagios kiểm tra các thông tin của máy chủ lưu trữ và các dịch vụ phụ thuộc vào 
 chương trình bên ngoài  (plugins) mà không có bất kỳ cơ chế nội bộ nào làm điều đó. Nagios server thường chạy trên một host và các plugins 
@@ -441,8 +450,8 @@ Hình ảnh này lại cho chúng ta thấy được kiến trúc bên ngoài c�
 plugins của nó , NRPE (sử dụng NRPE để gửi dữ liệu được mã hóa bằng SSL / TSL), SSH (chạy trực tiếp qua sercure shell), SNMP (sử dụng cho máy chủ và các thiết bị mạng) 
 NSCA (Để phân phối tải lên máy chủ nagios)
 
-<a name="2.5"></a>
-### 2.5. Cách thức hoạt động của nagios.
+<a name="2.7"></a>
+### 2.7. Cách thức hoạt động của nagios.
 
 ![nagios-architect](/docs/prepare/images/nagios-architect.png)
 
@@ -480,8 +489,8 @@ dụng khác sẽ thực hiện điểu này và báo cáo thông tin về cho n
 mạnh của Nagios là thông báo và tổng hợp báo cáo. Nagios sử dụng công cụ NSCA để gửi các kết quả kiểm tra từ ứng dụ ng của 
 bạn về server Nagios. Công cụ này giúp cho thông tin gửi trên mạng được an toàn hơn vì nó được mã hóa và xác thực.
 
-<a name="2.6"></a>
-### 2.6. Mô tả về cách thức thực hiện kiểm tra của nagios.
+<a name="2.8"></a>
+### 2.8. Mô tả về cách thức thực hiện kiểm tra của nagios.
 
 ![nagios-test](/docs/prepare/images/nagios-test.png)
 
