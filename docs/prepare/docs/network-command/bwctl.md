@@ -20,7 +20,6 @@
 ## 1. Cài đặt.
 
 Cài đặt EPEL RPM :
-
     ```sh
     rpm -hUv https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
     ```
