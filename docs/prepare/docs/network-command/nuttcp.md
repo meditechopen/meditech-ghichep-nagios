@@ -77,13 +77,13 @@ nuttcp
 
 ### 3.2. Kịch bản tương tự như trên nhưng có kích cỡ window size lớn hơn rất nhiều.
 
-Trên client  :
+- Trên client  :
 
     ```sh
     nuttcp -w6m <host>
     ```
 
-Kết quả chúng ta thu được như sau :
+- Kết quả chúng ta thu được như sau :
 
     ```sh
     [root@localhost ~]# nuttcp -w6m 10.10.10.130
@@ -95,13 +95,13 @@ Kết quả chúng ta thu được như sau :
 
 ### 3.3. Kịch bản dùng để kiểm tra lượng gói tin bị mất trong quá trình truyền tải.
 
-Trên client
+- Trên client
 
     ```sh
     nuttcp -u -i -Ri50m <serverhost>
     ```
 
-Kết quả thu được.
+-Kết quả thu được.
 
     ```sh
     [root@localhost ~]# nuttcp -u -i -Ri50m 10.10.10.130
@@ -122,13 +122,13 @@ Kết quả thu được.
 
 ### 3.4. Kịch bản dùng để test tốc độ bên trong host.
 
-Trên client :
+- Trên client :
 
     ```sh
     nuttcp -w1m 127.0.0.1
     ```
 
-Kết quả :
+- Kết quả :
 
     ```sh
     [root@localhost ~]# nuttcp -w1m 127.0.0.1
