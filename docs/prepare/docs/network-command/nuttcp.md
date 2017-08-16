@@ -11,15 +11,15 @@
 ## 1. Cài đặt.
 - Cài đặt trên CentOS.
 
-    ```sh
-    yum install nuttcp -y
-    ```
+```sh
+yum install nuttcp -y
+```
 
 - Cài đặt trên Ubuntu :
 
-    ```sh
-    apt-get install nuttcp
-    ```
+```sh
+apt-get install nuttcp
+```
 
 ## 2. Một số tùy chọn sử dụng với nuttcp.
 
@@ -45,9 +45,9 @@ Chúng ta sẽ dùng 1 máy làm server và 1 máy là client để kiểm tra c
 
 - Tại server :
 
-    ```sh
-    nuttcp -S
-    ```
+```sh
+nuttcp -S
+```
 
 - Kiểm tra tại server có tiến trình đang chạy không :
 

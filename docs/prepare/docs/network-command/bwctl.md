@@ -26,39 +26,39 @@ rpm -hUv https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 
 Cài đặt Internet2-repo RPM :
 
-    ```sh
-    rpm -hUv http://software.internet2.edu/rpms/el7/x86_64/main/RPMS/Internet2-repo-0.7-1.noarch.rpm
-    ```
+```sh
+rpm -hUv http://software.internet2.edu/rpms/el7/x86_64/main/RPMS/Internet2-repo-0.7-1.noarch.rpm
+```
 
 Refresh yum’s cache :
 
-    ```sh
-    yum clean all
-    ```
+```sh
+yum clean all
+```
 
 Cài đặt bwctl :
 
-    ```sh
-    yum install bwctl -y
-    ```
+```sh
+yum install bwctl -y
+```
 
 Cài đặt ntp :
 
-    ```sh
-    yum install ntp -y
-    ```
+```sh
+yum install ntp -y
+```
 
 CHỉnh sửa lại file cấu hình `/etc/ntp.conf` ntp như sau :
 
-    ```sh
-    #server 0.centos.pool.ntp.org iburst
-    #server 1.centos.pool.ntp.org iburst
-    #server 2.centos.pool.ntp.org iburst
-    #server 3.centos.pool.ntp.org iburst
+```sh
+#server 0.centos.pool.ntp.org iburst
+#server 1.centos.pool.ntp.org iburst
+#server 2.centos.pool.ntp.org iburst
+#server 3.centos.pool.ntp.org iburst
 
-    server vn.pool.ntp.org iburst
+server vn.pool.ntp.org iburst
 
-    ```
+```
 
 Khởi động lại dịch vụ ntp :
 

@@ -8,17 +8,17 @@
 
 - Trên Ubuntu :
 
-    ```sh
-    apt-get update
-    apt-get install iperf
-    ```
+```sh
+apt-get update
+apt-get install iperf
+```
 
 - Trên CentOS 7 :
 
-    ```sh
-    yum install epel-release -y
-    yum install iperf -y
-    ```
+```sh
+yum install epel-release -y
+yum install iperf -y
+```
 
 ### 2.2. Các thông số cơ bản của iperf.
 
@@ -40,44 +40,44 @@
 
 - Cài đặt iperf, cần 2 host. 1 là client và 1 là server. Trên cả 2 host cài iperl :
 
-    ```sh
-    yum install epel-release -y
-    yum install iperf -y
-    ```
+```sh
+yum install epel-release -y
+yum install iperf -y
+```
 
 - Mở port trên serrver :
 
-    ```sh
-    firewall-cmd --permanent --add-port=5001/tcp
-    firewall-cmd --reload
-    ```
+```sh
+firewall-cmd --permanent --add-port=5001/tcp
+firewall-cmd --reload
+```
 
 ### Thực hiện kiểm tra lưu lượng mạng từ client (10.10.10.130) đến server (10.10.10.129)
 
 - Trên server thực hiện lệnh sau :
 
-    ```sh
-    iperf -s
-    ```
+```sh
+iperf -s
+```
 
 - Trên client thực hiện lệnh sau :
 
-    ```sh
-    iperf -c 10.10.10.129
-    ```
+```sh
+iperf -c 10.10.10.129
+```
 
 - Đợi khoảng 10s chúng ta sẽ thấy được kết quả trả về như sau:
 
-    ```sh
-    [root@localhost ~]# iperf -c 10.10.10.129
-    ------------------------------------------------------------
-    Client connecting to 10.10.10.129, TCP port 5001
-    TCP window size:  144 KByte (default)
-    ------------------------------------------------------------
-    [  3] local 10.10.10.130 port 45758 connected with 10.10.10.129 port 5001
-    [ ID] Interval       Transfer     Bandwidth
-    [  3]  0.0-10.0 sec  1.37 GBytes  1.18 Gbits/sec
-    ```
+```sh
+[root@localhost ~]# iperf -c 10.10.10.129
+------------------------------------------------------------
+Client connecting to 10.10.10.129, TCP port 5001
+TCP window size:  144 KByte (default)
+------------------------------------------------------------
+[  3] local 10.10.10.130 port 45758 connected with 10.10.10.129 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  1.37 GBytes  1.18 Gbits/sec
+```
 
 - Kết quả mà chúng ta thu được như sau : TCP window size mặc định là 144KByte. Trong thời gian 10s gửi được tổng số dữ liệu là 1,37GB. 
 Lưu lượng trung bình là 1.18 Gbits/sec.
