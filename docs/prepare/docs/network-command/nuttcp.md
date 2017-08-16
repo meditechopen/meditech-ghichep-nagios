@@ -101,7 +101,7 @@ nuttcp
     nuttcp -u -i -Ri50m <serverhost>
     ```
 
--Kết quả thu được.
+- Kết quả thu được.
 
     ```sh
     [root@localhost ~]# nuttcp -u -i -Ri50m 10.10.10.130
