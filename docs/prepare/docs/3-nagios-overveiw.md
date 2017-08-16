@@ -10,7 +10,7 @@
 [1. Hệ thống giám sát mạng.](#1)
   - [1.1 Tổng quan về hệ thống giám sát mạng.](#1.1)
   - [1.2. Những thành phần quan trọng và những tình huống cố hữu xảy ra trong một hệ thống.](#1.2)</br>
-  
+
 [2. Tổng quan về Nagios.](#2)
   - [2.1.Nagios là gì?](#2.1)
   - [2.2. Tóm lược về lịch sử của nagios.](#2.2)
@@ -119,13 +119,13 @@ Nagios hỗ trợ người quản trị trong việc  :
 
 - Đảm bảo sự ngưng hoạt động của các cơ sở hạ tầng CNTT có ảnh hưởng tối thiểu đến hệ thống.
 
--  Theo dõi toàn bộ cơ sở hạ tầng và quy trình kinh doanh của bạn.
+- Theo dõi toàn bộ cơ sở hạ tầng và quy trình kinh doanh của bạn.
 
 - Giám sát các dịch vụ mạng (HTTP, SMTP, POP3, PING,…)
 
 - Giám sát tài nguyên máy chủ (processor load, disk usage,…)
 
--  Những phần bổ trợ đơn giản cho phép người dùng phát triển dịch vụ kiểm tra riêng của họ.
+- Những phần bổ trợ đơn giản cho phép người dùng phát triển dịch vụ kiểm tra riêng của họ.
 
 - Phát hiện và phân biệt được các máy chủ hay dich vụ xuống cấp và không thể truy cập được.
 
