@@ -7,7 +7,7 @@ Các thiết bị mạng chủ yếu được giám sát (và điều khiển tr
 lấy dữ liệu của các router/switch và thực hiện giám sát. Thực tế Nagios (cùng rất nhiều các phần mềm giám sát có hỗ trợ giám 
 sát thông qua SNMP) cũng có thể giám sát các máy tính, máy chủ, … hoặc bất kỳ thứ gì có bật sẵn giao thức SNMP .
 
-![](/docs/prepare/images/snmp.png)
+![](/docs/prepare/images/nrpe.png)
 Đối với giám sát qua SNMP thì các trường hợp thường được áp dụng hiện nay như : Giám sát các thiết bị mạng (router, switch) 
 để có được tình trạng hiện tại của các thiết bị mạng , nó cho ta biết đc các port hiện tại có mở hay không, tình trạng uptime 
 như thế nào.
@@ -22,7 +22,7 @@ Sử dụng SSH để có thể lấy được các thông tin hệ thống.
 NRPE là một addon cho Nagios giúp thực thi các plugin khác để monitor/check các resources (CPU load, memory usage, swap usage, disk usage, logged in users, running processes, v.v..) 
 và services (http, ftp, v.v..) trên các máy Linux/Unix ở xa.
 
-![](/docs/prepare/images/nrpe.png)
+![](/docs/prepare/images/snmp.png)
 
 NRPE addon bao gồm 2 thành phần:
  <ul>
