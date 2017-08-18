@@ -1,4 +1,4 @@
-# Cài đặt nagios trên CentOS 7, với bản nagios 4.3.3.
+# Cài đặt nagios trên CentOS 7, với bản nagios core 4.3.3.
 
 ## 1. Cài đặt các gói chuẩn bị.
 
@@ -119,3 +119,7 @@ http://<IP nagios server>/nagios
 Hình ảnh đầu tiên với Nagios core 4.3.3 :
 
 ![nagioscore](/docs/prepare/images/nagioscore.png)
+
+# Tham Khảo
+
+- https://github.com/meditechopen/meditech-ghichep-nagios/blob/master/docs/thuchanh-nagios/1.Setup-CentOS-7.md
