@@ -61,7 +61,7 @@ nhu cầu giám sát các dịch vụ đang chạy trên server.
 Như websites, SMTP server , FTP server ,.... Không những giám sát được những dịch vụ từ xa mà những tài nguyên cục bộ cũng có thể giám 
 sát được như : load anverage, swap và memory,.... 
 
-- Thật không may, nếu chúng ta muốn giám sát các tài nguyên cục bộ của hệ thống trên một remote site thì nó có thể phức tạp hơn 1 chút. 
+- Nếu chúng ta muốn giám sát các tài nguyên cục bộ của hệ thống trên một remote site thì nó có thể phức tạp hơn 1 chút. 
 Có rất nhiều cách để chúng ta có thể làm việc này từ sử dụng NSCA cho đến sử dụng NRPE. Những giải pháp vừa nêu có thể sẽ là tốt nhất nếu như 
 nó có thể được complie hoặc install một sofware  nào đó trên một máy chủ khác. 
 
