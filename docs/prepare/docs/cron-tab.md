@@ -101,3 +101,8 @@ Thêm dòng sau vào cuối file :
 ```
 
 ## 6. Áp  dụng crontab để lên lịch backup tự động cho nagios.
+
+
+# Tham Khảo.
+
+- http://forum.gocit.vn/threads/s-dung-crontab-tren-linux.166/
