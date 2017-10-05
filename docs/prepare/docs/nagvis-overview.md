@@ -1,6 +1,22 @@
 # Tìm hiểu về Nagvis.
 
-## 1. Navis là gì?
+===========================================================
+
+# Mục lục.
+
+[1. Nagvis là gì?](#1)
+
+[Nagvis làm việc như thế nào?](#2)
+
+[3. Cài đặt.](#3)
+
+[4. Hướng dẫn sử dụng.](#4)
+
+
+===========================================================
+
+<a name="1"></a>
+## 1. Nagvis là gì?
 
 Nagvis là một addon trực quan giúp cho chúng ta có thể thấy được hệ thống quản lý mạng Nagios.
 
@@ -14,6 +30,7 @@ Nagvis có thể cho chúng ta thấy được dữ liệu từ Nagios (ví dụ
 
 - Business processes : Tất cả các host và services liên quan tới một processs.
 
+<a name="2"></a>
 ## 2. Nagvis làm việc như thế nào.
 
 Nói chung Nagvis là công cụ phục vụ cho việc hiển thị các các thông tin được thu thập bởi Nagios và chuyển giao thông qua các backends.
@@ -32,6 +49,7 @@ Chúng ta có thể đặt tất cả các đối tượng từ Nagios (Host, Se
 
 Mỗi đối tượng trên maps của chúng ta đều có thể được cấu hình đúng như những gì chúng ta cần . Ví dụ chúng ta có những liên kết đến giao diện Nagios đến mỗi đối tượng đại diện cho Nagios. Chúng ta có thể tùy chỉnh cho các liên kết này. 
 
+<a name="3"></a>
 ## 3. Cài đặt.
 
 Tải file cài đặt từ git :
@@ -252,3 +270,8 @@ systemctl restart httpd
 Đăng nhập vào web để kiểm tra :
 
 ![scr1](/docs/prepare/images/scr1.png)
+
+<a name="4"></a>
+## 4. Hướng dẫn sử dụng.
+
+Sẽ cập nhật sau ...
