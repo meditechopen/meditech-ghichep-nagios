@@ -6,7 +6,7 @@
 
 [1. Nagvis là gì?](#1)
 
-[Nagvis làm việc như thế nào?](#2)
+[2. Nagvis làm việc như thế nào?](#2)
 
 [3. Cài đặt.](#3)
 
