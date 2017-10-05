@@ -241,6 +241,8 @@ yum install php-gd -y
 yum install php-mbstring -y
 ```
 
+Nếu như có file PHP nào bị miss chúng ta cài đặt thêm tương tự như trên.
+
 Restart `httpd` :
 
 ```sh
