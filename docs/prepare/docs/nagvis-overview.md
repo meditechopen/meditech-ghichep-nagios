@@ -274,4 +274,14 @@ systemctl restart httpd
 <a name="4"></a>
 ## 4. Hướng dẫn sử dụng.
 
-Sẽ cập nhật sau ...
+### 4.1. Đổi ngôn ngữ.
+
+- Khi đăng nhập vào web interface thì ngôn ngữ mặc định là tiếng Đức do đó chúng ta cần đổi lại ngôn ngữ để dễ dàng thao tác vs web interface hơn . Làm theo 2 bước sau  :
+
+Bước 1 :
+
+![scr2](/docs/prepare/images/scr2.png)
+
+Bước 2 : 
+
+![scr3](/docs/prepare/images/scr3.png)
