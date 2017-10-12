@@ -285,3 +285,136 @@ Bước 1 :
 Bước 2 : 
 
 ![scr3](/docs/prepare/images/scr3.png)
+
+
+### 4.2. Tích hợp Nagvis với Nagios sử dụng ndo2db.
+
+Yêu cầu : trên máy chủ nagios cần được [cài đặt nagvis](https://github.com/meditechopen/meditech-ghichep-nagios/blob/master/docs/prepare/docs/nagvis-overview.md#3) và được [cài đặt ndoutils](https://github.com/meditechopen/meditech-ghichep-nagios/blob/master/docs/prepare/docs/pull-data-with-MySQl.md) để đẩy dữ liệu ra mysql.
+
+Lưu ý trong phần cài đặt Nagvis đến bước chọn backend, chúng ta chọn `n` với mklivestatus và idodb và chọn `y` với ndo2db.
+
+Khi sử dụng ndo2db nagvis yêu cầu cần có mysql do đó ta cần cài đặt thêm gói `php-mysql` :
+
+```sh
+yum install php-mysql -y
+```
+
+Khởi động lại dịch vụ httpd :
+
+```sh
+systemctl restart httpd
+```
+
+Sau khi đã cài đặt được ndo2db và đẩy dữ liệu ra Mysql thành công và đã cài đặt được nagvis chúng ta tiến hành cấu hình lại để nagvis có thể lấy được dữ liệu thông qua ndo2db.
+
+- Mở file cấu hình bằng trình soạn thảo `vi` :
+
+    ```sh
+    vi /usr/local/nagvis/etc/nagvis.ini.php
+    ```
+
+-  Tìm và sửa lại đoạn cấu hình ở section [backend_ndomy_1] như sau :
+
+    ```sh
+    [backend_ndomy_1]
+    ; type of backend - MUST be set
+    backendtype="ndomy"
+    ; The status host can be used to prevent annoying timeouts when a backend is not
+    ; reachable. This is only useful in multi backend setups.
+    ;
+    ; It works as follows: The assumption is that there is a "local" backend which
+    ; monitors the host of the "remote" backend. When the remote backend host is
+    ; reported as UP the backend is queried as normal.
+    ; When the remote backend host is reported as "DOWN" or "UNREACHABLE" NagVis won't
+    ; try to connect to the backend anymore until the backend host gets available again.
+    ;
+    ; The statushost needs to be given in the following format:
+    ;   "<backend_id>:<hostname>" -> e.g. "live_2:nagios"
+    ;statushost=""
+    ; hostname for NDO-db
+    dbhost="localhost"
+    ; portname for NDO-db
+    dbport=3306
+    ; database name for NDO-db
+    dbname="nagios"
+    ; username for NDO-db
+    dbuser="ndoutils"
+    ; password for NDO-db
+    dbpass="ndoutils_password"
+    ; prefix for tables in NDO-db
+    ;dbprefix="nagios_"
+    ; instance name for tables in NDO-db
+    ;dbinstancename="default"
+    ; maximum delay of the NDO Database in seconds
+    ;maxtimewithoutupdate=180
+    ; path to the cgi-bin of this backend
+    ;htmlcgi="/nagios/cgi-bin"
+
+    ```
+
+- Restart lại các dịch vụ :
+
+```sh
+systemctl restart ndo2db
+systemctl restart nagios
+```
+
+### 4.3. Những thao tác ban đầu với nagvis.
+
+Sau khi đã hoàn thành các bước ở phần 4.2 chúng ta có thể truy cập theo đường link `ip/nagvis` và tiến hành sử dụng.
+
+#### 4.3.1. Tạo một map mới :
+
+- Bước 1 : chọn tab `Options` và lựa chọn `Manage Maps` :
+
+![manage-map](/docs/prepare/images/manage-map.png)
+
+- Bước 2 : Điền thông tin về tên map và alias và chọn `create`
+
+![create-map](/docs/prepare/images/create-map.png)
+
+Như thế chúng ta đã hoàn thành thêm một map mới.
+
+#### 4.3.2. Thêm một host vào trong map.
+
+-  Bước 1 : Chọn `Edit Map` >> `Add Icon` >> `Host` :
+
+![addhost1](/docs/prepare/images/addhost1.png)
+
+- Bước 2 : Chọn host muốn thêm vào map và các tùy chọn bổ sung :
+
+![addhost2](/docs/prepare/images/addhost2.png)
+
+![addhost3](/docs/prepare/images/addhost3.png)
+
+![addhost4](/docs/prepare/images/addhost4.png)
+
+
+####  4.3.3. Thêm một service mới.
+
+- Bước 1 : 
+
+![addservice1](/docs/prepare/images/addservice1.png)
+
+- Bước 2 : 
+
+![addservice2](/docs/prepare/images/addservice2.png)
+
+![addservice3](/docs/prepare/images/addservice3.png)
+
+![addservice4](/docs/prepare/images/addservice4.png)
+
+
+#### 4.3.4. Tạo một graph để theo dõi services.
+
+- Bước 1 : 
+
+![graph1](/docs/prepare/images/graph1.png)
+
+- Bước 2 :
+
+![graph2](/docs/prepare/images/graph2.png)
+
+![graph3](/docs/prepare/images/graph3.png)
+
+![graph4](/docs/prepare/images/graph4.png)
