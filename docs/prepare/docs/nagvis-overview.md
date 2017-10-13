@@ -10,7 +10,11 @@
 
 [3. Cài đặt.](#3)
 
-[4. Hướng dẫn sử dụng.](#4)
+[4. Hướng dẫn sử dụng.](#4)</br>
+        -  [4.1. Đổi ngôn ngữ.](#4.1)</br>
+        -  [4.2. Tích hợp Nagvis với Nagios sử dụng ndo2db.](#4.2)</br>
+        -  [4.3. Tích hợp Nagvis với Nagios sử dụng mklivestatus.](#4.3)</br>
+        -  [4.4. Những thao tác ban đầu với nagvis.](#4.4)
 
 
 ===========================================================
@@ -274,6 +278,8 @@ systemctl restart httpd
 <a name="4"></a>
 ## 4. Hướng dẫn sử dụng.
 
+<a name="4.1"></a>
+
 ### 4.1. Đổi ngôn ngữ.
 
 - Khi đăng nhập vào web interface thì ngôn ngữ mặc định là tiếng Đức do đó chúng ta cần đổi lại ngôn ngữ để dễ dàng thao tác vs web interface hơn . Làm theo 2 bước sau  :
@@ -285,3 +291,252 @@ Bước 1 :
 Bước 2 : 
 
 ![scr3](/docs/prepare/images/scr3.png)
+
+<a name="4.2"></a>
+
+### 4.2. Tích hợp Nagvis với Nagios sử dụng ndo2db.
+
+Yêu cầu : trên máy chủ nagios cần được [cài đặt nagvis](https://github.com/meditechopen/meditech-ghichep-nagios/blob/master/docs/prepare/docs/nagvis-overview.md#3) và được [cài đặt ndoutils](https://github.com/meditechopen/meditech-ghichep-nagios/blob/master/docs/prepare/docs/pull-data-with-MySQl.md) để đẩy dữ liệu ra mysql.
+
+Lưu ý trong phần cài đặt Nagvis đến bước chọn backend, chúng ta chọn `n` với mklivestatus và idodb và chọn `y` với ndo2db.
+
+Khi sử dụng ndo2db nagvis yêu cầu cần có mysql do đó ta cần cài đặt thêm gói `php-mysql` :
+
+```sh
+yum install php-mysql -y
+```
+
+Khởi động lại dịch vụ httpd :
+
+```sh
+systemctl restart httpd
+```
+
+Sau khi đã cài đặt được ndo2db và đẩy dữ liệu ra Mysql thành công và đã cài đặt được nagvis chúng ta tiến hành cấu hình lại để nagvis có thể lấy được dữ liệu thông qua ndo2db.
+
+- Mở file cấu hình bằng trình soạn thảo `vi` :
+
+    ```sh
+    vi /usr/local/nagvis/etc/nagvis.ini.php
+    ```
+
+-  Tìm và sửa lại đoạn cấu hình ở section [backend_ndomy_1] như sau :
+
+    ```sh
+    [backend_ndomy_1]
+    ; type of backend - MUST be set
+    backendtype="ndomy"
+    ; The status host can be used to prevent annoying timeouts when a backend is not
+    ; reachable. This is only useful in multi backend setups.
+    ;
+    ; It works as follows: The assumption is that there is a "local" backend which
+    ; monitors the host of the "remote" backend. When the remote backend host is
+    ; reported as UP the backend is queried as normal.
+    ; When the remote backend host is reported as "DOWN" or "UNREACHABLE" NagVis won't
+    ; try to connect to the backend anymore until the backend host gets available again.
+    ;
+    ; The statushost needs to be given in the following format:
+    ;   "<backend_id>:<hostname>" -> e.g. "live_2:nagios"
+    ;statushost=""
+    ; hostname for NDO-db
+    dbhost="localhost"
+    ; portname for NDO-db
+    dbport=3306
+    ; database name for NDO-db
+    dbname="nagios"
+    ; username for NDO-db
+    dbuser="ndoutils"
+    ; password for NDO-db
+    dbpass="ndoutils_password"
+    ; prefix for tables in NDO-db
+    ;dbprefix="nagios_"
+    ; instance name for tables in NDO-db
+    ;dbinstancename="default"
+    ; maximum delay of the NDO Database in seconds
+    ;maxtimewithoutupdate=180
+    ; path to the cgi-bin of this backend
+    ;htmlcgi="/nagios/cgi-bin"
+
+    ```
+
+- Restart lại các dịch vụ :
+
+```sh
+systemctl restart ndo2db
+systemctl restart nagios
+```
+
+<a name="4.3"></a>
+
+### 4.3. Tích hợp Nagvis với Nagios sử dụng mklivestatus.
+
+#### Yêu cầu : 
+
+Trên máy chủ nagios cần được cái đặt mklive status. Đối với Nagios 4.x trở lên thì chỉ hỗ trợ mklivestatus phiên bản từ 1.2.4 trở lên. Ở đây chúng ta tiến hành cài đặt mklivestatus
+
+- Tải bản cài đặt nagios về máy :
+
+    ```sh
+    cd /opt
+    wget https://mathias-kettner.de/download/mk-livestatus-1.2.8p18.tar.gz
+    ```
+
+- Tiến hành giải nén :
+
+    ```sh
+    tar xzf mk-livestatus-1.2.8p18.tar.gz
+    cd mk-livestatus-1.2.8p18
+    ```
+
+- Cài đặt :
+
+    ```sh
+    ./configure --with-nagios4
+    ```
+
+- Cài đặt các gói phụ trợ và thiết lập cho quá trình complie :
+
+    ```sh
+    yum install centos-release-scl -y
+    yum install devtoolset-4 -y
+
+    export CC=/opt/rh/devtoolset-4/root/usr/bin/gcc
+    export CPP=/opt/rh/devtoolset-4/root/usr/bin/cpp
+    export CXX=/opt/rh/devtoolset-4/root/usr/bin/c++
+
+    scl enable devtoolset-4 bash
+    ```
+
+- Tiến hành complie :
+
+    ```sh
+    cd /opt/mk-livestatus-1.2.8p18
+    make
+    make install
+    ```
+
+- Thêm broker module :
+
+    ```sh
+    echo "broker_module=/usr/local/lib/mk-livestatus/livestatus.o /usr/local/nagios/var/rw/live" >> /usr/local/nagios/etc/nagios.cfg
+    ```
+
+- Mở file cấu hình nagvis :
+
+    ```sh
+    vi /usr/local/nagvis/etc/nagvis.ini.php
+    ```
+
+- Tìm đến section [backend_live_1] và sửa lại các thông số như sau :
+
+    ```sh
+    [backend_live_1]
+    backendtype="mklivestatus"
+    ; The status host can be used to prevent annoying timeouts when a backend is not
+    ; reachable. This is only useful in multi backend setups.
+    ;
+    ; It works as follows: The assumption is that there is a "local" backend which
+    ; monitors the host of the "remote" backend. When the remote backend host is
+    ; reported as UP the backend is queried as normal.
+    ; When the remote backend host is reported as "DOWN" or "UNREACHABLE" NagVis won't
+    ; try to connect to the backend anymore until the backend host gets available again.
+    ;
+    ; The statushost needs to be given in the following format:
+    ;   "<backend_id>:<hostname>" -> e.g. "live_2:nagios"
+    ;statushost=""
+    socket="unix:/usr/local/nagios/var/rw/live"
+
+    ; Example definition for a MySQL backend
+    ; in this example the ID of the Backend is "ndomy_1" you can define another ID.
+    ```
+
+- Khởi động lại hệ thống :
+
+    ```sh
+    systemctl restart nagios
+    ```
+
+- Check log nagios để kiểm tra :
+
+    ```sh
+    tailf /usr/local/nagios/var/nagios/log
+    ```
+
+- Kết quả :
+
+    ```sh
+    Event broker module '/usr/local/lib/mk-livestatus/livestatus.o' deinitialized successfully.
+    ```
+
+Trên máy chủ nagios cần được [cài đặt nagvis](https://github.com/meditechopen/meditech-ghichep-nagios/blob/master/docs/prepare/docs/nagvis-overview.md#3) 
+
+- Lưu ý , cài đặt nagvis sử dụng mklivestatus yêu cầu `php-pdo` , gói này không tìm thấy trong quá trình cài đặt, sau khi hoàn tất các bước cài đặt nagvis chúng ta tiến hành cài đặt thêm các gói còn thiếu như sau :
+
+    ```sh
+    yum install php-pdo -y
+    systemctl restart httpd
+    ```
+
+- Sau khi hoàn thành tất cả các bước chúng ta có thể truy cập vào web interface của nagvis để sử dụng với backend mklivestatus.
+
+<a name="4.4"></a>
+
+### 4.4. Những thao tác ban đầu với nagvis.
+
+Sau khi đã hoàn thành các bước ở phần 4.2 chúng ta có thể truy cập theo đường link `ip/nagvis` và tiến hành sử dụng.
+
+#### 4.4.1. Tạo một map mới :
+
+- Bước 1 : chọn tab `Options` và lựa chọn `Manage Maps` :
+
+![manage-map](/docs/prepare/images/manage-map.png)
+
+- Bước 2 : Điền thông tin về tên map và alias và chọn `create`
+
+![create-map](/docs/prepare/images/create-map.png)
+
+Như thế chúng ta đã hoàn thành thêm một map mới.
+
+#### 4.4.2. Thêm một host vào trong map.
+
+-  Bước 1 : Chọn `Edit Map` >> `Add Icon` >> `Host` :
+
+![addhost1](/docs/prepare/images/addhost1.png)
+
+- Bước 2 : Chọn host muốn thêm vào map và các tùy chọn bổ sung :
+
+![addhost2](/docs/prepare/images/addhost2.png)
+
+![addhost3](/docs/prepare/images/addhost3.png)
+
+![addhost4](/docs/prepare/images/addhost4.png)
+
+
+####  4.4.3. Thêm một service mới.
+
+- Bước 1 : 
+
+![addservice1](/docs/prepare/images/addservice1.png)
+
+- Bước 2 : 
+
+![addservice2](/docs/prepare/images/addservice2.png)
+
+![addservice3](/docs/prepare/images/addservice3.png)
+
+![addservice4](/docs/prepare/images/addservice4.png)
+
+
+#### 4.4.4. Tạo một graph để theo dõi services.
+
+- Bước 1 : 
+
+![graph1](/docs/prepare/images/graph1.png)
+
+- Bước 2 :
+
+![graph2](/docs/prepare/images/graph2.png)
+
+![graph3](/docs/prepare/images/graph3.png)
+
+![graph4](/docs/prepare/images/graph4.png)

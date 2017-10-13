@@ -145,6 +145,7 @@ db_pass=ndoutils_password
 Install Service / Daemon
 
 ```sh
+sudo make install-config
 make install-init
 systemctl enable ndo2db.service
 ```
