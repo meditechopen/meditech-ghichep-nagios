@@ -10,7 +10,7 @@
 
 [3. Cài đặt.](#3)
 
-[4. Hướng dẫn sử dụng.](#4)
+[4. Hướng dẫn sử dụng.](#4)</br>
     - [4.1. Đổi ngôn ngữ.](#4.1)</br>
     - [4.2. Tích hợp Nagvis với Nagios sử dụng ndo2db.](#4.2)</br>
     - [4.3. Tích hợp Nagvis với Nagios sử dụng mklivestatus.](#4.3)</br>
