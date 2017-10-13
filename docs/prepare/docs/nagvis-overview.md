@@ -470,6 +470,13 @@ Trên máy chủ nagios cần được cái đặt mklive status. Đối với N
 
 Trên máy chủ nagios cần được [cài đặt nagvis](https://github.com/meditechopen/meditech-ghichep-nagios/blob/master/docs/prepare/docs/nagvis-overview.md#3) 
 
+- Lưu ý , cài đặt nagvis sử dụng mklivestatus yêu cầu `php-pdo` , gói này không tìm thấy trong quá trình cài đặt, sau khi hoàn tất các bước cài đặt nagvis chúng ta tiến hành cài đặt thêm các gói còn thiếu như sau :
+
+    ```sh
+    yum install php-pdo -y
+    systemctl restart httpd
+    ```
+
 - Sau khi hoàn thành tất cả các bước chúng ta có thể truy cập vào web interface của nagvis để sử dụng với backend mklivestatus.
 
 <a name="4.4"></a>
