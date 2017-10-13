@@ -468,7 +468,7 @@ Trên máy chủ nagios cần được cái đặt mklive status. Đối với N
     Event broker module '/usr/local/lib/mk-livestatus/livestatus.o' deinitialized successfully.
     ```
 
-Trên máy chủ nagios cần được [cài đặt nagvis](https://github.com/meditechopen/meditech-ghichep-nagios/blob/master/docs/prepare/docs/nagvis-overview.md#3) và được [cài đặt ndoutils]
+Trên máy chủ nagios cần được [cài đặt nagvis](https://github.com/meditechopen/meditech-ghichep-nagios/blob/master/docs/prepare/docs/nagvis-overview.md#3) 
 
 - Sau khi hoàn thành tất cả các bước chúng ta có thể truy cập vào web interface của nagvis để sử dụng với backend mklivestatus.
 
